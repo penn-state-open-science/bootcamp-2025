@@ -3,29 +3,10 @@ title: "Presenters"
 format: html
 ---
 
-## Bootcamp Directors
+::: {.callout-warning}
 
-:::: {.columns}
-::: {.column width="40%"}
-![Rick O. Gilmore](include/img/gilmore-rick.png)
+This page is under construction.
+
 :::
-::: {.column width="60%"}
-Rick Gilmore is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). Gilmore served as inaugural director of the Penn State [Social, Life, & Engineering Sciences Imaging Center](https://imaging.psu.edu). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience and open science.
 
-rog1@psu.edu</br></br>
-:::
-::::
-
-:::: {.columns}
-::: {.column width="40%"}
-![Alaina Pearce](include/img/pearce-alaina.jpg)
-:::
-::: {.column width="60%"}
-[Alaina Pearce](https://sites.psu.edu/alainapearce/) is Assistant Research Professor in the [Department of Nutritional Sciences](https://hhd.psu.edu/nutrition) and [Center for Childhood Obesity Research](https://hhd.psu.edu/ccor) and is an affiliate of the [Institute of Computational and Data Sciences](https://www.icds.psu.edu). Dr. Pearce is a cognitive neuroscientist and her research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. Dr. Pearce’s current research aims to: 1) characterize cognitive function, neural food-cue responsivity, and eating behaviors in children at high and low familial risk for obesity prior to the development of excess adiposity; 2) identify neurocognitive processes and eating behaviors that confer either risk or resiliency to pediatric obesity; and 3) characterize child eating behaviors through meal microstructure and computational modeling.
-
-azp271@psu.edu</br>
-:::
-::::
-
-## Faculty
 

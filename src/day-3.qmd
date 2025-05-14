@@ -1,0 +1,28 @@
+---
+title: "Day 3 (Fri, Aug 15)"
+format: html
+---
+
+::: {.callout-note}
+### Logistics
+The Bootcamp ends at noon.
+:::
+
+::: {.callout-important}
+### Theme
+Open science @ Penn State: Next steps
+:::
+
+### 08:30 am • Coffee {-}
+
+### 09:00 am • Welcome to Day 3 {-}
+
+### 09:15 am • Keynote talk {-}
+
+### 10:15 am • Break  {-}
+
+### 10:45 am • {-}
+
+Plenary session and group discussion.
+
+### 12:00 pm • End of workshop  {-}

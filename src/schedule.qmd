@@ -3,9 +3,35 @@ title: "Schedule"
 format: html
 ---
 
-## Day 1 • Wednesday, August 13
+This section provides information about what is happening and when over the 2 1/2 day bootcamp.
+The following provides an abbreviated overview.
+See the detailed daily schedules for more information.
 
-## Day 2 • Thursday, August 14
+## Overview
 
-## Day 3 • Friday, August 15
+### Day 1
 
+#### Morning
+
+#### Afternoon
+
+### Day 2
+
+#### Morning
+
+#### Afternoon
+
+::: {.callout-important}
+### Happy Hour
+
+Please join us for an open scholarship happy hour to follow immediately after the end of the Day 2 program.
+:::
+
+### Day 3
+
+::: {.callout-important}
+### Logistics
+
+The bootcamp will end at noon, but lunch will *not* be provided.
+
+:::

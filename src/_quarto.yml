@@ -7,8 +7,14 @@ book:
   author: ["Rick Gilmore", "Alaina Pearce"]
   chapters:
     - index.qmd
-    - schedule.qmd
-    - presenters.qmd
+    - part: schedule.qmd
+      chapters:
+      - day-1.qmd
+      - day-2.qmd
+      - day-3.qmd
+    - part: people.qmd
+      chapters:
+      - presenters.qmd
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]
   repo-subdir: src
