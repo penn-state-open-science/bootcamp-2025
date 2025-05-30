@@ -1,0 +1,120 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"open-ai\"\n",
+        "format: \n",
+        "  html:\n",
+        "    code-fold: true\n",
+        "jupyter: python3\n",
+        "---\n",
+        "\n",
+        "\n",
+        "## About\n",
+        "\n",
+        "This page documents how we used OpenAI in planning the bootcamp.\n",
+        "\n",
+        "## Setup\n",
+        "\n",
+        "::: {.callout-note}\n",
+        "## Initialization steps\n",
+        "\n",
+        "0. Navigate to `~/src`.\n",
+        "1. Create a virtual environment using `python3 -m venv .venv`\n",
+        "2. Activate the environment with `source bootcamp/bin/activate`\n",
+        "3. Install packages with `python3 -m pip install jupyter matplotlib pandas numpy openai`\n",
+        "\n",
+        ":::\n",
+        "\n",
+        "Use reticulate to activate the virtual environment within this document.\n",
+        "\n",
+        "\n",
+        "```{r}\n",
+        "#| label: set-up-python-env\n",
+        "library(reticulate)\n",
+        "use_virtualenv(file.path(here::here(), \"src\", \".venv\"), required = TRUE)\n",
+        "```\n",
+        "\n",
+        "\n",
+        "Now, we can use Python code in chunks.\n"
+      ],
+      "id": "ec3fd852"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from openai import OpenAI\n",
+        "import base64"
+      ],
+      "id": "6b56f75e",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Logo generation\n",
+        "\n",
+        "We followed the documentation here: \n",
+        "\n",
+        "<https://platform.openai.com/docs/guides/images-vision?api-mode=responses>\n"
+      ],
+      "id": "63a2176e"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "client = OpenAI() \n",
+        "\n",
+        "response = client.responses.create(\n",
+        "    model=\"gpt-4.1-mini\",\n",
+        "    input=\"Generate an image of gray tabby cat hugging an otter with an orange scarf\",\n",
+        "    tools=[{\"type\": \"image_generation\"}],\n",
+        ")\n",
+        "\n",
+        "image_data = [\n",
+        "    output.result\n",
+        "    for output in response.output\n",
+        "    if output.type == \"image_generation_call\"\n",
+        "]\n",
+        "\n",
+        "if image_data:\n",
+        "    image_base64 = image_data[0]\n",
+        "    with open(\"cat_and_otter.png\", \"wb\") as f:\n",
+        "        f.write(base64.b64decode(image_base64))"
+      ],
+      "id": "e54e2e32",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Cleanup\n",
+        "\n",
+        "\n",
+        "```{bash}\n",
+        "deactivate\n",
+        "```"
+      ],
+      "id": "c8f52ed3"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/rog1/rrr/bootcamp-2025/bootcamp/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

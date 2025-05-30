@@ -23,6 +23,9 @@ Typically 15-20 maximum length. Combine 3 into a single hour-long session.
 - Trainee presentations
 - Tips & tricks
 - Open scholarship in practice
+- Version control with git and Github
+- Jupyter notebooks
+- Google colab
 
 
 ## Workshops
@@ -36,6 +39,7 @@ Two to three hour-long workshop sessions/day. A workshop can take up as many ses
 - Data sharing, why, where, how (TBD); 1-2 sessions
 - Open teaching
 - Early career researcher forum
+- Open scholarship in an AI era
 
 <!-- ## Theme: What is open science? Open science @ PSU {-} -->
 

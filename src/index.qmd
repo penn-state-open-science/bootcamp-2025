@@ -5,7 +5,7 @@ format: html
 
 ## About
 
-This site documents and describes the 2025 Open Scholarship Bootcamp to be held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) Wednesday, August 13 through Friday, August 15, 2025 at the University Libraries on the Penn State University Park campus.
+This site documents and describes the 2025 Open Scholarship Bootcamp to be held at the University Park campus of [the Pennsylvania State University](https://www.psu.edu) Wednesday, August 13 through Friday, August 15, 2025.
 
 <!-- The Bootcamp is being planned by a hard-working [committee](program-planning-committee.html) of staff, graduate students, and faculty, many of whom also plan to present. -->
 

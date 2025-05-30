@@ -19,7 +19,7 @@ Parallel sessions for hands-on workshops.
 
 ### 09:00 am • Welcome to Day 2 {-}
 
-### 09:15 am • Keynote talk {- #day_2_am_keynote}
+### 09:15 am • Keynote {- #day_2_am_keynote}
 
 <!-- | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
 <!-- | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [PDF Slides](pdf/Responsible and Robust Research_Open Science Bootcamp.pdf) | -->
