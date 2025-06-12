@@ -93,6 +93,31 @@ nfl5182@psu.edu</br></br>
 :::
 ::::
 
+### Valerie Li {-}
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/li-valerie.jpeg){width=200px height=200px}
+:::
+::: {.column width=60%}
+Valerie Li is a graduate student in Political Science at Penn State University. Her major area of study is Comparative Politics, with a minor area of study in Methodology. She received her B.A. in Political Science from McGill University. Her research interests are contentious politics and authoritarian politics.
+:::
+::::
+
+### Sarah Rajtmajer {-}
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/rajtmajer-sarah.png){width=200px height=200px}
+:::
+::: {.column width=60%}
+[Sarah Rajtmajer](https://ist.psu.edu/directory/smr48) is Associate Professor in the [College of Information Sciences and Technology](https://ist.psu.edu) at Penn State University and core faculty at Penn State's Rock Ethics Institute. Her work leverages machine learning and mathematical modeling to understand trust and confidence in information.
+
+smr48@psu.edu
+:::
+::::
+
+
 
 
 ### Jennifer Valcin

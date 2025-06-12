@@ -3,15 +3,15 @@ title: "Day 2 (Thu, Aug 14)"
 format: html
 ---
 
-::: {.callout-note}
-### Logistics
+<!-- ::: {.callout-note} -->
+<!-- ### Logistics -->
 
-Parallel sessions for hands-on workshops.
-:::
+<!-- Parallel sessions for hands-on workshops. -->
+<!-- ::: -->
 
-::: {.callout-important}
-### Themes
-:::
+<!-- ::: {.callout-important} -->
+<!-- ### Themes -->
+<!-- ::: -->
 
 ## Morning {- #day_2_am}
 
@@ -19,12 +19,19 @@ Parallel sessions for hands-on workshops.
 
 ### 09:00 am • Welcome to Day 2 {-}
 
-### 09:15 am • Keynote {- #day_2_am_keynote}
+### 09:05 am • Open @ Penn State
+
+- Penn State Data Commons^[confirmed], Maurie Kelly
+- Inside NCEMS^[confirmed], Nicole Lazar
+
+### 09:30 am • Panel Discussion {- #day_2_am_keynote}
+
+Panel Discussion on ethical consideration
 
 <!-- | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
 <!-- | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [PDF Slides](pdf/Responsible and Robust Research_Open Science Bootcamp.pdf) | -->
 
-### 10:15 am • Break (30 min) {-}
+### 10:30 am • Break (15 min) {-}
 
 ### 10:45 am • Workshop session 1 {- #day_2_am_session_1}
 
@@ -69,7 +76,7 @@ How to do open science: Workshops
 
 ### 03:45 pm • Break {-}    
 
-### 04:00 pm • Recap Day 2 (plenary session) {- #day_2_pm_recap}
+### 04:00 pm • Recap Day 2 {- #day_2_pm_recap}
 
 ### 04:15 pm • End of Day 2 {-}
 

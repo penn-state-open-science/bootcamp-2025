@@ -1,0 +1,14 @@
+---
+title: "Resources"
+format: html
+---
+
+::: {.callout-warning}
+## Under construction
+
+This material is in an early draft stage.
+:::
+
+## About
+
+This section contains information that supplements the bootcamp activities and presentations.

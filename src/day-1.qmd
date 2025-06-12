@@ -3,50 +3,68 @@
 ::: {.callout-note}
 ## Logistics
 All times are Eastern Daylight Time (EDT).
+
+Location: Dewey Room, West Pattee, unless otherwise indicated.
 :::
 
 ## Morning {- #day_1_am}
 
-::: {.callout-important}
-### Themes
+<!-- ::: {.callout-important} -->
+<!-- ### Themes -->
 
-- What is open scholarship?
-- Why practice open scholarship? 
-- Open scholarship at Penn State.
-:::
+<!-- - What is open scholarship? -->
+<!-- - Why practice open scholarship?  -->
+<!-- - Open scholarship at Penn State. -->
+<!-- ::: -->
 
 ### 08:30 am • Coffee {-}
 
 ### 09:00 am • Welcome {-}
 
-### 09:15 am • Keynote {- #day_1_plenary_1}
+[Rick Gilmore](people.qmd#rick-gilmore) and [Alaina Pearce](people.qmd#alaina-pearce)
+
+### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
+
+- [ScholarSphere](https://scholarsphere.psu.edu), [Alaina Pearce](people.qmd#alaina-pearce)
+- Big data developmental neuroscience, Koraly Perez-Edgar
+<!-- - Social Data Analytics (SoDA), Bruce Desmarais -->
+<!-- - ENIGMA consortium, Frank Hillary -->
+<!-- - Databrary/PLAY, Rick Gilmore -->
 
 ### 10:15 am • Break  {-}
 
-### 10:45 am • Session {- #day_1_plenary_2} 
+### 10:45 am • Keynote {- #day_1_plenary_2}
+
+[Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST
 
 ### 11:45 am • Lunch break {-}
 
 ## Afternoon {- #day_1_pm}
 
-::: {.callout-important}
-### Themes
-:::
+### 12:00 pm • Movie time
 
-### 01:15 pm • Workshop session 1 {- #day_1_pm_session_1}
+Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship)" and discussion
 
-| Topic | Location | Materials |
-|--------------|----------|-------|
-| | | |
+<!-- ::: {.callout-important} -->
+<!-- ### Themes -->
+<!-- ::: -->
 
-### 02:15 pm • Break {-}
+### 01:30 pm • Break {-}
 
-### 02:45 pm • Workshop session 2 {- #day_1_pm_session_2}
+### 01:45 pm • Workshop session 1 {- #day_1_pm_session_1}
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | | | |
 
-### 03:45 pm • Day 1 wrap-up {-}
+### 02:45 pm • Break {-}
+
+### 03:00 pm • Workshop session 2 {- #day_1_pm_session_2}
+
+| Topic | Location | Materials |
+|--------------|----------|-------|
+| | | |
+
+### 04:00 pm • Day 1 wrap-up
 
 ### 04:15 pm • End of Day 1 {-}

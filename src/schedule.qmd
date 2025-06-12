@@ -13,17 +13,20 @@ See the detailed daily schedules for more information.
 
 #### Morning
 
+#### Lunch
+
 #### Afternoon
 
 ### Day 2
 
 #### Morning
 
+#### Lunch
+
 #### Afternoon
 
 ::: {.callout-important}
 ### Happy Hour
-
 Please join us for an open scholarship happy hour to follow immediately after the end of the Day 2 program.
 :::
 
@@ -31,7 +34,7 @@ Please join us for an open scholarship happy hour to follow immediately after th
 
 ::: {.callout-important}
 ### Logistics
-
 The bootcamp will end at noon, but lunch will *not* be provided.
-
 :::
+
+### Morning

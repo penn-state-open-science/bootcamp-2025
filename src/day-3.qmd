@@ -8,14 +8,18 @@ format: html
 The Bootcamp ends at noon.
 :::
 
-::: {.callout-important}
-### Theme
-Open science @ Penn State: Next steps
-:::
+<!-- ::: {.callout-important} -->
+<!-- ### Theme -->
+<!-- Open science @ Penn State: Next steps -->
+<!-- ::: -->
 
 ### 08:30 am • Coffee {-}
 
 ### 09:00 am • Welcome to Day 3 {-}
+
+### 09:05 am • Open @ Penn State
+
+- Video as data and documentation, [Rick Gilmore](people.qmd#rick-gilmore)
 
 ### 09:15 am • Keynote {-}
 
@@ -23,6 +27,8 @@ Open science @ Penn State: Next steps
 
 ### 10:45 am • {-}
 
-Plenary session and group discussion.
+Plenary session and group discussion about Open Scholarship Initiatives in 2025-26.
 
 ### 12:00 pm • End of workshop  {-}
+
+Lunch on your own.

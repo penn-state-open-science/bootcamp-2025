@@ -9,4 +9,13 @@ This page is under construction.
 
 :::
 
+## Maurie Kelly {-}
 
+[Maurie Kelly](https://iee.psu.edu/people/maurie-kelly) is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State [Data Commons](https://www.datacommons.psu.edu).
+
+## Koraly Perez-Edgar {-}
+
+::: {.callout-warning}
+## Under construction
+
+:::

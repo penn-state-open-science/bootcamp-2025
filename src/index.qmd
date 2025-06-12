@@ -22,3 +22,9 @@ This site documents and describes the 2025 Open Scholarship Bootcamp to be held 
 - To create a focal point for activity and learning related to open scholarship practices.
 - To accelerate the development of a community of scholars who are interested in open scholarship.
 - To plan next steps that will foster the emergence of a robust open scholarship community at Penn State.
+
+## Sponsors
+
+[Child Study Center (CSC)](https://csc.la.psu.edu) \
+[Institute for Computational and Data Sciences (ICDS)](https://www.icds.psu.edu) \
+University Libraries 
