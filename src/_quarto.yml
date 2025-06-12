@@ -15,7 +15,9 @@ book:
     - part: people.qmd
       chapters:
       - presenters.qmd
-    - part: resources.qmd
+    - part: More
+      chapters:
+      - resources.qmd
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]
   repo-subdir: src

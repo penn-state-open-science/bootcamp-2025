@@ -157,8 +157,20 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Resources</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">More</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./resources.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Resources</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
@@ -170,7 +182,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#maurie-kelly" id="toc-maurie-kelly" class="nav-link active" data-scroll-target="#maurie-kelly">Maurie Kelly</a></li>
+  <li><a href="#lynda-kellam" id="toc-lynda-kellam" class="nav-link active" data-scroll-target="#lynda-kellam">Lynda Kellam</a></li>
+  <li><a href="#maurie-kelly" id="toc-maurie-kelly" class="nav-link" data-scroll-target="#maurie-kelly">Maurie Kelly</a></li>
   <li><a href="#koraly-perez-edgar" id="toc-koraly-perez-edgar" class="nav-link" data-scroll-target="#koraly-perez-edgar">Koraly Perez-Edgar</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/edit/main/src/presenters.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -216,6 +229,22 @@ Warning
 <p>This page is under construction.</p>
 </div>
 </div>
+<section id="lynda-kellam" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="lynda-kellam">Lynda Kellam</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Under construction
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+</section>
 <section id="maurie-kelly" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="maurie-kelly">Maurie Kelly</h2>
 <p><a href="https://iee.psu.edu/people/maurie-kelly">Maurie Kelly</a> is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State <a href="https://www.datacommons.psu.edu">Data Commons</a>.</p>
@@ -665,7 +694,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./resources.html" class="pagination-link" aria-label="Resources">
-        <span class="nav-page-text">Resources</span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Resources</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -9,6 +9,48 @@ format: html
 This material is in an early draft stage.
 :::
 
-## About
+## Penn State {-}
 
-This section contains information that supplements the bootcamp activities and presentations.
+### University Libraries {-}
+
+The [Penn State University Libraries](https://libraries.psu.edu) are a hub of information and training about many topics related to open science.
+
+#### ScholarSphere {-}
+
+[ScholarSphere](https://scholarsphere.psu.edu) is Penn State's institutional repository for data and materials.
+
+### Data Commons {-}
+
+[Data Commons](https://www.datacommons.psu.edu) is a Penn State-based data repository associated with [Institutes of Energy and the Environment](https://iee.psu.edu/home).
+
+<!-- ### Institute for Computational and Data Science (ICDS) {- #icds} -->
+
+<!-- ### Social Science Research Institute (SSRI) {- #ssri} -->
+
+### Penn State Open Scholarship Initiative {-}
+
+- [GitHub organization](https://github.com/penn-state-open-science).
+- [Open science survey protocol](http://penn-state-open-science.github.io/survey-fall-2022/) and [results](https://penn-state-open-science.github.io/survey-fall-2022/data-visualization.html).
+- R Markdown-formatted IRB application [template documents](https://github.com/penn-state-open-science/irb-markdown-templates).
+
+### Center for Social Data Analytics ([SoDA](https://soda.la.psu.edu)) {- #soda}
+
+### Courses {-}
+
+- PSYCH 490: The reproducibility crisis in science
+  - [Spring 2023](https://psu-psychology.github.io/psych-490-reproducibility-2023-spring/)
+  - [Fall 2023](https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/)
+  - [Fall 2024](https://psu-psychology.github.io/psych-490-reproducibility-2024-fall/)
+- [PSYCH 490: The psychology of data visualization](https://psu-psychology.github.io/psych-490-data-viz-2025-spring/)
+
+## Outside PSU {-}
+
+- [Center for Open Science (OSF)](https://osf.io)
+- <https://opensciency.github.io/sprint-content/>
+- Framework for Open and Reproducible Research Training: <https://forrt.org>
+- <https://nap.nationalacademies.org/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century>
+- CyVerse: <https://foss.cyverse.org>
+- <https://www.gida-global.org/care>
+- <https://localcontexts.org>
+- Dr. Alondra Nelson's [memo](http://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf) about open access to federally-funded research and a [commentary](https://guides.lib.umich.edu/open-research-and-scholarship/OSTP-memo) about it.
+- Tyson Swetnam's Awesome Open Science resources: <https://tyson-swetnam.github.io/awesome-open-science/>.

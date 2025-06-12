@@ -21,10 +21,10 @@ format: html
 
 ### 09:05 am • Open @ Penn State
 
-- Penn State Data Commons^[confirmed], Maurie Kelly
-- Inside NCEMS^[confirmed], Nicole Lazar
+- Penn State Data Commons, [Maurie Kelly](presenters.qmd#maurie-kelly)
+- Inside NCEMS, [Nicole Lazar](people.qmd#nicole-lazar)
 
-### 09:30 am • Panel Discussion {- #day_2_am_keynote}
+### 09:30 am • Panel Discussion {- #day_2_plenary_1}
 
 Panel Discussion on ethical consideration
 
@@ -33,11 +33,13 @@ Panel Discussion on ethical consideration
 
 ### 10:30 am • Break (15 min) {-}
 
-### 10:45 am • Workshop session 1 {- #day_2_am_session_1}
+### 10:45 am • Keynote • Foster Auditorium^[102 Paterno Library] {- #day_2_plenary_2}
 
-| Topic | Location | Materials |
-|--------------|----------|-------|
-| | | |
+[Lynda Kellam](presenters.qmd#lynda-kellam), [Data Rescue Project](https://www.datarescueproject.org)
+
+<!-- | Topic | Location | Materials | -->
+<!-- |--------------|----------|-------| -->
+<!-- | | | | -->
 
 <!-- | [Reproducible workflows with R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) | -->
 <!-- | [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](pdf/OpenScienceBootcamp2023_McManus.pdf) | -->
