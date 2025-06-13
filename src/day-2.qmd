@@ -26,7 +26,10 @@ format: html
 
 ### 09:30 am • Panel Discussion {- #day_2_plenary_1}
 
-Panel Discussion on ethical consideration
+Panel discussion on ethical considerations
+
+- [Kimberly Petrosky](presenters.qmd#kimberly-petrosky), Penn State Office of Research Protections
+
 
 <!-- | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
 <!-- | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [PDF Slides](pdf/Responsible and Robust Research_Open Science Bootcamp.pdf) | -->
@@ -49,12 +52,12 @@ Panel Discussion on ethical consideration
 
 ## Afternoon {- #day_2_pm}
 
-::: {.callout-important}
+<!-- ::: {.callout-important}
 ### Theme
 
 How to do open science: Workshops
 
-:::
+::: -->
 
 ### 01:15 pm • Workshop session 2 {- #day_2_pm_session_2}
 

@@ -11,16 +11,12 @@ This page is under construction.
 
 ## Lynda Kellam {-}
 
-::: {.callout-warning}
-## Under construction
-:::
+[Lynda Kellam, Ph.D.](https://www.library.upenn.edu/staff/lynda-kellam) is the Snyder-Granader Director of [Research Data and Digital Scholarship](https://www.library.upenn.edu/rdds) at the University of Pennsylvania. Previously, she was the Senior Data Librarian at the Cornell Institute for Social and Economic Research (now the Cornell Center for Social Sciences). At Cornell, she managed the [CISER Data and Reproduction Archive](https://archive.ciser.cornell.edu/) and supported the [Freedom on the Move project](https://freedomonthemove.org/).
 
 ## Maurie Kelly {-}
 
-[Maurie Kelly](https://iee.psu.edu/people/maurie-kelly) is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State [Data Commons](https://www.datacommons.psu.edu).
+[Maurie Kelly, Ph.D.](https://iee.psu.edu/people/maurie-kelly) is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State [Data Commons](https://www.datacommons.psu.edu).
 
-## Koraly Perez-Edgar {-}
+## Koraly Pérez-Edgar {-}
 
-::: {.callout-warning}
-## Under construction
-:::
+[Koraly Pérez-Edgar, Ph.D.](https://psych.la.psu.edu/people/kxp24/) is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal *Developmental Psychology*.

@@ -3,27 +3,32 @@ title: "Schedule"
 format: html
 ---
 
-This section provides information about what is happening and when over the 2 1/2 day bootcamp.
-The following provides an abbreviated overview.
+This section provides an overview about what is happening and when over the 2 1/2 day bootcamp.
 See the detailed daily schedules for more information.
 
 ## Overview
 
 ### Day 1
 
-#### Morning
+*Breakfast provided*
 
-#### Lunch
+*Keynote*: Dr. [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST, Penn State, Foster Auditorium (102 Pattee)
 
-#### Afternoon
+*Lunch provided*
+
+*Movie screening*: "Paywall: The Business of Scholarship"
+
+*Hands-on workshops*
 
 ### Day 2
 
-#### Morning
+*Breakfast provided*
 
-#### Lunch
+*Keynote*: Dr. [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania & [Data Rescue Project](https://www.datarescueproject.org), Foster Auditorium (102 Pattee)
 
-#### Afternoon
+*Lunch provided*
+
+*Hands-on workshops*
 
 ::: {.callout-important}
 ### Happy Hour
@@ -32,9 +37,11 @@ Please join us for an open scholarship happy hour to follow immediately after th
 
 ### Day 3
 
-::: {.callout-important}
+*Breakfast provided*
+
+*Hands-on workshops*
+
+::: {.callout-note}
 ### Logistics
 The bootcamp will end at noon, but lunch will *not* be provided.
 :::
-
-### Morning
