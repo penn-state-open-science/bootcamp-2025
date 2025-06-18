@@ -19,13 +19,17 @@ The Bootcamp ends at noon.
 
 ### 09:05 am • Open @ Penn State
 
-- Video as data and documentation, [Rick Gilmore](people.qmd#rick-gilmore)
+- Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](people.qmd#rick-gilmore)
 
-### 09:15 am • Keynote {-}
+### 09:15 am • Workshop session 5 {-}
+
+| Topic | Location | Materials |
+|--------------|----------|-------|
+| | | |
 
 ### 10:15 am • Break  {-}
 
-### 10:45 am • {-}
+### 10:45 am • Community Dialogue {-}
 
 Plenary session and group discussion about Open Scholarship Initiatives in 2025-26.
 

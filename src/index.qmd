@@ -9,7 +9,7 @@ This site documents and describes the 2025 Open Scholarship Bootcamp to be held 
 
 ::: {.callout-important}
 ## To register
-Visit <https://forms.gle/R6SzM4TNppGFzjEY9>. -->
+Visit <https://forms.gle/R6SzM4TNppGFzjEY9>.
 :::
 
 ## Goals {-}

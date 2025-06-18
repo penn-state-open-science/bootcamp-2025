@@ -11,7 +11,7 @@ This section provides biographical information about the people who make this bo
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/gilmore-rick.png)
+![](include/img/gilmore-rick.png){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 Rick Gilmore is Professor of [Psychology](https://psych.la.psu.edu) and Director of the Open Data and Developmental Science (ODDS) initiative with the [Penn State Child Study Center (CSC)](https://csc.la.psu.edu). He co-founded and co-directs the [Databrary](https://databrary.org) data repository, and serves as Co-PI on the [Play & Learning Across a Year (PLAY) Project](https://play-project.org). Gilmore served as inaugural director of the Penn State [Social, Life, & Engineering Sciences Imaging Center](https://imaging.psu.edu). His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.
@@ -24,7 +24,7 @@ rog1@psu.edu</br></br>
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/pearce-alaina.jpg)
+![](include/img/pearce-alaina.jpg){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 [Alaina Pearce](https://sites.psu.edu/alainapearce/) is Assistant Research Professor in the [Department of Nutritional Sciences](https://hhd.psu.edu/nutrition) and [Center for Childhood Obesity Research](https://hhd.psu.edu/ccor) and is an affiliate of the [Institute of Computational and Data Sciences](https://www.icds.psu.edu). Dr. Pearce is a cognitive neuroscientist and her research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. Dr. Pearce’s current research aims to: 1) characterize cognitive function, neural food-cue responsivity, and eating behaviors in children at high and low familial risk for obesity prior to the development of excess adiposity; 2) identify neurocognitive processes and eating behaviors that confer either risk or resiliency to pediatric obesity; and 3) characterize child eating behaviors through meal microstructure and computational modeling.
@@ -35,11 +35,24 @@ azp271@psu.edu</br>
 
 ## Program Committee
 
+### Carrie Brown
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/brown-carrie.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Carrie Brown is Client Support Lead with the Institute for Computational & Data Science.
+
+carrie.brown@psu.edu
+:::
+::::
+
 ### Bruce Desmarais
 
 :::: {.columns}
 ::: {.column width=40%}
-![](include/img/desmarais-bruce.jpeg)
+![](include/img/desmarais-bruce.jpeg){width=200px height=200px}
 :::
 ::: {.column width=60%}
 Bruce Desmarais is the DeGrandis-McCourtney Early Career Professor in [Political Science](https://polisci.la.psu.edu), Director of the [Center for Social Data Analytics](https://soda.la.psu.edu), and a co-hire of the [Institute for Computational and Data Sciences](https://icds.psu.edu) at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.
@@ -52,7 +65,7 @@ bdesmarais@psu.edu
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/enriquez-ana.jpg)
+![](include/img/enriquez-ana.jpg){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 
@@ -67,7 +80,7 @@ aee32@psu.edu</br></br>
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/hillary-frank.jpeg)
+![](include/img/hillary-frank.jpeg){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 
@@ -78,14 +91,14 @@ fgh3@psu.edu</br></br>
 :::
 ::::
 
-### Zulal Iscanoglu
+### Zülal İşcanoğlu
 
 :::: {.columns}
 ::: {.column width=50%}
 ![](include/img/iscanoglu-zuelal.png){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Zulal Iscanoglu is a postdoctoral researcher with the Development, Risk, and Resilience Lab at Penn State.
+Zülal İşcanoğlu is a postdoctoral researcher with the Development, Risk, and Resilience Lab at Penn State.
 
 zmi5020@psu.edu
 :::
@@ -130,14 +143,11 @@ smr48@psu.edu
 :::
 ::::
 
-
-
-
 ### Jennifer Valcin
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/valcin-jennifer.png)
+![](include/img/valcin-jennifer.png){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 Jennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham. 
@@ -163,7 +173,7 @@ johnwest@psu.edu
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/wham-briana.jpg)
+![](include/img/wham-briana.jpg){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 Briana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for [ScholarSphere](https://scholarsphere.psu.edu), Penn State's institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.
