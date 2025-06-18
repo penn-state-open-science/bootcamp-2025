@@ -29,11 +29,11 @@ Open access & licensing
 
 ### 10:30 am • Break  {-}
 
-### 10:45 am • Workshop session 5 {- #day_3_am_session_5}  {-}
+### 10:45 am • Workshop session 5 {- #day_3_am_session_5}
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Early career panel (Carlos, Kyle) | | |
+| Early career panel (Freitas, Hallisky) | | |
 | Open access high performance computing (Brown) | | |
 
 ### 11:45 am • Community Dialogue {-}
