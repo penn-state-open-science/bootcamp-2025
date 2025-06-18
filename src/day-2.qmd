@@ -23,13 +23,14 @@ format: html
 
 - Penn State Data Commons, [Maurie Kelly](presenters.qmd#maurie-kelly)
 - Inside NCEMS, [Nicole Lazar](people.qmd#nicole-lazar)
+- Center for Social Data Analytics (SoDA), [Bruce Desmarais](people.qmd#bruce-desmarais)
 
 ### 09:30 am • Panel Discussion {- #day_2_plenary_1}
 
-Panel discussion on ethical considerations
+Panel discussion on ethical considerations for open scholarship 
 
 - [Kimberly Petrosky](presenters.qmd#kimberly-petrosky), Penn State Office of Research Protections
-
+- [Nicole Lazar](people.qmd#nicole-lazar), Department of Statistics (Moderator)
 
 <!-- | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
 <!-- | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [PDF Slides](pdf/Responsible and Robust Research_Open Science Bootcamp.pdf) | -->
