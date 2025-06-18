@@ -63,7 +63,8 @@ How to do open science: Workshops
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| | | |
+| LLMs with Jupyter notebooks (Li) | | |
+| Getting credit (Part II): Sharing your data (Pearce) | | |
 
 <!-- | [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [PDF slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
 <!-- | [Open science for early career researchers](#howto_early_career) | 115 Keller Bldg | [PDF Slides](pdf/open_sci_for_early_research_careers_2023.pdf) | -->
@@ -74,7 +75,8 @@ How to do open science: Workshops
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| | | |
+| Getting credit (Part III): Data papers (Pearce) | | |
+| Quarto (Part III): Reproducible research reports (West) | | | 
 
 <!-- | [Intro to Jupyter notebooks](#howto_jupyter) | 115 Keller Bldg | [Notebook](html/jupyter.html) | -->
 <!-- | [Data sharing](#howto_data_sharing) | 102 Marriott Fdn Bldg | [PDF slides](https://github.com/penn-state-open-science/bootcamp-2023-data-sharing/blob/7aef15bfc83886f488a5256cc76312cc6cf2002a/index.pdf) | -->

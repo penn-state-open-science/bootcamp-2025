@@ -35,6 +35,17 @@ azp271@psu.edu</br>
 
 ## Program Committee
 
+### Carlos Freitas Almeida
+
+:::: {.columns}
+::: {.column width=50%}
+Content
+:::
+::: {.column width=50%}
+Content
+:::
+::::
+
 ### Carrie Brown
 
 :::: {.columns}

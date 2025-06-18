@@ -55,3 +55,13 @@ Kimberly Petrosky, J.D.
 :::
 ::::
 
+## Danielle Steinhart {-}
+
+:::: {.columns}
+::: {.column width=50%}
+Content
+:::
+::: {.column width=50%}
+Danielle Steinhardt
+:::
+::::

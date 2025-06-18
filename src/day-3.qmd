@@ -21,18 +21,25 @@ The Bootcamp ends at noon.
 
 - Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](people.qmd#rick-gilmore)
 
-### 09:15 am • Workshop session 5 {-}
+### 09:30 am • Keynote {-}
+
+Open access & licensing
+
+[Danielle Steinhart](presenter.qmd#danielle-steinhart), University Libraries
+
+### 10:30 am • Break  {-}
+
+### 10:45 am • Workshop session 5 {- #day_3_am_session_5}  {-}
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| | | |
+| Early career panel (Carlos, Kyle) | | |
+| Open access high performance computing (Brown) | | |
 
-### 10:15 am • Break  {-}
-
-### 10:45 am • Community Dialogue {-}
+### 11:45 am • Community Dialogue {-}
 
 Plenary session and group discussion about Open Scholarship Initiatives in 2025-26.
 
-### 12:00 pm • End of workshop  {-}
+### 12:15 pm • End of workshop  {-}
 
 Lunch on your own.
