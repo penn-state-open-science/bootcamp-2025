@@ -25,7 +25,7 @@ The Bootcamp ends at noon.
 
 Open access & licensing
 
-[Danielle Steinhart](presenter.qmd#danielle-steinhart), University Libraries
+[Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
 
 ### 10:30 am • Break  {-}
 

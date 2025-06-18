@@ -7,6 +7,17 @@ format: html
 This page is under construction.
 :::
 
+## Kyle Hallisky {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Kyle Hallisy
+:::
+::::
+
 ## Lynda Kellam {-}
 
 :::: {.columns}
@@ -59,7 +70,7 @@ Kimberly Petrosky, J.D.
 
 :::: {.columns}
 ::: {.column width=50%}
-Content
+![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
 Danielle Steinhardt

@@ -39,7 +39,7 @@ azp271@psu.edu</br>
 
 :::: {.columns}
 ::: {.column width=50%}
-Content
+![](include/img/almeida-carlos-freitas.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
 Content
