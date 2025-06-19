@@ -26,6 +26,8 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ### 10:45 am • Keynote • Foster Auditorium (102 Paterno Library) {- #day_1_plenary_2}
 
+**"Harnessing AI for scientific integrity"**
+
 [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), Penn State College of IST
 
 ### 11:45 am • Lunch break {-}
