@@ -9,14 +9,6 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ## Morning {- #day_1_am}
 
-<!-- ::: {.callout-important} -->
-<!-- ### Themes -->
-
-<!-- - What is open scholarship? -->
-<!-- - Why practice open scholarship?  -->
-<!-- - Open scholarship at Penn State. -->
-<!-- ::: -->
-
 ### 08:30 am • Coffee {-}
 
 ### 09:00 am • Welcome {-}
@@ -32,7 +24,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ### 10:15 am • Break  {-}
 
-### 10:45 am • Keynote • Foster Auditorium^[102 Paterno Library] {- #day_1_plenary_2}
+### 10:45 am • Keynote • Foster Auditorium (102 Paterno Library) {- #day_1_plenary_2}
 
 [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), Penn State College of IST
 
@@ -43,10 +35,6 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 ### 12:00 pm • Movie time
 
 Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship)" and discussion
-
-<!-- ::: {.callout-important} -->
-<!-- ### Themes -->
-<!-- ::: -->
 
 ### 01:30 pm • Break {-}
 
