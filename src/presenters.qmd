@@ -14,7 +14,7 @@ This page is under construction.
 ![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Kyle Hallisy
+Kyle Hallisky is a graduate student in the College of Health and Human Development.
 :::
 ::::
 
@@ -40,8 +40,6 @@ Kyle Hallisy
 :::
 ::::
 
-
-
 ## Koraly Pérez-Edgar {-}
 
 :::: {.columns}
@@ -52,8 +50,6 @@ Kyle Hallisy
 [Koraly Pérez-Edgar, Ph.D.](https://psych.la.psu.edu/people/kxp24/) is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal *Developmental Psychology*.
 :::
 ::::
-
-
 
 ## Kimberly Petrosky {-}
 
@@ -73,6 +69,6 @@ Kimberly Petrosky, J.D.
 ![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Danielle Steinhardt
+Danielle Steinhart
 :::
 ::::

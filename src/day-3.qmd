@@ -33,12 +33,12 @@ Open access & licensing
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Early career panel (Freitas, Hallisky) | | |
-| Open access high performance computing (Brown) | | |
+| Early career panel ([Almeida](people.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky)) | | |
+| Open access high performance computing ([Brown](people.qmd#carrie-brown)) | | |
 
 ### 11:45 am • Community Dialogue {-}
 
-Plenary session and group discussion about Open Scholarship Initiatives in 2025-26.
+Plenary session and group discussion about open scholarship initiatives in 2025-26.
 
 ### 12:15 pm • End of workshop  {-}
 

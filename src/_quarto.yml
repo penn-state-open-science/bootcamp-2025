@@ -17,6 +17,7 @@ book:
       - presenters.qmd
     - part: More
       chapters:
+      - sessions.qmd
       - resources.qmd
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]
@@ -27,5 +28,4 @@ format:
     theme: cosmo
     number-sections: false
     date-modified: last-modified
-    fontsize: 1.2em
     

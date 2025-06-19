@@ -54,8 +54,8 @@ Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wi
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Quarto (Part I) ([Gilmore](people.qmd#rick-gilmore)) | | |
-| Getting credit (Part I): Good enough data practices | | |
+| Quarto (Part I): A tool for open scholarship ([Gilmore](people.qmd#rick-gilmore)) | | |
+| Getting credit (Part I): Good enough data practices ([Pearce](people.qmd#alaina-pearce)) | | |
 
 ### 02:45 pm • Break {-}
 
@@ -63,7 +63,7 @@ Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wi
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Quarto (Part II) ([Gilmore](people.qmd#rick-gilmore)): Part II | | |
+| Quarto (Part II): Using the web ([Gilmore](people.qmd#rick-gilmore)) | | |
 | Intro to Jupyter notebooks (TBD) | | |
 | Questionable research practices ([Lazar](people.qmd#nicole-lazar) & [Valcin](people.qmd#jennifer-valcin))| | |
 

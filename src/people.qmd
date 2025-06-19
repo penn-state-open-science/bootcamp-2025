@@ -42,7 +42,7 @@ azp271@psu.edu</br>
 ![](include/img/almeida-carlos-freitas.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Content
+Carlos Freitas Almeida is a graduate student in Psychology at Penn State.
 :::
 ::::
 

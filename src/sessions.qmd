@@ -1,0 +1,116 @@
+---
+title: "Sessions"
+format: html
+---
+
+::: {.callout-warning}
+## Under construction
+
+This material is in an early draft stage.
+:::
+
+## About
+
+This page provides additional information about the workshop sessions and links to presenter notes.
+
+## Day 1 • Wed August 13
+
+### Open @ Penn State
+
+What initiatives and resources are available at Penn State related to open scholarship?
+
+### Workshop Session 1
+
+#### Quarto (Part I): A tool for open scholarship
+
+[Quarto](https://quarto.org) is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can a powerful tool for implementing open scholarship practices. This is the first of three workshops on Quarto.
+
+*Presenter*: [Rick Gilmore](people.qmd#rick-gilmore)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+#### Getting credit (Part I): Good enough data practices
+
+Best practices can be hard to implement, so what open science practices are both useful and “good enough” [@Wilson2017-ot] to have an impact on your work? What are the first steps you can take to make your data more FAIR [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)? This is the first of three workshops on Getting Credit.
+
+*Presenter*: [Alaina Pearce](people.qmd#alaina-pearce)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+### Workshop Session 2
+
+#### Quarto (Part II): Using the web
+
+Documents rendered from Quarto become even more useful as a tool for open scholarship when one of the outputs is a web site. In this workshop, attendees will learn how to generate web sites and publish them using GitHub pages.
+
+*Presenter*: [Rick Gilmore](people.qmd#rick-gilmore)
+
+*Prerequisites*: Quarto (Part I) or equivalent
+
+*Skill level*: Advanced beginner
+
+#### Intro to Jupyter notebooks
+
+#### Questionable research practices
+
+What are questionable research practices? Why are they questionable? How do we avoid them?
+
+*Presenters*: [Nicole Lazar](people.qmd#nicole-lazar) and [Jennifer Valcin](people.qmd#jennifer-valcin)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+## Day 2 • Thu August 14
+
+### Workshop Session 3
+
+#### Getting credit (Part II): Sharing your data
+
+Where can you share data and materials? Where should you share data and materials? When can and should you share data and materials? This workshop will demonstrate how researchers can use Dataverse, the Open Science Framework (OSF), Databrary, and other data and materials repositories both to share data and materials and to re-purpose data and materials shared by others. The workshop will also discuss recent initiatives in some fields that require data and code sharing prior to the publication of an article so that statistical results and figures can be verified.
+
+*Presenter*: [Alaiana Pearce](people.qmd#alaina-pearce)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
+
+#### Quarto (Part III): Reproducible research reports 
+
+*Presenter*: [John West](people.qmd#john-west) 
+
+### Workshop Session 4
+
+#### Getting credit (Part III): Data papers 
+
+*Presenter*: [Alaina Pearce](people.qmd#alaina-pearce)
+
+#### LLMs with Jupyter notebooks 
+
+*Presenter*: [Valerie Li](people.qmd#valerie-li)
+
+## Day 3 • Fri August 15
+
+### Workshop Session 5
+
+#### Where to start? Open science for early career researchers
+
+How can early career researchers start their open science journey (Allen & Mehler, 2019; Kathawalla et al., 2021)?
+
+*Presenters*: ([Carlos Frietas Almeida](people.qmd#carlos-freitas-almeida), [Kyle Hallisky](presenters.qmd#kyle-hallisky))
+
+*Prerequisites*: None
+
+*Skill level*: All
+
+#### Open access high performance computing
+
+*Presenter*: [Carrie Brown](people.qmd#carrie-brown)
+
+*Prerequisites*: None
+
+*Skill level*: All

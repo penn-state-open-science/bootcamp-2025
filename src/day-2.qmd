@@ -38,7 +38,7 @@ Panel discussion on ethical considerations for open scholarship
 <!-- | [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](pdf/OpenScienceBootcamp2023_McManus.pdf) | -->
 <!-- | [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [PDF Slides](pdf/PennState_Open_Sci_Boot_Pre_Reg_8_8_23.pdf) | -->
 
-### 11:45 am • Lunch break {-}
+### 11:45 am • Lunch break (90 min) {-}
 
 ## Afternoon {- #day_2_pm}
 
@@ -46,8 +46,8 @@ Panel discussion on ethical considerations for open scholarship
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Getting credit (Part II): Sharing your data (Pearce) | | |
-| Quarto (Part III): Reproducible research reports (West) | | | 
+| Getting credit (Part II): Sharing your data ([Pearce](people.qmd#alaina-pearce)) | | |
+| Quarto (Part III): Reproducible research reports ([West](people.qmd#john-west)) | | | 
 
 <!-- | [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [PDF slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
 <!-- | [Open science for early career researchers](#howto_early_career) | 115 Keller Bldg | [PDF Slides](pdf/open_sci_for_early_research_careers_2023.pdf) | -->
@@ -58,10 +58,10 @@ Panel discussion on ethical considerations for open scholarship
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Getting credit (Part III): Data papers (Pearce) | | |
-| LLMs with Jupyter notebooks (Li) | | |
+| Getting credit (Part III): Data papers ([Pearce](people.qmd#alaina-pearce)) | | |
+| LLMs with Jupyter notebooks ([Li](people.qmd#valerie-li)) | | |
 
-### 03:45 pm • Break {-}    
+### 03:45 pm • Break (15 min) {-}    
 
 ### 04:00 pm • Recap Day 2 {- #day_2_pm_recap}
 
