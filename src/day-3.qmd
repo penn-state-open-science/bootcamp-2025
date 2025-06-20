@@ -25,7 +25,7 @@ The Bootcamp ends at noon.
 
 Open access & licensing
 
-[Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
+[Danielle Steinhart](people.qmd#danielle-steinhart), University Libraries
 
 ### 10:30 am • Break  {-}
 
@@ -33,7 +33,7 @@ Open access & licensing
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Early career panel ([Almeida](people.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky)) | | |
+| Early career panel ([Almeida](people.qmd#carlos-freitas-almeida), [Hallisky](people.qmd#kyle-hallisky)) | | |
 | Open access high performance computing ([Brown](people.qmd#carrie-brown)) | | |
 
 ### 11:45 am • Community Dialogue {-}

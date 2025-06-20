@@ -178,80 +178,13 @@
     ]
   },
   {
-    "objectID": "presenters.html",
-    "href": "presenters.html",
-    "title": "Presenters",
-    "section": "",
-    "text": "Kyle Hallisky",
+    "objectID": "people.html#presenters",
+    "href": "people.html#presenters",
+    "title": "People",
+    "section": "Presenters",
+    "text": "Presenters\n\nKyle Hallisky\n\n\n\n\nKyle Hallisky is a graduate student in the College of Health and Human Development.\n\n\n\n\nLynda Kellam\n\n\n\n\nLynda Kellam, Ph.D. is the Snyder-Granader Director of Research Data and Digital Scholarship at the University of Pennsylvania. Previously, she was the Senior Data Librarian at the Cornell Institute for Social and Economic Research (now the Cornell Center for Social Sciences). At Cornell, she managed the CISER Data and Reproduction Archive and supported the Freedom on the Move project.\n\n\n\n\nMaurie Kelly\n\n\n\n\nMaurie Kelly, Ph.D. is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State Data Commons.\n\n\n\n\nKoraly Pérez-Edgar\n\n\n\n\nKoraly Pérez-Edgar, Ph.D. is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal Developmental Psychology.\n\n\n\n\nKimberly Petrosky\n\n\n\n\nKimberly Petrosky, J.D.\n\n\n\n\nDanielle Steinhart\n\n\n\n\nDanielle Steinhart",
     "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
-    ]
-  },
-  {
-    "objectID": "presenters.html#kyle-hallisky",
-    "href": "presenters.html#kyle-hallisky",
-    "title": "Presenters",
-    "section": "",
-    "text": "Kyle Hallisky is a graduate student in the College of Health and Human Development.",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
-    ]
-  },
-  {
-    "objectID": "presenters.html#lynda-kellam",
-    "href": "presenters.html#lynda-kellam",
-    "title": "Presenters",
-    "section": "Lynda Kellam",
-    "text": "Lynda Kellam\n\n\n\n\nLynda Kellam, Ph.D. is the Snyder-Granader Director of Research Data and Digital Scholarship at the University of Pennsylvania. Previously, she was the Senior Data Librarian at the Cornell Institute for Social and Economic Research (now the Cornell Center for Social Sciences). At Cornell, she managed the CISER Data and Reproduction Archive and supported the Freedom on the Move project.",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
-    ]
-  },
-  {
-    "objectID": "presenters.html#maurie-kelly",
-    "href": "presenters.html#maurie-kelly",
-    "title": "Presenters",
-    "section": "Maurie Kelly",
-    "text": "Maurie Kelly\n\n\n\n\nMaurie Kelly, Ph.D. is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State Data Commons.",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
-    ]
-  },
-  {
-    "objectID": "presenters.html#koraly-pérez-edgar",
-    "href": "presenters.html#koraly-pérez-edgar",
-    "title": "Presenters",
-    "section": "Koraly Pérez-Edgar",
-    "text": "Koraly Pérez-Edgar\n\n\n\n\nKoraly Pérez-Edgar, Ph.D. is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal Developmental Psychology.",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
-    ]
-  },
-  {
-    "objectID": "presenters.html#kimberly-petrosky",
-    "href": "presenters.html#kimberly-petrosky",
-    "title": "Presenters",
-    "section": "Kimberly Petrosky",
-    "text": "Kimberly Petrosky\n\n\n\n\nKimberly Petrosky, J.D.",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
-    ]
-  },
-  {
-    "objectID": "presenters.html#danielle-steinhart",
-    "href": "presenters.html#danielle-steinhart",
-    "title": "Presenters",
-    "section": "Danielle Steinhart",
-    "text": "Danielle Steinhart\n\n\n\n\nDanielle Steinhart",
-    "crumbs": [
-      "People",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Presenters</span>"
+      "People"
     ]
   },
   {
@@ -262,7 +195,7 @@
     "text": "About\nThis page provides additional information about the workshop sessions and links to presenter notes.",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -273,7 +206,7 @@
     "text": "Day 1 • Wed August 13\n\nOpen @ Penn State\nWhat initiatives and resources are available at Penn State related to open scholarship?\n\n\nWorkshop Session 1\n\nQuarto (Part I): A tool for open scholarship\nQuarto is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can a powerful tool for implementing open scholarship practices. This is the first of three workshops on Quarto.\nPresenter: Rick Gilmore\nPrerequisites: None\nSkill level: Novice\n\n\nGetting credit (Part I): Good enough data practices\nBest practices can be hard to implement, so what open science practices are both useful and “good enough” [@Wilson2017-ot] to have an impact on your work? What are the first steps you can take to make your data more FAIR [@Wilkinson2016-qr]? How can these practices improve your data lifecycle and/or pipeline (e.g., data use and re-use within and between labs)? This is the first of three workshops on Getting Credit.\nPresenter: Alaina Pearce\nPrerequisites: None\nSkill level: Novice\n\n\n\nWorkshop Session 2\n\nQuarto (Part II): Using the web\nDocuments rendered from Quarto become even more useful as a tool for open scholarship when one of the outputs is a web site. In this workshop, attendees will learn how to generate web sites and publish them using GitHub pages.\nPresenter: Rick Gilmore\nPrerequisites: Quarto (Part I) or equivalent\nSkill level: Advanced beginner\n\n\nIntro to Jupyter notebooks\n\n\nQuestionable research practices\nWhat are questionable research practices? Why are they questionable? How do we avoid them?\nPresenters: Nicole Lazar and Jennifer Valcin\nPrerequisites: None\nSkill level: Novice",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -284,7 +217,7 @@
     "text": "Day 2 • Thu August 14\n\nWorkshop Session 3\n\nGetting credit (Part II): Sharing your data\nWhere can you share data and materials? Where should you share data and materials? When can and should you share data and materials? This workshop will demonstrate how researchers can use Dataverse, the Open Science Framework (OSF), Databrary, and other data and materials repositories both to share data and materials and to re-purpose data and materials shared by others. The workshop will also discuss recent initiatives in some fields that require data and code sharing prior to the publication of an article so that statistical results and figures can be verified.\nPresenter: Alaiana Pearce\nPrerequisites: None\nSkill level: Novice\n\n\nQuarto (Part III): Reproducible research reports\nPresenter: John West\n\n\n\nWorkshop Session 4\n\nGetting credit (Part III): Data papers\nPresenter: Alaina Pearce\n\n\nLLMs with Jupyter notebooks\nPresenter: Valerie Li",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -295,7 +228,7 @@
     "text": "Day 3 • Fri August 15\n\nWorkshop Session 5\n\nWhere to start? Open science for early career researchers\nHow can early career researchers start their open science journey (Allen & Mehler, 2019; Kathawalla et al., 2021)?\nPresenters: (Carlos Frietas Almeida, Kyle Hallisky)\nPrerequisites: None\nSkill level: All\n\n\nOpen access high performance computing\nPresenter: Carrie Brown\nPrerequisites: None\nSkill level: All",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -306,7 +239,7 @@
     "text": "Penn State",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -317,7 +250,7 @@
     "text": "University Libraries\nThe Penn State University Libraries are a hub of information and training about many topics related to open science.\n\nScholarSphere\nScholarSphere is Penn State’s institutional repository for data and materials.\n\n\n\nData Commons\nData Commons is a Penn State-based data repository associated with Institutes of Energy and the Environment.\n\n\n\n\nPenn State Open Scholarship Initiative\n\nGitHub organization.\nOpen science survey protocol and results.\nR Markdown-formatted IRB application template documents.\n\n\n\nCenter for Social Data Analytics (SoDA)\n\n\nCourses\n\nPSYCH 490: The reproducibility crisis in science\n\nSpring 2023\nFall 2023\nFall 2024\n\nPSYCH 490: The psychology of data visualization",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -328,7 +261,7 @@
     "text": "Outside PSU\n\nCenter for Open Science (OSF)\nhttps://opensciency.github.io/sprint-content/\nFramework for Open and Reproducible Research Training: https://forrt.org\nhttps://nap.nationalacademies.org/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century\nCyVerse: https://foss.cyverse.org\nhttps://www.gida-global.org/care\nhttps://localcontexts.org\nDr. Alondra Nelson’s memo about open access to federally-funded research and a commentary about it.\nTyson Swetnam’s Awesome Open Science resources: https://tyson-swetnam.github.io/awesome-open-science/.",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resources</span>"
     ]
   }
 ]
