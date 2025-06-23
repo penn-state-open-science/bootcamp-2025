@@ -22,7 +22,47 @@ Visit <https://forms.gle/R6SzM4TNppGFzjEY9>.
 
 The Bootcamp would not be possible without the generosity of our sponsors:
 
-[Child Study Center (CSC)](https://csc.la.psu.edu) \
-[Institute for Computational and Data Sciences (ICDS)](https://www.icds.psu.edu) \
-[Penn State University Libraries](https://libraries.psu.edu) \
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/CSC-Graphic-Multicolor.png){height=75px width=75px fig-align="center"}
+:::
+::: {.column width=5%}
+:::
+::: {.column width=55%}
+[Child Study Center (CSC)](https://csc.la.psu.edu)
+:::
+::::
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/libraries.png)
+:::
+::: {.column width=5%}
+:::
+::: {.column width=55%}
+[Penn State University Libraries](https://libraries.psu.edu)
+:::
+::::
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/icds.png)
+:::
+::: {.column width=5%}
+:::
+::: {.column width=55%}
+[Institute for Computational and Data Sciences (ICDS)](https://www.icds.psu.edu) 
+:::
+::::
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/soda.png)
+:::
+::: {.column width=5%}
+:::
+::: {.column width=55%}
 [Center for Social Data Analytics (SoDA)](https://https://soda.la.psu.edu)
+:::
+::::
+
