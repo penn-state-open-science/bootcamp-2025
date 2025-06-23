@@ -12,8 +12,10 @@ book:
       - day-1.qmd
       - day-2.qmd
       - day-3.qmd
-    - part: people.qmd
+    - part: People
       chapters:
+      - directors.qmd
+      - program-committee.qmd
       - presenters.qmd
     - part: More
       chapters:

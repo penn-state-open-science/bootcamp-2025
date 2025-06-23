@@ -18,7 +18,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 ### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
 
 - [ScholarSphere](https://scholarsphere.psu.edu), [Alaina Pearce](people.qmd#alaina-pearce)
-- Big data developmental neuroscience, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
+- Big data developmental neuroscience, [Koraly Perez-Edgar](people.qmd#koraly-pérez-edgar)
 - Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu), [Nicole Lazar](people.qmd#nicole-lazar)
 - [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu), [Frank Hillary](people.qmd#frank-hillary)
 
@@ -45,7 +45,7 @@ Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wi
 | Topic | Location | Materials |
 |--------------|----------|-------|
 | Quarto (Part I): A tool for open scholarship ([Gilmore](people.qmd#rick-gilmore)) | | |
-| Getting credit (Part I): Good enough data practices ([Pearce](people.qmd#alaina-pearce)) | | |
+| Getting Credit for Sharing Your Data: Good Enough Data Management Practices ([Pearce](people.qmd#alaina-pearce)) | | |
 
 ### 02:45 pm • Break {-}
 
