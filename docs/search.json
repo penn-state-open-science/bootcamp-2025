@@ -86,7 +86,7 @@
     "href": "day-1.html#day_1_pm",
     "title": "Day 1 (Wed, Aug 13)",
     "section": "Afternoon",
-    "text": "Afternoon\n\n12:00 pm • Movie time\nScreening of “Paywall: The Business of Scholarship” and discussion\n\n\n01:30 pm • Break\n\n\n01:45 pm • Workshop session 1\n\n\n\nTopic\nLocation\nMaterials\n\n\n\n\nQuarto (Part I): A tool for open scholarship (Gilmore)\n\n\n\n\nGetting credit (Part I): Good enough data practices (Pearce)\n\n\n\n\n\n\n\n02:45 pm • Break\n\n\n03:00 pm • Workshop session 2\n\n\n\nTopic\nLocation\nMaterials\n\n\n\n\nQuarto (Part II): Using the web (Gilmore)\n\n\n\n\nIntro to Jupyter notebooks (TBD)\n\n\n\n\nQuestionable research practices (Lazar & Valcin)\n\n\n\n\n\n\n\n04:00 pm • Day 1 wrap-up\n\n\n04:15 pm • End of Day 1",
+    "text": "Afternoon\n\n12:00 pm • Movie time\nScreening of “Paywall: The Business of Scholarship” and discussion\n\n\n01:30 pm • Break\n\n\n01:45 pm • Workshop session 1\n\n\n\nTopic\nLocation\nMaterials\n\n\n\n\nQuarto (Part I): A tool for open scholarship (Gilmore)\n\n\n\n\nGetting Credit for Sharing Your Data: Good Enough Data Management Practices (Pearce)\n\n\n\n\n\n\n\n02:45 pm • Break\n\n\n03:00 pm • Workshop session 2\n\n\n\nTopic\nLocation\nMaterials\n\n\n\n\nQuarto (Part II): Using the web (Gilmore)\n\n\n\n\nIntro to Jupyter notebooks (TBD)\n\n\n\n\nQuestionable research practices (Lazar & Valcin)\n\n\n\n\n\n\n\n04:00 pm • Day 1 wrap-up\n\n\n04:15 pm • End of Day 1",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Wed, Aug 13)</span>"
@@ -154,7 +154,8 @@
     "section": "",
     "text": "Bootcamp Directors\nThis section provides biographical information about the people who make this bootcamp and other open scholarship activities at Penn State possible.",
     "crumbs": [
-      "People"
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>People</span>"
     ]
   },
   {
@@ -164,7 +165,8 @@
     "section": "",
     "text": "Rick Gilmore\n\n\n\n\nRick Gilmore is Professor of Psychology and Director of the Open Data and Developmental Science (ODDS) initiative with the Penn State Child Study Center (CSC). He co-founded and co-directs the Databrary data repository, and serves as Co-PI on the Play & Learning Across a Year (PLAY) Project. Gilmore served as inaugural director of the Penn State Social, Life, & Engineering Sciences Imaging Center. His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.\nrog1@psu.edu\n\n\n\n\nAlaina Pearce\n\n\n\n\nAlaina Pearce is Assistant Research Data Management Librarian in the University Libraries’ Data Learning Center and Director of the Cognitive Neuroscience of Eating and Obesity - CogNEATO - Lab. In her role as a Data Librarian, Dr Pearce curates data for ScholarSphere, reviews data management plans and provides expert guidance, training, and consultation on a range of topics including data management planning, active data management, reproducible research workflows using R, and data publication. As a developmental cogntiive neuroscientist, Dr. Pearce’s research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. In addition to her research interests in pediatric obesity, she is interested in advancing open science, reproducible research pipelines, and metadata standards.\nazp271@psu.edu",
     "crumbs": [
-      "People"
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>People</span>"
     ]
   },
   {
@@ -174,7 +176,8 @@
     "section": "Program Committee",
     "text": "Program Committee\n\nCarlos Freitas Almeida\n\n\n\n\nCarlos Freitas Almeida is a graduate student in Psychology at Penn State.\n\n\n\n\nCarrie Brown\n\n\n\n\nCarrie Brown is Client Support Lead with the Institute for Computational & Data Science.\ncarrie.brown@psu.edu\n\n\n\n\nBruce Desmarais\n\n\n\n\nBruce Desmarais is the DeGrandis-McCourtney Early Career Professor in Political Science, Director of the Center for Social Data Analytics, and a co-hire of the Institute for Computational and Data Sciences at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.\nbdesmarais@psu.edu\n\n\n\n\nAna Enriquez\n\n\n\n\nAna Enriquez is the Copyright Officer and Head of the Office of Scholarly Communications and Copyright at the Penn State University Libraries. A copyright lawyer by training, she teaches the university community about copyright and publishing, assists researchers in making their work freely available to the public, and supports the Libraries’ negotiations with publishers. Her research focuses on copyright, teaching copyright, and leveraging library expertise to advance the open access movement.\naee32@psu.edu\n\n\n\n\nFrank Hillary\n\n\n\n\nFrank G. Hillary is a Professor of Psychology and Neurology at Penn State. His research examines the influence of brain injury and disease on functional brain organization over the lifespan. To do so, he incorporates cognitive testing, structural and functional MRI, and network neuroscience approaches (e.g., graph theory) in his work. There is a critical need in the neuroimaging literature for open code and data sharing and convergence on accepted methods to increase scientific reliability. Because of this, over the past 5 years Dr. Hillary’s work has shifted to focus on the reproducibility of neuroimaging work in the study of brain disorders. He is the leader of an international working group, ENIGMA Brain Injury (see: https://enigma.ini.usc.edu/ongoing/enigma-tbi/), focused on genetics and neuroimaging data sharing and reproducible science.\nfgh3@psu.edu\n\n\n\n\nZülal İşcanoğlu\n\n\n\n\nZülal İşcanoğlu is a postdoctoral researcher with the Development, Risk, and Resilience Lab at Penn State.\nzmi5020@psu.edu\n\n\n\n\nNicole Lazar\n\n\n\n\nNicole Lazar is Professor and Head of the Department of Statistics at Penn State. Her research interests include the foundations of statistical inference and the analysis of functional neuroimaging data. In particular, she has worked on fundamental inferential topics such as model selection, multiple testing problems, and likelihood theory, specifically in the context of modern large-scale data analysis problems. She has done pioneering work on the statistical analysis of cognitive neuroscience data, with a focus on functional magnetic resonance imaging (fMRI). Most recently, Lazar has been involved in the application of topological data analysis methods to scientific questions of interest in psychology and climatology. These techniques are at the interface of statistics, mathematics, and computer science, and exemplify her cross-disciplinary approach to research. Lazar is the author of the book The Statistical Analysis of Functional MRI Data published by Springer. Lazar is also Co-PI on an NSF-funded project on fostering open science education for graduate students NSF-1955049 which has led to the formation of the Open Science Alliance.\nnfl5182@psu.edu\n\n\n\n\nValerie Li\n\n\n\n\nValerie Li is a graduate student in Political Science and Social Data Analytics at Penn State University. Her major area of study is Comparative Politics, with a minor area of study in Methodology. She received her B.A. in Political Science from McGill University. Her research interests are contentious politics and authoritarian politics.\n\n\n\n\nSarah Rajtmajer\n\n\n\n\nSarah Rajtmajer is Associate Professor in the College of Information Sciences and Technology at Penn State University and core faculty at Penn State’s Rock Ethics Institute. Her work leverages machine learning and mathematical modeling to understand trust and confidence in information.\nsmr48@psu.edu\n\n\n\n\nJennifer Valcin\n\n\n\n\nJennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham.\njpv5319@psu.edu\n\n\n\n\nJohn West\n\n\n\n\nJohn West is a postdoctoral researcher in the Department of Psychology.\njohnwest@psu.edu\n\n\n\n\nBriana Wham\n\n\n\n\nBriana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for ScholarSphere, Penn State’s institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.\nbde125@psu.edu",
     "crumbs": [
-      "People"
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>People</span>"
     ]
   },
   {
@@ -184,7 +187,8 @@
     "section": "Presenters",
     "text": "Presenters\n\nKyle Hallisky\n\n\n\n\nKyle Hallisky is a graduate student in the College of Health and Human Development.\n\n\n\n\nLynda Kellam\n\n\n\n\nLynda Kellam, Ph.D. is the Snyder-Granader Director of Research Data and Digital Scholarship at the University of Pennsylvania. Previously, she was the Senior Data Librarian at the Cornell Institute for Social and Economic Research (now the Cornell Center for Social Sciences). At Cornell, she managed the CISER Data and Reproduction Archive and supported the Freedom on the Move project.\n\n\n\n\nMaurie Kelly\n\n\n\n\nMaurie Kelly, Ph.D. is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State Data Commons.\n\n\n\n\nKoraly Pérez-Edgar\n\n\n\n\nKoraly Pérez-Edgar, Ph.D. is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal Developmental Psychology.\n\n\n\n\nKimberly Petrosky\n\n\n\n\nKimberly Petrosky, J.D.\n\n\n\n\nDanielle Steinhart\n\n\n\n\nDanielle Steinhart",
     "crumbs": [
-      "People"
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>People</span>"
     ]
   },
   {
@@ -195,7 +199,7 @@
     "text": "About\nThis page provides additional information about the workshop sessions and links to presenter notes.",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -206,7 +210,7 @@
     "text": "Day 1 • Wed August 13\n\nOpen @ Penn State\nWhat initiatives and resources are available at Penn State related to open scholarship?\n\n\nWorkshop Session 1\n\nQuarto (Part I): A tool for open scholarship\nQuarto is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can a powerful tool for implementing open scholarship practices. This is the first of three workshops on Quarto.\nPresenter: Rick Gilmore\nPrerequisites: None\nSkill level: Novice\n\n\nGetting credit for sharing your data (Part I): Good enough data practices\nEffective data management is key to research integrity, reproducibility, and making your data useful beyond your own project. Since most researchers have limited time to perfect their workflows, this workshop introduces ‘good enough’ data practices; simple, time-efficient strategies that lay the groundwork for sharing, publishing, and reusing data. You’ll learn how to organize your files using logical directory structures and naming conventions, keep your data tidy and consistent, track changes with version control, and create basic metadata to describe your dataset. By the end of the session, you’ll be equipped with practical tools to make your data easier to manage now and far easier to share later. This is the first of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaina Pearce\nPrerequisites: None\nSkill level: Novice\n\n\n\nWorkshop Session 2\n\nQuarto (Part II): Using the web\nDocuments rendered from Quarto become even more useful as a tool for open scholarship when one of the outputs is a web site. In this workshop, attendees will learn how to generate web sites and publish them using GitHub pages.\nPresenter: Rick Gilmore\nPrerequisites: Quarto (Part I) or equivalent\nSkill level: Advanced beginner\n\n\nIntro to Jupyter notebooks\n\n\nQuestionable research practices\nWhat are questionable research practices? Why are they questionable? How do we avoid them?\nPresenters: Nicole Lazar and Jennifer Valcin\nPrerequisites: None\nSkill level: Novice",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -217,7 +221,7 @@
     "text": "Day 2 • Thu August 14\n\nWorkshop Session 3\n\nGetting credit for sharing your data (Part II): Sharing your data\nNew funder requirements call for researchers to share their data openly — but simply uploading data files isn’t enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaiana Pearce\nPrerequisites: None\nSkill level: Novice\n\n\nQuarto (Part III): Reproducible research reports\nPresenter: John West\n\n\n\nWorkshop Session 4\n\nGetting credit for sharing your data (Part III): Data papers\nSharing data openly is a growing expectation in research but getting formal recognition for the time and effort involved is still a challenge. This workshop introduces one impactful way to gain academic credit for your data: publishing a data paper. Data papers are peer-reviewed journal articles that describe a dataset in detail—how it was collected, its structure, and its potential value for reuse. Data papers can be particularly helpful for researchers as they will: 1) add a peer-reviewed publication to your CV; 2) increase the visibility and usability of your dataset; and 3) provide a way for others to cite your data that will contribute to your citation count. In this hands-on session, we will explore the structure and purpose of data papers, walk through examples, and begin drafting key components based on your own projects. This is the third of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaina Pearce\n\n\nLLMs with Jupyter notebooks\nPresenter: Valerie Li",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -228,7 +232,7 @@
     "text": "Day 3 • Fri August 15\n\nWorkshop Session 5\n\nWhere to start? Open science for early career researchers\nHow can early career researchers start their open science journey (Allen & Mehler, 2019; Kathawalla et al., 2021)?\nPresenters: (Carlos Frietas Almeida, Kyle Hallisky)\nPrerequisites: None\nSkill level: All\n\n\nOpen access high performance computing\nPresenter: Carrie Brown\nPrerequisites: None\nSkill level: All",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Sessions</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Sessions</span>"
     ]
   },
   {
@@ -239,7 +243,7 @@
     "text": "Penn State",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -250,7 +254,7 @@
     "text": "University Libraries\nThe Penn State University Libraries are a hub of information and training about many topics related to open science.\n\nScholarSphere\nScholarSphere is Penn State’s institutional repository for data and materials.\n\n\n\nData Commons\nData Commons is a Penn State-based data repository associated with Institutes of Energy and the Environment.\n\n\n\n\nPenn State Open Scholarship Initiative\n\nGitHub organization.\nOpen science survey protocol and results.\nR Markdown-formatted IRB application template documents.\n\n\n\nCenter for Social Data Analytics (SoDA)\n\n\nCourses\n\nPSYCH 490: The reproducibility crisis in science\n\nSpring 2023\nFall 2023\nFall 2024\n\nPSYCH 490: The psychology of data visualization",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -261,7 +265,260 @@
     "text": "Outside PSU\n\nCenter for Open Science (OSF)\nhttps://opensciency.github.io/sprint-content/\nFramework for Open and Reproducible Research Training: https://forrt.org\nhttps://nap.nationalacademies.org/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century\nCyVerse: https://foss.cyverse.org\nhttps://www.gida-global.org/care\nhttps://localcontexts.org\nDr. Alondra Nelson’s memo about open access to federally-funded research and a commentary about it.\nTyson Swetnam’s Awesome Open Science resources: https://tyson-swetnam.github.io/awesome-open-science/.",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "directors.html",
+    "href": "directors.html",
+    "title": "Bootcamp directors",
+    "section": "",
+    "text": "Rick Gilmore",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bootcamp directors</span>"
+    ]
+  },
+  {
+    "objectID": "directors.html#rick-gilmore",
+    "href": "directors.html#rick-gilmore",
+    "title": "Bootcamp directors",
+    "section": "",
+    "text": "Rick Gilmore is Professor of Psychology and Director of the Open Data and Developmental Science (ODDS) initiative with the Penn State Child Study Center (CSC). He co-founded and co-directs the Databrary data repository, and serves as Co-PI on the Play & Learning Across a Year (PLAY) Project. Gilmore served as inaugural director of the Penn State Social, Life, & Engineering Sciences Imaging Center. His research examines the development of perception and action in infants, children, and adults using behavioral, neural, and computational methods. He teaches graduate and undergraduate courses in neuroscience, developmental psychology, and open science.\nrog1@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bootcamp directors</span>"
+    ]
+  },
+  {
+    "objectID": "directors.html#alaina-pearce",
+    "href": "directors.html#alaina-pearce",
+    "title": "Bootcamp directors",
+    "section": "Alaina Pearce",
+    "text": "Alaina Pearce\n\n\n\n\nAlaina Pearce is Assistant Research Data Management Librarian in the University Libraries’ Data Learning Center and Director of the Cognitive Neuroscience of Eating and Obesity - CogNEATO - Lab. In her role as a Data Librarian, Dr Pearce curates data for ScholarSphere, reviews data management plans and provides expert guidance, training, and consultation on a range of topics including data management planning, active data management, reproducible research workflows using R, and data publication. As a developmental cogntiive neuroscientist, Dr. Pearce’s research interests center on understanding on the reciprocal association between neurocognitive functioning and pediatric obesity. In addition to her research interests in pediatric obesity, she is interested in advancing open science, reproducible research pipelines, and metadata standards.\nazp271@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bootcamp directors</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html",
+    "href": "presenters.html",
+    "title": "Presenters",
+    "section": "",
+    "text": "Kyle Hallisky",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#kyle-hallisky",
+    "href": "presenters.html#kyle-hallisky",
+    "title": "Presenters",
+    "section": "",
+    "text": "Kyle Hallisky is a graduate student in the College of Health and Human Development.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#lynda-kellam",
+    "href": "presenters.html#lynda-kellam",
+    "title": "Presenters",
+    "section": "Lynda Kellam",
+    "text": "Lynda Kellam\n\n\n\n\nLynda Kellam, Ph.D. is the Snyder-Granader Director of Research Data and Digital Scholarship at the University of Pennsylvania. Previously, she was the Senior Data Librarian at the Cornell Institute for Social and Economic Research (now the Cornell Center for Social Sciences). At Cornell, she managed the CISER Data and Reproduction Archive and supported the Freedom on the Move project.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#maurie-kelly",
+    "href": "presenters.html#maurie-kelly",
+    "title": "Presenters",
+    "section": "Maurie Kelly",
+    "text": "Maurie Kelly\n\n\n\n\nMaurie Kelly, Ph.D. is Director of the Pennsylvania Spatial Data Access program, an instructor in the Smeal School of Business and the College of Information Science and Technology, and Director of the Penn State Data Commons.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#koraly-pérez-edgar",
+    "href": "presenters.html#koraly-pérez-edgar",
+    "title": "Presenters",
+    "section": "Koraly Pérez-Edgar",
+    "text": "Koraly Pérez-Edgar\n\n\n\n\nKoraly Pérez-Edgar, Ph.D. is a McCourtney Professor of Child Studies and Professor of Psychology at the Pennsylvania State University. She is Editor-in-Chief of the journal Developmental Psychology.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#kimberly-petrosky",
+    "href": "presenters.html#kimberly-petrosky",
+    "title": "Presenters",
+    "section": "Kimberly Petrosky",
+    "text": "Kimberly Petrosky\n\n\n\n\nKimberly Petrosky, J.D.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "presenters.html#danielle-steinhart",
+    "href": "presenters.html#danielle-steinhart",
+    "title": "Presenters",
+    "section": "Danielle Steinhart",
+    "text": "Danielle Steinhart\n\n\n\n\nDanielle Steinhart",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Presenters</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html",
+    "href": "program-committee.html",
+    "title": "Program Committee",
+    "section": "",
+    "text": "Carlos Freitas Almeida",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#carlos-freitas-almeida",
+    "href": "program-committee.html#carlos-freitas-almeida",
+    "title": "Program Committee",
+    "section": "",
+    "text": "Carlos Freitas Almeida is a graduate student in Psychology at Penn State.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#carrie-brown",
+    "href": "program-committee.html#carrie-brown",
+    "title": "Program Committee",
+    "section": "Carrie Brown",
+    "text": "Carrie Brown\n\n\n\n\nCarrie Brown is Client Support Lead with the Institute for Computational & Data Science.\ncarrie.brown@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#bruce-desmarais",
+    "href": "program-committee.html#bruce-desmarais",
+    "title": "Program Committee",
+    "section": "Bruce Desmarais",
+    "text": "Bruce Desmarais\n\n\n\n\nBruce Desmarais is the DeGrandis-McCourtney Early Career Professor in Political Science, Director of the Center for Social Data Analytics, and a co-hire of the Institute for Computational and Data Sciences at Penn State University. His research is focused on methodological development and applications that further our understanding of the complex interdependence that underlies politics and public policy. Methodologically, he focuses on methods for modeling networks, analyzing text, and running experiments on social systems. Primary application areas of interest to Bruce include public policy diffusion and digital communications involving political elites.\nbdesmarais@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#ana-enriquez",
+    "href": "program-committee.html#ana-enriquez",
+    "title": "Program Committee",
+    "section": "Ana Enriquez",
+    "text": "Ana Enriquez\n\n\n\n\nAna Enriquez is the Copyright Officer and Head of the Office of Scholarly Communications and Copyright at the Penn State University Libraries. A copyright lawyer by training, she teaches the university community about copyright and publishing, assists researchers in making their work freely available to the public, and supports the Libraries’ negotiations with publishers. Her research focuses on copyright, teaching copyright, and leveraging library expertise to advance the open access movement.\naee32@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#frank-hillary",
+    "href": "program-committee.html#frank-hillary",
+    "title": "Program Committee",
+    "section": "Frank Hillary",
+    "text": "Frank Hillary\n\n\n\n\nFrank G. Hillary is a Professor of Psychology and Neurology at Penn State. His research examines the influence of brain injury and disease on functional brain organization over the lifespan. To do so, he incorporates cognitive testing, structural and functional MRI, and network neuroscience approaches (e.g., graph theory) in his work. There is a critical need in the neuroimaging literature for open code and data sharing and convergence on accepted methods to increase scientific reliability. Because of this, over the past 5 years Dr. Hillary’s work has shifted to focus on the reproducibility of neuroimaging work in the study of brain disorders. He is the leader of an international working group, ENIGMA Brain Injury (see: https://enigma.ini.usc.edu/ongoing/enigma-tbi/), focused on genetics and neuroimaging data sharing and reproducible science.\nfgh3@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#zülal-işcanoğlu",
+    "href": "program-committee.html#zülal-işcanoğlu",
+    "title": "Program Committee",
+    "section": "Zülal İşcanoğlu",
+    "text": "Zülal İşcanoğlu\n\n\n\n\nZülal İşcanoğlu is a postdoctoral researcher with the Development, Risk, and Resilience Lab at Penn State.\nzmi5020@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#nicole-lazar",
+    "href": "program-committee.html#nicole-lazar",
+    "title": "Program Committee",
+    "section": "Nicole Lazar",
+    "text": "Nicole Lazar\n\n\n\n\nNicole Lazar is Professor and Head of the Department of Statistics at Penn State. Her research interests include the foundations of statistical inference and the analysis of functional neuroimaging data. In particular, she has worked on fundamental inferential topics such as model selection, multiple testing problems, and likelihood theory, specifically in the context of modern large-scale data analysis problems. She has done pioneering work on the statistical analysis of cognitive neuroscience data, with a focus on functional magnetic resonance imaging (fMRI). Most recently, Lazar has been involved in the application of topological data analysis methods to scientific questions of interest in psychology and climatology. These techniques are at the interface of statistics, mathematics, and computer science, and exemplify her cross-disciplinary approach to research. Lazar is the author of the book The Statistical Analysis of Functional MRI Data published by Springer. Lazar is also Co-PI on an NSF-funded project on fostering open science education for graduate students NSF-1955049 which has led to the formation of the Open Science Alliance.\nnfl5182@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#valerie-li",
+    "href": "program-committee.html#valerie-li",
+    "title": "Program Committee",
+    "section": "Valerie Li",
+    "text": "Valerie Li\n\n\n\n\nValerie Li is a graduate student in Political Science and Social Data Analytics at Penn State University. Her major area of study is Comparative Politics, with a minor area of study in Methodology. She received her B.A. in Political Science from McGill University. Her research interests are contentious politics and authoritarian politics.",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#sarah-rajtmajer",
+    "href": "program-committee.html#sarah-rajtmajer",
+    "title": "Program Committee",
+    "section": "Sarah Rajtmajer",
+    "text": "Sarah Rajtmajer\n\n\n\n\nSarah Rajtmajer is Associate Professor in the College of Information Sciences and Technology at Penn State University and core faculty at Penn State’s Rock Ethics Institute. Her work leverages machine learning and mathematical modeling to understand trust and confidence in information.\nsmr48@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#jennifer-valcin",
+    "href": "program-committee.html#jennifer-valcin",
+    "title": "Program Committee",
+    "section": "Jennifer Valcin",
+    "text": "Jennifer Valcin\n\n\n\n\nJennifer Valcin is a Statistical Data Analyst at the Penn State University Libraries. Dr. Valcin conducts individual consultations, workshops, and small group trainings to support researchers in the PSU community with data analysis planning and quantitative statistical methods using various software. Prior to joining Penn State University Libraries, she received her Ph.D. in Biomedical Sciences with a focus in Genetics, Genomics, and Bioinformatics from the University of Alabama at Birmingham.\njpv5319@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#john-west",
+    "href": "program-committee.html#john-west",
+    "title": "Program Committee",
+    "section": "John West",
+    "text": "John West\n\n\n\n\nJohn West is a postdoctoral researcher in the Department of Psychology.\njohnwest@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
+    ]
+  },
+  {
+    "objectID": "program-committee.html#briana-wham",
+    "href": "program-committee.html#briana-wham",
+    "title": "Program Committee",
+    "section": "Briana Wham",
+    "text": "Briana Wham\n\n\n\n\nBriana Ezray Wham is Research Data Librarian – STEM at the Penn State University Libraries. Dr. Wham conducts data management plan reviews and provides guidance, training, and consulting services for data management planning, active data management, reproducible research workflows using R, data visualization, data publication, as well as ORCiD integration and utility. She also works as one of the data curators for ScholarSphere, Penn State’s institutional repository. Prior to joining Penn State University Libraries, Briana received her Ph.D. in Entomology from Penn State, where she studied aspects of ecology, evolution, and conservation of bee communities. Briana’s interests include open science, museum collection digitization, and bee conservation.\nbde125@psu.edu",
+    "crumbs": [
+      "People",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Program Committee</span>"
     ]
   }
 ]

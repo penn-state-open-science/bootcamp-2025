@@ -24,7 +24,7 @@ The Bootcamp would not be possible without the generosity of our sponsors:
 
 :::: {.columns}
 ::: {.column width=40%}
-![](include/img/CSC-Graphic-Multicolor.png){height=75px width=75px fig-align="center"}
+![](include/img/CSC-Graphic-Multicolor.png){height=90px width=90px fig-align="center"}
 :::
 ::: {.column width=5%}
 :::
