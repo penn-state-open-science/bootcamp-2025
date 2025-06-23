@@ -135,10 +135,10 @@ nfl5182@psu.edu</br></br>
 
 :::: {.columns}
 ::: {.column width=40%}
-![](include/img/li-valerie.jpeg){width=200px height=200px}
+![](include/img/li-avatar.jpg){width=200px height=200px} 
 :::
 ::: {.column width=60%}
-Valerie Li is a graduate student in Political Science at Penn State University. Her major area of study is Comparative Politics, with a minor area of study in Methodology. She received her B.A. in Political Science from McGill University. Her research interests are contentious politics and authoritarian politics.
+Valerie Li is a graduate student in Political Science and Social Data Analytics at Penn State University. Her major area of study is Comparative Politics, with a minor area of study in Methodology. She received her B.A. in Political Science from McGill University. Her research interests are contentious politics and authoritarian politics.
 :::
 ::::
 

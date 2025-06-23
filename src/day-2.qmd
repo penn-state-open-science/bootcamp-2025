@@ -18,25 +18,15 @@ format: html
 
 Panel discussion on ethical considerations for open scholarship 
 
-- [Kimberly Petrosky](presenters.qmd#kimberly-petrosky), Penn State Office of Research Protections
+- [Kimberly Petrosky](people.qmd#kimberly-petrosky), Penn State Office of Research Protections
+- [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST & Rock Ethics Institute
 - [Nicole Lazar](people.qmd#nicole-lazar), Department of Statistics (Moderator)
-
-<!-- | [Data management: Policies](#howto_data_management_policies) | 102 Marriott Fdn Bldg | [Slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
-<!-- | [Responsible & robust research](#howto_responsible_research) | 115 Keller Bldg | [PDF Slides](pdf/Responsible and Robust Research_Open Science Bootcamp.pdf) | -->
 
 ### 10:30 am • Break (15 min) {-}
 
 ### 10:45 am • Keynote • Foster Auditorium^[102 Paterno Library] {- #day_2_plenary_2}
 
 [Lynda Kellam](presenters.qmd#lynda-kellam), [Data Rescue Project](https://www.datarescueproject.org)
-
-<!-- | Topic | Location | Materials | -->
-<!-- |--------------|----------|-------| -->
-<!-- | | | | -->
-
-<!-- | [Reproducible workflows with R Markdown & Quarto](#howto_rmarkdown) | 102 Marriott Fdn Bldg |  [HTML Slides](https://penn-state-open-science.github.io/bootcamp-2023-rmarkdown-quarto/) | -->
-<!-- | [Replication studies](#howto_replication) | 115 Keller Bldg | [PDF Slides](pdf/OpenScienceBootcamp2023_McManus.pdf) | -->
-<!-- | [Preregistration](#howto_preregistration) | Library Marriott Fdn Bldg | [PDF Slides](pdf/PennState_Open_Sci_Boot_Pre_Reg_8_8_23.pdf) | -->
 
 ### 11:45 am • Lunch break (90 min) {-}
 
@@ -48,9 +38,6 @@ Panel discussion on ethical considerations for open scholarship
 |--------------|----------|-------|
 | Getting credit (Part II): Sharing your data ([Pearce](people.qmd#alaina-pearce)) | | |
 | Quarto (Part III): Reproducible research reports ([West](people.qmd#john-west)) | | | 
-
-<!-- | [Data management: Practicalities](#howto_data_management_practical) | 102 Marriott Fdn Bldg | [PDF slides](pdf/2023_OpenScienceBootcamp-DataManagement.pdf) | -->
-<!-- | [Open science for early career researchers](#howto_early_career) | 115 Keller Bldg | [PDF Slides](pdf/open_sci_for_early_research_careers_2023.pdf) | -->
 
 ### 02:15 pm • Break (30 min) {-}
 
