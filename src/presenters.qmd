@@ -58,7 +58,7 @@ Kyle Hallisky is a graduate student in the College of Health and Human Developme
 ![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Kimberly Petrosky, J.D. 
+[Kimberly Petrosky, J.D.](https://researchsupport.psu.edu/orp-staff/kim-petrosky/) is Senior Research Integrity Analyst with the Penn State [Office for Research Protections (ORP)](https://researchsupport.psu.edu/orp/).
 :::
 ::::
 
@@ -69,6 +69,6 @@ Kimberly Petrosky, J.D.
 ![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Danielle Steinhart
+[Danielle Steinhart](https://libraries.psu.edu/directory/djs7648) is Copyright Specialist in the [Office of Scholarly Communications and Copyright](https://libraries.psu.edu/about/departments/office-scholarly-communications-and-copyright) in the [Penn State University Libraries](https://libraries.psu.edu).
 :::
 ::::

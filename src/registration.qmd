@@ -61,12 +61,13 @@ names(registrations)
 Google Forms conveniently returns the questions as variable names at the top of each column. These are handy for creating a data dictionary, but awkward for data processing. We rename these for our convenience. We also export a data dictionary.
 
 ```{r}
+#| label: tbl-data-dictionary
 reqistrations_qs <- names(registrations)
 
 registrations_clean <- registrations |>
   dplyr::rename(
     timestamp = "Timestamp",
-    registered = "Which days of the bootcamp will you attend?",
+    attend_days = "Which days of the bootcamp will you attend?",
     name = "What is your name?",
     psu_email = "Email Address",
     dept = "What is your department or unit?",
@@ -80,8 +81,9 @@ registrations_short <- c("timestamp",
                          "name",
                          "dept",
                          "position",
-                         "comments")
-registrations_pid <- c(FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE)
+                         "comments",
+                         "presenter")
+registrations_pid <- c(FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE, FALSE)
 
 registrations_dd <- data.frame(qs = reqistrations_qs, qs_short = registrations_short, pid = registrations_pid)
 
@@ -91,9 +93,12 @@ registrations_dd |>
 readr::write_csv(registrations_dd, file = file.path(params$csv_dir, "registrations-2025-data-dict.csv"))
 ```
 
+Last, we convert the text dates into date/time objects and created a new `registered` variable.
+
 ```{r}
 registrations_clean <- registrations_clean |>
-  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
+  dplyr::mutate(registered = !is.na(attend_days))
 ```
 
 ## Visualize
@@ -102,37 +107,149 @@ registrations_clean <- registrations_clean |>
 
 ```{r}
 registrations_yes <- registrations_clean |> 
-  dplyr::filter(registered == "Yes") |>
-  dplyr::mutate(registered = tolower(registered))
+  dplyr::mutate(registered = TRUE)
 ```
 
 As of `r Sys.time()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$.
 
-### Time series {-}
+<!-- ### Time series {-} -->
 
-```{r registrations-timeseries, fig.cap = "Time series of registrations"}
-registrations_clean |>
-  dplyr::mutate(resp_index = seq_along(timestamp)) |>
-  ggplot() +
-  aes(x = timestamp, y = resp_index) +
-  geom_point() +
-  geom_line() +
-  # facet_grid(~ registered) +
-  theme(axis.text.x = element_text(angle = 90)) +
-  labs(x = NULL, y = 'n registrations') +
-  ylim(0, 5) +
-  scale_color_manual(breaks = c("No", "Yes"),
-                        values=c("red", "green")) +
-  theme(legend.position = "none")
-```
+<!-- ```{r registrations-timeseries, fig.cap = "Time series of registrations"} -->
+<!-- registrations_clean |> -->
+<!--   dplyr::mutate(resp_index = seq_along(timestamp)) |> -->
+<!--   ggplot() + -->
+<!--   aes(x = timestamp, y = resp_index) + -->
+<!--   geom_point() + -->
+<!--   geom_line() + -->
+<!--   # facet_grid(~ registered) + -->
+<!--   theme(axis.text.x = element_text(angle = 90)) + -->
+<!--   labs(x = NULL, y = 'n registrations') + -->
+<!--   ylim(0, 20) + -->
+<!--   scale_color_manual(breaks = c("No", "Yes"), -->
+<!--                         values=c("red", "green")) + -->
+<!--   theme(legend.position = "none") -->
+<!-- ``` -->
 
-### Attendees by day
+### Registrant attendance plans by day
 
 ```{r}
+#| label: tbl-registration-by-day
 registrations_clean |>
-  dplyr::mutate(attend_wed = stringr::str_detect(attend_days, "Wed"),
-                attend_thu = stringr::str_detect(attend_days, "Thu"),
-                attend_fri = stringr::str_detect(attend_days, "Fri"))
-  
+  dplyr::mutate(plan_wed = stringr::str_detect(attend_days, "Wed"),
+                plan_thu = stringr::str_detect(attend_days, "Thu"),
+                plan_fri = stringr::str_detect(attend_days, "Fri")) |>
+  dplyr::mutate(n_wed = sum(plan_wed),
+                n_thu = sum(plan_thu),
+                n_fri = sum(plan_fri)) |>
+  dplyr::select(n_wed, n_thu, n_fri) |>
+  dplyr::distinct() |>
+  knitr::kable(format = "html") |>
+  kableExtra::kable_classic()
 ```
 
+## Registrants by position
+
+```{r}
+#| label: fig-by-position
+#| fig-cap: "Registrations vs. attendees by day and position"
+registrations_yes |>
+  dplyr::filter(!is.na(position)) |>
+  ggplot() +
+  aes(x = position, fill = position) +
+  geom_bar() +
+  # facet_grid(registered_attended ~ .) +
+  theme(legend.position = "none") +
+  coord_flip()
+```
+
+### Registrants by unit
+
+```{r by-dept}
+registrations_yes <- registrations_yes |>
+  dplyr::mutate(
+    dept = dplyr::recode(
+      dept,
+      `Clinical Psychology` = "Psychology",
+      `Psychology (Cognitive)` = "Psychology",
+      `Psychology / SSRI` = "Psychology",
+      `Department of Psychology` = "Psychology",
+      `Cognitive Psychology` = "Psychology",
+      `Psych` = "Psychology",
+      `English language` = "English",
+      `english` = "English",
+      `English Language Teaching` = "English",
+      `English Department` = "English",
+      `Languages` = "Global Languages & Literatures",
+      `Languages and Literature` = "Global Languages & Literatures",
+      `Department of Foreign Languages` = "Global Languages & Literatures",
+      `Linguistics` = "Applied Linguistics",
+      `Human Development and Family Studies & Social Data Analytics` = "HDFS",
+      `Human Development and Family Studies` = "HDFS",
+      `Department of Human Development and Family Studies` = "HDFS",
+      `HDFS/DEMO` = "HDFS",
+      `RPTM` = "Recreation, Park, & Tourism Management",
+      `Sociology and Social Data Analytics` = "Sociology",
+      `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
+      `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
+      `Nutrition` = "Nutritional Sciences",
+      `College of IST` = "IST",
+      `Statistics Department` = "Statistics",
+      `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
+      `SHS` = "Student Health Svcs",
+      `ESM` = "Engineering Science & Mechanics",
+      `Engineering Science` = "Engineering Science & Mechanics",
+      `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
+      `Department of Food Science` = "Food Science"
+    )
+  ) |> 
+  dplyr::mutate(
+    college = case_match(
+      dept,
+      "Statistics" ~ "ECoS",
+      "Biology" ~ "ECoS",
+      "Psychology" ~ "CLA",
+      "Spanish, Italian, & Portuguese" ~ "CLA",
+      "Research Informatics and Publishing" ~ "Libraries",
+      "Political Science" ~ "CLA",
+      "Applied Linguistics" ~ "CLA",
+      "Global Languages & Literatures" ~ "CLA",
+      "Sociology" ~ "CLA",
+      "English" ~ "CLA",
+      "C-SoDA" ~ "CLA",
+      "Office of Digital Pedagogies and Initiatives" ~ "CLA",
+      "Asian Studies" ~ "CLA",
+      "IST" ~ "IST",
+      "Chemical Engineering" ~ "Engineering",
+      "Material Science and Engineering" ~ "Engineering",
+      "Engineering Science & Mechanics" ~ "Engineering",
+      "Biomedical Engineering" ~ "Engineering",
+      "Nutritional Sciences" ~ "HHD",
+      "HDFS" ~ "HHD",
+      "Kinesiology" ~ "HHD",
+      "Recreation, Park, & Tourism Management" ~ "HHD",
+      "Bellisario College of Communication" ~ "Comm",
+      "Marketing" ~ "Smeal",
+      "Food Science" ~ "Ag",
+      "Neuroscience" ~ "Med",
+      "College of Human and Health Development" ~ "HHD",
+      "University Libraries" ~ "Libraries"
+    ),
+    .default = "Unknown",
+    .missing = "Unknown"
+  )
+```
+
+```{r}
+#| label: fig-regis-dept-coll
+#| fig-cap: "Registrations by department and college"
+registrations_yes |>
+  dplyr::filter(!is.na(dept),
+                dept != "University of Pennsylvania") |>
+  ggplot() +
+  aes(x = dept, fill = college) +
+  geom_bar() +
+  theme(legend.position = "bottom") +
+  theme(legend.title = element_blank()) +
+  coord_flip()
+```
