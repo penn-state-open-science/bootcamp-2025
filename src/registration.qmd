@@ -1,0 +1,138 @@
+---
+title: Registration
+code-fold: true
+params:
+    csv_dir: "include/csv"
+    sheets_fn: "Open Scholarship Bootcamp 2025: Registration (Responses)"
+---
+
+## About
+
+This page documents and implements the data processing workflow for bootcamp registration.
+
+## Setup
+
+We load some packages into memory for convenience.
+
+```{r include=FALSE}
+library('tidyverse')
+library('ggplot2')
+library('dplyr')
+library('tidyr')
+library('stringr')
+library('lubridate')
+```
+
+## Import
+
+The Google Form generates a Google Sheet that we download to a protected directory (`include/csv`) that is *not* synched to GitHub.
+
+```{r}
+#| label: import data
+#| message: false
+#| 
+if (!dir.exists(params$csv_dir)) {
+  message("Creating missing `include/csv/`.")
+  dir.create(params$csv_dir)
+}
+
+options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+googledrive::drive_auth()
+
+googledrive::drive_download(
+  params$sheets_fn,
+  path = file.path(params$csv_dir, "registrations-2025.csv"),
+  type = "csv",
+  overwrite = TRUE
+)
+```
+
+## Clean
+
+We reimport the saved CSV file and then clean it.
+
+```{r}
+registrations <- readr::read_csv(file.path(params$csv_dir, "registrations-2025.csv"),
+                                 show_col_types = FALSE)
+
+names(registrations)
+```
+
+Google Forms conveniently returns the questions as variable names at the top of each column. These are handy for creating a data dictionary, but awkward for data processing. We rename these for our convenience. We also export a data dictionary.
+
+```{r}
+reqistrations_qs <- names(registrations)
+
+registrations_clean <- registrations |>
+  dplyr::rename(
+    timestamp = "Timestamp",
+    registered = "Which days of the bootcamp will you attend?",
+    name = "What is your name?",
+    psu_email = "Email Address",
+    dept = "What is your department or unit?",
+    position = "What is your current position?",
+    comments = "Any comments?"
+  )
+
+registrations_short <- c("timestamp",
+                         "psu_email",
+                         "attend_days",
+                         "name",
+                         "dept",
+                         "position",
+                         "comments")
+registrations_pid <- c(FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE)
+
+registrations_dd <- data.frame(qs = reqistrations_qs, qs_short = registrations_short, pid = registrations_pid)
+
+registrations_dd |>
+  knitr::kable(format = 'html')
+
+readr::write_csv(registrations_dd, file = file.path(params$csv_dir, "registrations-2025-data-dict.csv"))
+```
+
+```{r}
+registrations_clean <- registrations_clean |>
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
+```
+
+## Visualize
+
+### Registration numbers {-}
+
+```{r}
+registrations_yes <- registrations_clean |> 
+  dplyr::filter(registered == "Yes") |>
+  dplyr::mutate(registered = tolower(registered))
+```
+
+As of `r Sys.time()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$.
+
+### Time series {-}
+
+```{r registrations-timeseries, fig.cap = "Time series of registrations"}
+registrations_clean |>
+  dplyr::mutate(resp_index = seq_along(timestamp)) |>
+  ggplot() +
+  aes(x = timestamp, y = resp_index) +
+  geom_point() +
+  geom_line() +
+  # facet_grid(~ registered) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x = NULL, y = 'n registrations') +
+  ylim(0, 5) +
+  scale_color_manual(breaks = c("No", "Yes"),
+                        values=c("red", "green")) +
+  theme(legend.position = "none")
+```
+
+### Attendees by day
+
+```{r}
+registrations_clean |>
+  dplyr::mutate(attend_wed = stringr::str_detect(attend_days, "Wed"),
+                attend_thu = stringr::str_detect(attend_days, "Thu"),
+                attend_fri = stringr::str_detect(attend_days, "Fri"))
+  
+```
+
