@@ -19,13 +19,14 @@ The Bootcamp ends at noon.
 
 ### 09:05 am • Open @ Penn State
 
-- Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](people.qmd#rick-gilmore)
+- Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu), [Nicole Lazar](program-committee.qmd#nicole-lazar)
+- Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](directors.qmd#rick-gilmore)
 
 ### 09:30 am • Keynote {-}
 
-Open access & licensing
+#### Open access & licensing
 
-[Danielle Steinhart](people.qmd#danielle-steinhart), University Libraries
+[Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
 
 ### 10:30 am • Break  {-}
 
@@ -33,8 +34,8 @@ Open access & licensing
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Early career panel ([Almeida](people.qmd#carlos-freitas-almeida), [Hallisky](people.qmd#kyle-hallisky)) | | |
-| Open access high performance computing ([Brown](people.qmd#carrie-brown)) | | |
+| Early career panel ([Almeida](program-committee.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky)) | | |
+| Open access high performance computing ([Brown](program-committee.qmd#carrie-brown)) | | |
 
 ### 11:45 am • Community Dialogue {-}
 
