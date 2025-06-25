@@ -62,7 +62,19 @@ The Bootcamp would not be possible without the generosity of our sponsors:
 ::: {.column width=5%}
 :::
 ::: {.column width=55%}
-[Center for Social Data Analytics (SoDA)](https://https://soda.la.psu.edu)
+[Center for Social Data Analytics (SoDA)](https://soda.la.psu.edu)
+:::
+::::
+
+
+:::: {.columns}
+::: {.column width=40%}
+![](include/img/statistics-dept.png)
+:::
+::: {.column width=5%}
+:::
+::: {.column width=55%}
+[Department of Statistics](https://science.psu.edu/stat)
 :::
 ::::
 
