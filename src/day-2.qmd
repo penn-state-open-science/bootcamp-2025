@@ -28,7 +28,13 @@ Panel discussion on ethical considerations for open scholarship
 
 #### Data Rescue Project
 
+<<<<<<< HEAD
 [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
+=======
+**"Rescuing and Preserving Public Data: The Data Rescue Project"**
+
+[Lynda Kellam](presenters.qmd#lynda-kellam), [Data Rescue Project](https://www.datarescueproject.org)
+>>>>>>> d32ca40 (changes moved to .qmd)
 
 ::: {.callout-important}
 ## Location
