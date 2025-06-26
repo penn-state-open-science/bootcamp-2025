@@ -3,6 +3,8 @@ title: "Home"
 format: html
 ---
 
+![](include/img/banner.png)
+
 ## About
 
 This site documents and describes the 2025 Open Scholarship Bootcamp to be held at Pattee and Paterno Library on the University Park campus of [the Pennsylvania State University](https://www.psu.edu) Wednesday, August 13 through Friday, August 15, 2025.

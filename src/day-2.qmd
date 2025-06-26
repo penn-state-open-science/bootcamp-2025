@@ -5,7 +5,7 @@ format: html
 
 ## Morning {- #day_2_am}
 
-### 08:30 am • Coffee {-}
+### 08:30 am • Breakfast {-}
 
 ### 09:00 am • Welcome to Day 2 {-}
 
@@ -22,13 +22,19 @@ Panel discussion on ethical considerations for open scholarship
 - [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), College of IST & Rock Ethics Institute
 - [Nicole Lazar](program-committee.qmd#nicole-lazar), Department of Statistics (Moderator)
 
-### 10:30 am • Break (15 min) {-}
+### 10:30 am • Break {-}
 
-### 10:45 am • Keynote • Foster Auditorium (102 Paterno Library) {- #day_2_plenary_2}
+### 10:45 am • Keynote {- #day_2_plenary_2}
 
 #### Data Rescue Project
 
 [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
+
+::: {.callout-important}
+## Location
+
+Foster Auditorium (102 Paterno Library)
+:::
 
 ### 11:45 am • Lunch break (90 min) {-}
 

@@ -8,12 +8,7 @@ format: html
 The Bootcamp ends at noon.
 :::
 
-<!-- ::: {.callout-important} -->
-<!-- ### Theme -->
-<!-- Open science @ Penn State: Next steps -->
-<!-- ::: -->
-
-### 08:30 am • Coffee {-}
+### 08:30 am • Breakfast {-}
 
 ### 09:00 am • Welcome to Day 3 {-}
 
@@ -22,7 +17,7 @@ The Bootcamp ends at noon.
 - Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu), [Nicole Lazar](program-committee.qmd#nicole-lazar)
 - Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](directors.qmd#rick-gilmore)
 
-### 09:30 am • Keynote {-}
+### 09:30 am • Plenary {-}
 
 #### Open access & licensing
 
