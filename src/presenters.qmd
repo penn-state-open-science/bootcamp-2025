@@ -93,8 +93,7 @@ Valerie Li is a graduate student in Political Science at Penn State University. 
 
 :::: {.columns}
 ::: {.column width=50%}
-<<<<<<< HEAD
-![](include/img/petrosky-kim.png){width=200px height=200px}
+![](include/img/petrosky-kimberly.jpeg){width=200px height=200px}
 :::
 ::: {.column width=50%}
 [Kimberly Petrosky, J.D.](https://researchsupport.psu.edu/orp-staff/kim-petrosky/) is a Senior Research Integrity Analyst in the Office for Research Protections. Prior to joining the ORP in 2015, she was an associate attorney with Delafield, McGee, Jones & Kauffman, P.C., and later served as a judicial law clerk for the Centre County Court of Common Pleas.
@@ -110,12 +109,6 @@ Valerie Li is a graduate student in Political Science at Penn State University. 
 :::
 ::: {.column width=50%}
 [John Russell](https://chi.la.psu.edu/people/john-russell/) is an Assistant Professor in the University Libraries responsible for supporting digital scholarship. Prior to coming to Penn State, John was the Scholarly Communication Librarian at the University of Oregon, where he supported open access, digital initiatives, and regularly taught a graduate course on digital scholarship methods. John teaches the online course "Introduction to Digital Humanities for Librarians" for Library Juice Academy, and is also a Contributing Editor for the dh+lib website.
-=======
-![](include/img/petrosky-kimberly.jpeg){width=200px height=200px}
-:::
-::: {.column width=50%}
-Kimberly Petrosky, J.D. is a Senior Research Integrity Analyst in the Office for Research Protections. Prior to joining the ORP in 2015, she was an associate attorney with Delafield, McGee, Jones & Kauffman, P.C., and later served as a judicial law clerk for the Centre County Court of Common Pleas.
->>>>>>> d32ca40 (changes moved to .qmd)
 :::
 ::::
 

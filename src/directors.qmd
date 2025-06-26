@@ -20,7 +20,7 @@ rog1@psu.edu</br></br>
 
 :::: {.columns}
 ::: {.column width="40%"}
-![](include/img/pearce-alaina.jpg){width=200px height=200px}
+![](include/img/pearce-alaina.jpeg){width=200px height=200px}
 :::
 ::: {.column width="60%"}
 
