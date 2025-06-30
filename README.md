@@ -1,11 +1,23 @@
 # bootcamp-2025
 
+![](src/include/img/banner.png){fig-width=60%}
+
 This repository contains files related to the Open Scholarship Bootcamp held at Penn State University in August 2025.
+
+<https://penn-state-open-science.github.io/bootcamp-2025/>
 
 ## Contents
 
 - `src/`: The source files for the website.
 - `docs/`: The rendered site.
+- `renv/`: Files related to the `renv` package.
+
+### Rendering
+
+- Clone or fork the repository; we recommend using a new RStudio project.
+- From the project's root directory, run `renv::restore()` to add package dependencies. You may need to install `renv` first via `install.packages('renv')`. You may also need `rtools`, so `install.packages('rtools')`.
+- From a terminal run `quarto render src` to render the source files.
+- View the output in `docs/` by pointing your browser to `docs/index.html`.
 
 ---
 
