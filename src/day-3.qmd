@@ -19,7 +19,7 @@ The Bootcamp ends at noon.
 
 ### 09:30 am • Plenary {-}
 
-#### Open access & licensing
+#### **Open access & licensing**
 
 [Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
 
