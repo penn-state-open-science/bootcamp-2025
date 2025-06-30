@@ -25,7 +25,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ### 10:45 am • Keynote {- #day_1_plenary_2}
 
-#### "Harnessing AI for scientific integrity"
+#### "**Harnessing AI for scientific integrity**"
 
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
 
