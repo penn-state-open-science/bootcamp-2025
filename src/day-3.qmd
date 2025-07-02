@@ -16,6 +16,7 @@ The Bootcamp ends at noon.
 
 - Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu), [Nicole Lazar](program-committee.qmd#nicole-lazar)
 - Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](directors.qmd#rick-gilmore)
+<!-- - ICDS [Wayne Figurelli]() -->
 
 ### 09:30 am • Plenary {-}
 
