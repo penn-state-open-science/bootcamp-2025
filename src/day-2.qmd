@@ -26,7 +26,7 @@ Panel discussion on ethical considerations for open scholarship
 
 ### 10:45 am • Keynote {- #day_2_plenary_2}
 
-#### "**Rescuing and Preserving Public Data: The Data Rescue Project**"
+#### "**Rescuing and preserving public data: The data rescue project**"
 
 [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
 

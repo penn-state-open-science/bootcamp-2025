@@ -20,6 +20,7 @@ book:
     - part: More
       chapters:
       - sessions.qmd
+      - registration.qmd
       - resources.qmd
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]

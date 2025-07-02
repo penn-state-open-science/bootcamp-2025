@@ -12,7 +12,7 @@ See the detailed daily schedules for more information.
 
 *Breakfast provided*
 
-*Keynote*: Dr. [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST, Penn State, Foster Auditorium (102 Pattee)
+*Keynote*: "Harnessing AI for scientific integrity", Dr. [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST, Penn State, Foster Auditorium (102 Pattee)
 
 *Lunch provided*
 
@@ -24,7 +24,7 @@ See the detailed daily schedules for more information.
 
 *Breakfast provided*
 
-*Keynote*: Dr. [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania & [Data Rescue Project](https://www.datarescueproject.org), Foster Auditorium (102 Pattee)
+*Keynote*: "Rescuing and preserving public data: The data rescue project", Dr. [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania & [Data Rescue Project](https://www.datarescueproject.org), Foster Auditorium (102 Pattee)
 
 *Lunch provided*
 

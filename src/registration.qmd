@@ -14,7 +14,8 @@ This page documents and implements the data processing workflow for bootcamp reg
 
 We load some packages into memory for convenience.
 
-```{r include=FALSE}
+```{r}
+#| label: load-packages
 library('tidyverse')
 library('ggplot2')
 library('dplyr')
@@ -62,6 +63,7 @@ Google Forms conveniently returns the questions as variable names at the top of 
 
 ```{r}
 #| label: tbl-data-dictionary
+#| tbl-cap: "A minimal data dictionary."
 reqistrations_qs <- names(registrations)
 
 registrations_clean <- registrations |>
@@ -134,6 +136,7 @@ As of `r Sys.time()`, we have $n=$ `r dim(registrations_yes)[1]` registered atte
 
 ```{r}
 #| label: tbl-registration-by-day
+#| fig-cap: "Bootcamp registrations by day."
 registrations_clean |>
   dplyr::mutate(plan_wed = stringr::str_detect(attend_days, "Wed"),
                 plan_thu = stringr::str_detect(attend_days, "Thu"),
@@ -200,7 +203,8 @@ registrations_yes <- registrations_yes |>
       `ESM` = "Engineering Science & Mechanics",
       `Engineering Science` = "Engineering Science & Mechanics",
       `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
-      `Department of Food Science` = "Food Science"
+      `Department of Food Science` = "Food Science",
+      `Libraries` = "University Libraries"
     )
   ) |> 
   dplyr::mutate(
@@ -233,7 +237,11 @@ registrations_yes <- registrations_yes |>
       "Food Science" ~ "Ag",
       "Neuroscience" ~ "Med",
       "College of Human and Health Development" ~ "HHD",
-      "University Libraries" ~ "Libraries"
+      "University Libraries" ~ "Libraries",
+      "ICDS" ~ "ICDS",
+      "EESI" ~ "EESI",
+      "ORP" ~ "OVPR",
+      
     ),
     .default = "Unknown",
     .missing = "Unknown"
@@ -242,7 +250,7 @@ registrations_yes <- registrations_yes |>
 
 ```{r}
 #| label: fig-regis-dept-coll
-#| fig-cap: "Registrations by department and college"
+#| fig-cap: "Registrations by department and college/unit."
 registrations_yes |>
   dplyr::filter(!is.na(dept),
                 dept != "University of Pennsylvania") |>
