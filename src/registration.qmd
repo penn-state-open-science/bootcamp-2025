@@ -4,6 +4,7 @@ code-fold: true
 params:
     csv_dir: "include/csv"
     sheets_fn: "Open Scholarship Bootcamp 2025: Registration (Responses)"
+
 ---
 
 ## About
@@ -16,20 +17,25 @@ We load some packages into memory for convenience.
 
 ```{r}
 #| label: load-packages
-library('tidyverse')
-library('ggplot2')
-library('dplyr')
-library('tidyr')
-library('stringr')
-library('lubridate')
+suppressPackageStartupMessages(library('tidyverse'))
+suppressPackageStartupMessages(library('ggplot2'))
+suppressPackageStartupMessages(library('dplyr'))
+suppressPackageStartupMessages(library('tidyr'))
+suppressPackageStartupMessages(library('stringr'))
+suppressPackageStartupMessages(library('lubridate'))
 ```
 
 ## Import
 
 The Google Form generates a Google Sheet that we download to a protected directory (`include/csv`) that is *not* synched to GitHub.
 
+
+::: {.callout-important}
+This is because the sheet contains personally identifying information.
+:::
+
 ```{r}
-#| label: import data
+#| label: import-data
 #| message: false
 #| 
 if (!dir.exists(params$csv_dir)) {
@@ -37,7 +43,7 @@ if (!dir.exists(params$csv_dir)) {
   dir.create(params$csv_dir)
 }
 
-options(gargle_oauth_email = "rick.o.gilmore@gmail.com")
+options(gargle_oauth_email = Sys.getenv("GMAIL_SURVEY"))
 googledrive::drive_auth()
 
 googledrive::drive_download(
@@ -74,33 +80,42 @@ registrations_clean <- registrations |>
     psu_email = "Email Address",
     dept = "What is your department or unit?",
     position = "What is your current position?",
-    comments = "Any comments?"
+    comments = "Any comments?",
+    bootcamp_keynote = "Are you interested in registering for the 2.5 day bootcamp or the Keynote address(es)?",
+    which_keynotes = "Which Keynote address(es) are you interested in attending?"
   )
 
-registrations_short <- c("timestamp",
-                         "psu_email",
-                         "attend_days",
-                         "name",
-                         "dept",
-                         "position",
-                         "comments",
-                         "presenter")
-registrations_pid <- c(FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, TRUE, FALSE)
+registrations_short <- c(
+  "timestamp",
+  "psu_email",
+  "attend_days",
+  "name",
+  "dept",
+  "position",
+  "bootcamp_keynote",
+  "which_keynotes",
+  "comments",
+  "presenter"
+)
+registrations_pid <- c(FALSE, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE)
 
 registrations_dd <- data.frame(qs = reqistrations_qs, qs_short = registrations_short, pid = registrations_pid)
 
 registrations_dd |>
   knitr::kable(format = 'html')
 
-readr::write_csv(registrations_dd, file = file.path(params$csv_dir, "registrations-2025-data-dict.csv"))
+readr::write_csv(registrations_dd,
+                 file = file.path(params$csv_dir, "registrations-2025-data-dict.csv"))
 ```
 
 Last, we convert the text dates into date/time objects and created a new `registered` variable.
 
 ```{r}
+gilmore_dup <- registrations_clean$timestamp != "6/20/2025 9:36:33" & registrations_clean$name == "Rick Gilmore"
+
 registrations_clean <- registrations_clean |>
-  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York")) |>
-  dplyr::mutate(registered = !is.na(attend_days))
+  dplyr::filter(!gilmore_dup) |>
+  dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
 ```
 
 ## Visualize
@@ -108,29 +123,36 @@ registrations_clean <- registrations_clean |>
 ### Registration numbers {-}
 
 ```{r}
+#| label: create-subsetted-dfs
 registrations_yes <- registrations_clean |> 
   dplyr::mutate(registered = TRUE)
+
+keynotes_only <- registrations_clean |>
+  dplyr::mutate(keynotes = stringr::str_detect(string = bootcamp_keynote, pattern = "Keynote"))
 ```
 
-As of `r Sys.time()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of $n=75$.
+As of `r lubridate::now()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
 
-<!-- ### Time series {-} -->
+### Time series {-}
 
-<!-- ```{r registrations-timeseries, fig.cap = "Time series of registrations"} -->
-<!-- registrations_clean |> -->
-<!--   dplyr::mutate(resp_index = seq_along(timestamp)) |> -->
-<!--   ggplot() + -->
-<!--   aes(x = timestamp, y = resp_index) + -->
-<!--   geom_point() + -->
-<!--   geom_line() + -->
-<!--   # facet_grid(~ registered) + -->
-<!--   theme(axis.text.x = element_text(angle = 90)) + -->
-<!--   labs(x = NULL, y = 'n registrations') + -->
-<!--   ylim(0, 20) + -->
-<!--   scale_color_manual(breaks = c("No", "Yes"), -->
-<!--                         values=c("red", "green")) + -->
-<!--   theme(legend.position = "none") -->
-<!-- ``` -->
+```{r}
+#| label: fig-registration-time-series
+#| fig-cap: "Time series of registrations. Note that the initial group includes presenters and organizers."
+registrations_clean |>
+  dplyr::arrange(timestamp) |>
+  dplyr::mutate(resp_index = seq_along(timestamp)) |>
+  ggplot() +
+  aes(x = timestamp, y = resp_index) +
+  geom_point() +
+  geom_line() +
+  # facet_grid(~ registered) +
+  theme(axis.text.x = element_text(angle = 90)) +
+  labs(x = NULL, y = 'n registrations') +
+  ylim(0, 20) +
+  scale_color_manual(breaks = c("No", "Yes"),
+                        values=c("red", "green")) +
+  theme(legend.position = "none")
+```
 
 ### Registrant attendance plans by day
 
@@ -188,6 +210,7 @@ registrations_yes <- registrations_yes |>
       `Linguistics` = "Applied Linguistics",
       `Human Development and Family Studies & Social Data Analytics` = "HDFS",
       `Human Development and Family Studies` = "HDFS",
+      `Human Development and Family Studies (HDFS)` = "HDFS",
       `Department of Human Development and Family Studies` = "HDFS",
       `HDFS/DEMO` = "HDFS",
       `RPTM` = "Recreation, Park, & Tourism Management",
@@ -204,7 +227,8 @@ registrations_yes <- registrations_yes |>
       `Engineering Science` = "Engineering Science & Mechanics",
       `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
       `Department of Food Science` = "Food Science",
-      `Libraries` = "University Libraries"
+      `Libraries` = "University Libraries",
+      `Astronomy and Astrophysics` = "Astronomy & Astrophysics"
     )
   ) |> 
   dplyr::mutate(
@@ -241,7 +265,7 @@ registrations_yes <- registrations_yes |>
       "ICDS" ~ "ICDS",
       "EESI" ~ "EESI",
       "ORP" ~ "OVPR",
-      
+      "Astronomy & Astrophysics" ~ "ECoS"
     ),
     .default = "Unknown",
     .missing = "Unknown"

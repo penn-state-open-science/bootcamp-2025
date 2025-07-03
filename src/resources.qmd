@@ -27,6 +27,10 @@ The [Penn State University Libraries](https://libraries.psu.edu) are a hub of in
 
 <!-- ### Social Science Research Institute (SSRI) {- #ssri} -->
 
+### Penn State Policies
+
+- [Research Data Management](https://policy.psu.edu/policies/rp15)
+
 ### Penn State Open Scholarship Initiative {-}
 
 - [GitHub organization](https://github.com/penn-state-open-science).
