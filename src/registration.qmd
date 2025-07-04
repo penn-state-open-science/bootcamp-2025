@@ -194,6 +194,7 @@ registrations_yes <- registrations_yes |>
   dplyr::mutate(
     dept = dplyr::recode(
       dept,
+      `Department of Chemical Engineering` = "Chemical Engineering",
       `Clinical Psychology` = "Psychology",
       `Psychology (Cognitive)` = "Psychology",
       `Psychology / SSRI` = "Psychology",
@@ -228,6 +229,8 @@ registrations_yes <- registrations_yes |>
       `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
       `Department of Food Science` = "Food Science",
       `Libraries` = "University Libraries",
+      `University libraries` = "University Libraries",
+      
       `Astronomy and Astrophysics` = "Astronomy & Astrophysics"
     )
   ) |> 
