@@ -15,6 +15,8 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 [Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
 
+[HTML slides](https://penn-state-open-science.github.io/bootcamp-2025-welcome-day-1-welcome/)
+
 ### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
 
 - [ScholarSphere](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce)
