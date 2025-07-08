@@ -189,7 +189,7 @@ registrations_yes |>
   coord_flip()
 ```
 
-### Registrants by unit
+### Registrations by unit
 
 ```{r by-dept}
 registrations_yes <- registrations_yes |>

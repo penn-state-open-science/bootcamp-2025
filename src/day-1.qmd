@@ -19,7 +19,8 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 - [ScholarSphere](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce)
 - Big data developmental neuroscience, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
-- [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu), [Frank Hillary](program-committee.qmd#frank-hillary)
+- Open scholarship and high performance computing, [Wayne Figurelle](presenters.qmd#wayne-figurelle)
+- The [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu), [Frank Hillary](program-committee.qmd#frank-hillary)
 
 ### 10:15 am • Break  {-}
 
