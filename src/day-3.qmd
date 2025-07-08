@@ -30,7 +30,7 @@ The Bootcamp ends at noon.
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Early career panel ([Almeida](program-committee.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky)) | | |
+| Early career panel ([Almeida](program-committee.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky), & [Beck](presenters.qmd#olivia-beck)) | | |
 | Open access high performance computing ([Brown](program-committee.qmd#carrie-brown)) | | |
 
 ### 11:45 am • Community Dialogue {-}

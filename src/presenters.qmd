@@ -3,6 +3,17 @@ title: "Presenters"
 format: html
 ---
 
+## Olivia Beck {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/olivia-beck.jpg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Olivia L. Beck earned her Ph.D. in Statistics from Penn State.
+:::
+::::
+
 ## Kyle Hallisky {-}
 
 :::: {.columns}
@@ -10,7 +21,18 @@ format: html
 ![](include/img/kyle-hallisky.JPEG){width=200px height=200px}
 :::
 ::: {.column width=50%}
-Kyle Hallisky is a PhD Student in Nutritional Science & Social and Behavioral Neuroscience at Penn State. His research integrates behavioral and neuroimaging methods to investigate mechanisms of self-regulation related to children's eating behavior and food choice. Kyle has extensive experience managing NIH-funded longitudinal studies focused on children's eating behavior, and has designed and maintained user-friendly databases to support data collection and analysis for these projects. He actively incorporates open science principles into his research, including preregistration of study hypotheses on ClinicalTrials.gov, transparent data and code sharing on the Open Science Framework, and the use of open-source software to promote reproducibility.
+Kyle Hallisky is a Ph.D. Student in Nutritional Science & Social and Behavioral Neuroscience at Penn State. His research integrates behavioral and neuroimaging methods to investigate mechanisms of self-regulation related to children's eating behavior and food choice. Kyle has extensive experience managing NIH-funded longitudinal studies focused on children's eating behavior, and has designed and maintained user-friendly databases to support data collection and analysis for these projects. He actively incorporates open science principles into his research, including preregistration of study hypotheses on ClinicalTrials.gov, transparent data and code sharing on the Open Science Framework, and the use of open-source software to promote reproducibility.
+:::
+::::
+
+## Sara Horn {-}
+
+:::: {.columns}
+::: {.column width=50%}
+![](include/img/sara-horn.jpeg){width=200px height=200px}
+:::
+::: {.column width=50%}
+Sara Horn directs the Penn State Institutional Review Board (IRB).
 :::
 ::::
 

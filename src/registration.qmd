@@ -148,7 +148,7 @@ registrations_clean |>
   # facet_grid(~ registered) +
   theme(axis.text.x = element_text(angle = 90)) +
   labs(x = NULL, y = 'n registrations') +
-  ylim(0, 20) +
+  # ylim(0, 45) +
   scale_color_manual(breaks = c("No", "Yes"),
                         values=c("red", "green")) +
   theme(legend.position = "none")
@@ -172,17 +172,19 @@ registrations_clean |>
   kableExtra::kable_classic()
 ```
 
-## Registrants by position
+## Registrations by position
 
 ```{r}
 #| label: fig-by-position
-#| fig-cap: "Registrations vs. attendees by day and position"
+#| fig-cap: "Registrations by position"
 registrations_yes |>
   dplyr::filter(!is.na(position)) |>
+  dplyr::count(position) |>
+  dplyr::arrange(n) |>
+  dplyr::mutate(position = factor(position, levels = position)) |>
   ggplot() +
   aes(x = position, fill = position) +
-  geom_bar() +
-  # facet_grid(registered_attended ~ .) +
+  geom_bar(aes(y = n), stat = "identity") +
   theme(legend.position = "none") +
   coord_flip()
 ```
@@ -214,6 +216,7 @@ registrations_yes <- registrations_yes |>
       `Human Development and Family Studies (HDFS)` = "HDFS",
       `Department of Human Development and Family Studies` = "HDFS",
       `HDFS/DEMO` = "HDFS",
+      `bbh` = "BBH",
       `RPTM` = "Recreation, Park, & Tourism Management",
       `Sociology and Social Data Analytics` = "Sociology",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
@@ -230,8 +233,8 @@ registrations_yes <- registrations_yes |>
       `Department of Food Science` = "Food Science",
       `Libraries` = "University Libraries",
       `University libraries` = "University Libraries",
-      
-      `Astronomy and Astrophysics` = "Astronomy & Astrophysics"
+      `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
+      `Ecosystem Science and Management` = "Ecosystem Science & Management"
     )
   ) |> 
   dplyr::mutate(
@@ -254,11 +257,13 @@ registrations_yes <- registrations_yes |>
       "Chemical Engineering" ~ "Engineering",
       "Material Science and Engineering" ~ "Engineering",
       "Engineering Science & Mechanics" ~ "Engineering",
+      "College of Engineering" ~ "Engineering",
       "Biomedical Engineering" ~ "Engineering",
       "Nutritional Sciences" ~ "HHD",
       "HDFS" ~ "HHD",
       "Kinesiology" ~ "HHD",
       "Recreation, Park, & Tourism Management" ~ "HHD",
+      "BBH" ~ "HHD",
       "Bellisario College of Communication" ~ "Comm",
       "Marketing" ~ "Smeal",
       "Food Science" ~ "Ag",
@@ -268,7 +273,10 @@ registrations_yes <- registrations_yes |>
       "ICDS" ~ "ICDS",
       "EESI" ~ "EESI",
       "ORP" ~ "OVPR",
-      "Astronomy & Astrophysics" ~ "ECoS"
+      "Astronomy & Astrophysics" ~ "ECoS",
+      "Entomology" ~ "AgSci",
+      "Ecosystem Science & Management" ~ "AgSci",
+      "Plant Biology" ~ "Huck"
     ),
     .default = "Unknown",
     .missing = "Unknown"
@@ -281,9 +289,11 @@ registrations_yes <- registrations_yes |>
 registrations_yes |>
   dplyr::filter(!is.na(dept),
                 dept != "University of Pennsylvania") |>
+  dplyr::count(dept, college, sort = TRUE) |>
+  dplyr::mutate(dept = fct_reorder(dept, n)) |>
   ggplot() +
   aes(x = dept, fill = college) +
-  geom_bar() +
+  geom_bar(aes(y = n), stat = "identity") +
   theme(legend.position = "bottom") +
   theme(legend.title = element_blank()) +
   coord_flip()

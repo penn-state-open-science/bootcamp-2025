@@ -301,7 +301,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 4, 2025</p>
+      <p class="date-modified">July 8, 2025</p>
     </div>
   </div>
     
@@ -532,7 +532,7 @@ Table&nbsp;9.1: A minimal data dictionary.
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">keynotes =</span> stringr<span class="sc">::</span><span class="fu">str_detect</span>(<span class="at">string =</span> bootcamp_keynote, <span class="at">pattern =</span> <span class="st">"Keynote"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>As of 2025-07-04 07:58:03.36449, we have <span class="math inline">\(n=\)</span> 22 registered attendees. That is 29.3 % of our target registration/attendance limit of <em>n</em>=75.</p>
+<p>As of 2025-07-08 10:20:08.55943, we have <span class="math inline">\(n=\)</span> 37 registered attendees. That is 49.3 % of our target registration/attendance limit of <em>n</em>=75.</p>
 </section>
 <section id="time-series" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="time-series">Time series</h3>
@@ -555,11 +555,11 @@ Table&nbsp;9.1: A minimal data dictionary.
 <span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+<pre><code>Warning: Removed 17 rows containing missing values or values outside the scale range
 (`geom_point()`).</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>Warning: Removed 2 rows containing missing values or values outside the scale range
+<pre><code>Warning: Removed 17 rows containing missing values or values outside the scale range
 (`geom_line()`).</code></pre>
 </div>
 <div class="cell-output-display">
@@ -617,13 +617,13 @@ n_fri
 <tbody>
 <tr>
 <td style="text-align:right;">
-15
+26
 </td>
 <td style="text-align:right;">
-18
+31
 </td>
 <td style="text-align:right;">
-12
+25
 </td>
 </tr>
 </tbody>
@@ -643,12 +643,14 @@ n_fri
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>registrations_yes <span class="sc">|&gt;</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(position)) <span class="sc">|&gt;</span></span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> position, <span class="at">fill =</span> position) <span class="sc">+</span></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="co"># facet_grid(registered_attended ~ .) +</span></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">count</span>(position) <span class="sc">|&gt;</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">arrange</span>(n) <span class="sc">|&gt;</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">position =</span> <span class="fu">factor</span>(position, <span class="at">levels =</span> position)) <span class="sc">|&gt;</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> position, <span class="at">fill =</span> position) <span class="sc">+</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="fu">aes</span>(<span class="at">y =</span> n), <span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-by-position" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -657,7 +659,7 @@ n_fri
 <img src="registration_files/figure-html/fig-by-position-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-by-position-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;9.2: Registrations vs.&nbsp;attendees by day and position
+Figure&nbsp;9.2: Registrations by position
 </figcaption>
 </figure>
 </div>
@@ -692,65 +694,71 @@ Figure&nbsp;9.2: Registrations vs.&nbsp;attendees by day and position
 <span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Human Development and Family Studies (HDFS)</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"HDFS"</span>,</span>
 <span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Department of Human Development and Family Studies</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"HDFS"</span>,</span>
 <span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">HDFS/DEMO</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"HDFS"</span>,</span>
-<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">RPTM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
-<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Sociology and Social Data Analytics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Sociology"</span>,</span>
-<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
-<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish, Italian, and Portuguese Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
-<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and Portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
-<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Nutrition</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Nutritional Sciences"</span>,</span>
-<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">College of IST</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"IST"</span>,</span>
-<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Statistics Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Statistics"</span>,</span>
-<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Recreation, Park and Tourism Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
-<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">SHS</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Student Health Svcs"</span>,</span>
-<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">ESM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
-<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
-<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science and Mechanics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
-<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Department of Food Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Food Science"</span>,</span>
-<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
-<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">University libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
-<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>      </span>
-<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Astronomy and Astrophysics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Astronomy &amp; Astrophysics"</span></span>
-<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>    <span class="at">college =</span> <span class="fu">case_match</span>(</span>
-<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a>      dept,</span>
-<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Statistics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
-<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biology"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
-<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Psychology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Spanish, Italian, &amp; Portuguese"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Research Informatics and Publishing"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
-<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Political Science"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Applied Linguistics"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Global Languages &amp; Literatures"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Sociology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>      <span class="st">"English"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>      <span class="st">"C-SoDA"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Office of Digital Pedagogies and Initiatives"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Asian Studies"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a>      <span class="st">"IST"</span> <span class="sc">~</span> <span class="st">"IST"</span>,</span>
-<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Chemical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Material Science and Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Engineering Science &amp; Mechanics"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biomedical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Nutritional Sciences"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"HDFS"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Kinesiology"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Recreation, Park, &amp; Tourism Management"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bellisario College of Communication"</span> <span class="sc">~</span> <span class="st">"Comm"</span>,</span>
-<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Marketing"</span> <span class="sc">~</span> <span class="st">"Smeal"</span>,</span>
-<span id="cb13-72"><a href="#cb13-72" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Food Science"</span> <span class="sc">~</span> <span class="st">"Ag"</span>,</span>
-<span id="cb13-73"><a href="#cb13-73" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Neuroscience"</span> <span class="sc">~</span> <span class="st">"Med"</span>,</span>
-<span id="cb13-74"><a href="#cb13-74" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Human and Health Development"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb13-75"><a href="#cb13-75" aria-hidden="true" tabindex="-1"></a>      <span class="st">"University Libraries"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
-<span id="cb13-76"><a href="#cb13-76" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ICDS"</span> <span class="sc">~</span> <span class="st">"ICDS"</span>,</span>
-<span id="cb13-77"><a href="#cb13-77" aria-hidden="true" tabindex="-1"></a>      <span class="st">"EESI"</span> <span class="sc">~</span> <span class="st">"EESI"</span>,</span>
-<span id="cb13-78"><a href="#cb13-78" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ORP"</span> <span class="sc">~</span> <span class="st">"OVPR"</span>,</span>
-<span id="cb13-79"><a href="#cb13-79" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Astronomy &amp; Astrophysics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span></span>
-<span id="cb13-80"><a href="#cb13-80" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb13-81"><a href="#cb13-81" aria-hidden="true" tabindex="-1"></a>    <span class="at">.default =</span> <span class="st">"Unknown"</span>,</span>
-<span id="cb13-82"><a href="#cb13-82" aria-hidden="true" tabindex="-1"></a>    <span class="at">.missing =</span> <span class="st">"Unknown"</span></span>
-<span id="cb13-83"><a href="#cb13-83" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">bbh</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"BBH"</span>,</span>
+<span id="cb13-26"><a href="#cb13-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">RPTM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
+<span id="cb13-27"><a href="#cb13-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Sociology and Social Data Analytics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Sociology"</span>,</span>
+<span id="cb13-28"><a href="#cb13-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
+<span id="cb13-29"><a href="#cb13-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish, Italian, and Portuguese Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
+<span id="cb13-30"><a href="#cb13-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and Portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
+<span id="cb13-31"><a href="#cb13-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Nutrition</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Nutritional Sciences"</span>,</span>
+<span id="cb13-32"><a href="#cb13-32" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">College of IST</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"IST"</span>,</span>
+<span id="cb13-33"><a href="#cb13-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Statistics Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Statistics"</span>,</span>
+<span id="cb13-34"><a href="#cb13-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Recreation, Park and Tourism Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
+<span id="cb13-35"><a href="#cb13-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">SHS</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Student Health Svcs"</span>,</span>
+<span id="cb13-36"><a href="#cb13-36" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">ESM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
+<span id="cb13-37"><a href="#cb13-37" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
+<span id="cb13-38"><a href="#cb13-38" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science and Mechanics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
+<span id="cb13-39"><a href="#cb13-39" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Department of Food Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Food Science"</span>,</span>
+<span id="cb13-40"><a href="#cb13-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
+<span id="cb13-41"><a href="#cb13-41" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">University libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
+<span id="cb13-42"><a href="#cb13-42" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Astronomy and Astrophysics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Astronomy &amp; Astrophysics"</span>,</span>
+<span id="cb13-43"><a href="#cb13-43" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Ecosystem Science and Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Ecosystem Science &amp; Management"</span></span>
+<span id="cb13-44"><a href="#cb13-44" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb13-45"><a href="#cb13-45" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb13-46"><a href="#cb13-46" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb13-47"><a href="#cb13-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">college =</span> <span class="fu">case_match</span>(</span>
+<span id="cb13-48"><a href="#cb13-48" aria-hidden="true" tabindex="-1"></a>      dept,</span>
+<span id="cb13-49"><a href="#cb13-49" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Statistics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
+<span id="cb13-50"><a href="#cb13-50" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biology"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
+<span id="cb13-51"><a href="#cb13-51" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Psychology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-52"><a href="#cb13-52" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Spanish, Italian, &amp; Portuguese"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-53"><a href="#cb13-53" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Research Informatics and Publishing"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
+<span id="cb13-54"><a href="#cb13-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Political Science"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-55"><a href="#cb13-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Applied Linguistics"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-56"><a href="#cb13-56" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Global Languages &amp; Literatures"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-57"><a href="#cb13-57" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Sociology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-58"><a href="#cb13-58" aria-hidden="true" tabindex="-1"></a>      <span class="st">"English"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-59"><a href="#cb13-59" aria-hidden="true" tabindex="-1"></a>      <span class="st">"C-SoDA"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-60"><a href="#cb13-60" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Office of Digital Pedagogies and Initiatives"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-61"><a href="#cb13-61" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Asian Studies"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb13-62"><a href="#cb13-62" aria-hidden="true" tabindex="-1"></a>      <span class="st">"IST"</span> <span class="sc">~</span> <span class="st">"IST"</span>,</span>
+<span id="cb13-63"><a href="#cb13-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Chemical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb13-64"><a href="#cb13-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Material Science and Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb13-65"><a href="#cb13-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Engineering Science &amp; Mechanics"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb13-66"><a href="#cb13-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb13-67"><a href="#cb13-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biomedical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb13-68"><a href="#cb13-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Nutritional Sciences"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb13-69"><a href="#cb13-69" aria-hidden="true" tabindex="-1"></a>      <span class="st">"HDFS"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb13-70"><a href="#cb13-70" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Kinesiology"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb13-71"><a href="#cb13-71" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Recreation, Park, &amp; Tourism Management"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb13-72"><a href="#cb13-72" aria-hidden="true" tabindex="-1"></a>      <span class="st">"BBH"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb13-73"><a href="#cb13-73" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bellisario College of Communication"</span> <span class="sc">~</span> <span class="st">"Comm"</span>,</span>
+<span id="cb13-74"><a href="#cb13-74" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Marketing"</span> <span class="sc">~</span> <span class="st">"Smeal"</span>,</span>
+<span id="cb13-75"><a href="#cb13-75" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Food Science"</span> <span class="sc">~</span> <span class="st">"Ag"</span>,</span>
+<span id="cb13-76"><a href="#cb13-76" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Neuroscience"</span> <span class="sc">~</span> <span class="st">"Med"</span>,</span>
+<span id="cb13-77"><a href="#cb13-77" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Human and Health Development"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb13-78"><a href="#cb13-78" aria-hidden="true" tabindex="-1"></a>      <span class="st">"University Libraries"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
+<span id="cb13-79"><a href="#cb13-79" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ICDS"</span> <span class="sc">~</span> <span class="st">"ICDS"</span>,</span>
+<span id="cb13-80"><a href="#cb13-80" aria-hidden="true" tabindex="-1"></a>      <span class="st">"EESI"</span> <span class="sc">~</span> <span class="st">"EESI"</span>,</span>
+<span id="cb13-81"><a href="#cb13-81" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ORP"</span> <span class="sc">~</span> <span class="st">"OVPR"</span>,</span>
+<span id="cb13-82"><a href="#cb13-82" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Astronomy &amp; Astrophysics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
+<span id="cb13-83"><a href="#cb13-83" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Entomology"</span> <span class="sc">~</span> <span class="st">"AgSci"</span>,</span>
+<span id="cb13-84"><a href="#cb13-84" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Ecosystem Science &amp; Management"</span> <span class="sc">~</span> <span class="st">"AgSci"</span>,</span>
+<span id="cb13-85"><a href="#cb13-85" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Plant Biology"</span> <span class="sc">~</span> <span class="st">"Huck"</span></span>
+<span id="cb13-86"><a href="#cb13-86" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb13-87"><a href="#cb13-87" aria-hidden="true" tabindex="-1"></a>    <span class="at">.default =</span> <span class="st">"Unknown"</span>,</span>
+<span id="cb13-88"><a href="#cb13-88" aria-hidden="true" tabindex="-1"></a>    <span class="at">.missing =</span> <span class="st">"Unknown"</span></span>
+<span id="cb13-89"><a href="#cb13-89" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell">
@@ -759,12 +767,14 @@ Figure&nbsp;9.2: Registrations vs.&nbsp;attendees by day and position
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>registrations_yes <span class="sc">|&gt;</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(dept),</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>                dept <span class="sc">!=</span> <span class="st">"University of Pennsylvania"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> dept, <span class="at">fill =</span> college) <span class="sc">+</span></span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">+</span></span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
-<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">count</span>(dept, college, <span class="at">sort =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">dept =</span> <span class="fu">fct_reorder</span>(dept, n)) <span class="sc">|&gt;</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> dept, <span class="at">fill =</span> college) <span class="sc">+</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="fu">aes</span>(<span class="at">y =</span> n), <span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">+</span></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
 <div id="fig-regis-dept-coll" class="quarto-float quarto-figure quarto-figure-center anchored">
