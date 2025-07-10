@@ -4,7 +4,6 @@ code-fold: true
 params:
     csv_dir: "include/csv"
     sheets_fn: "Open Scholarship Bootcamp 2025: Registration (Responses)"
-
 ---
 
 ## About
@@ -217,6 +216,8 @@ registrations_yes <- registrations_yes |>
       `Department of Human Development and Family Studies` = "HDFS",
       `HDFS/DEMO` = "HDFS",
       `bbh` = "BBH",
+      `Biobehavioral Health` = "BBH",
+      `Biobehavioural Health` = "BBH",
       `RPTM` = "Recreation, Park, & Tourism Management",
       `Sociology and Social Data Analytics` = "Sociology",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
@@ -264,6 +265,7 @@ registrations_yes <- registrations_yes |>
       "Kinesiology" ~ "HHD",
       "Recreation, Park, & Tourism Management" ~ "HHD",
       "BBH" ~ "HHD",
+      "College of Nursing" ~ "Nursing",
       "Bellisario College of Communication" ~ "Comm",
       "Marketing" ~ "Smeal",
       "Food Science" ~ "Ag",
@@ -276,7 +278,8 @@ registrations_yes <- registrations_yes |>
       "Astronomy & Astrophysics" ~ "ECoS",
       "Entomology" ~ "AgSci",
       "Ecosystem Science & Management" ~ "AgSci",
-      "Plant Biology" ~ "Huck"
+      "Plant Biology" ~ "Huck",
+      "Acoustics" ~ "Engineering"
     ),
     .default = "Unknown",
     .missing = "Unknown"
@@ -294,7 +297,7 @@ registrations_yes |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar(aes(y = n), stat = "identity") +
-  theme(legend.position = "bottom") +
+  theme(legend.position = "right") +
   theme(legend.title = element_blank()) +
   coord_flip()
 ```

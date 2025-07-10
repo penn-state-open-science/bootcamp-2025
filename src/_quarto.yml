@@ -26,6 +26,10 @@ book:
   repo-actions: [edit, issue]
   repo-subdir: src
 
+knitr:
+  opts_chunk:
+    fig.path: include/fig/ 
+
 format:
   html:
     theme: cosmo

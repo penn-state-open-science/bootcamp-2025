@@ -301,7 +301,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 8, 2025</p>
+      <p class="date-modified">July 10, 2025</p>
     </div>
   </div>
     
@@ -532,7 +532,7 @@ Table&nbsp;9.1: A minimal data dictionary.
 <span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(<span class="at">keynotes =</span> stringr<span class="sc">::</span><span class="fu">str_detect</span>(<span class="at">string =</span> bootcamp_keynote, <span class="at">pattern =</span> <span class="st">"Keynote"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>As of 2025-07-08 10:53:34.785237, we have <span class="math inline">\(n=\)</span> 37 registered attendees. That is 49.3 % of our target registration/attendance limit of <em>n</em>=75.</p>
+<p>As of 2025-07-10 09:51:55.91369, we have <span class="math inline">\(n=\)</span> 42 registered attendees. That is 56 % of our target registration/attendance limit of <em>n</em>=75.</p>
 </section>
 <section id="time-series" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="time-series">Time series</h3>
@@ -558,7 +558,7 @@ Table&nbsp;9.1: A minimal data dictionary.
 <div id="fig-registration-time-series" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-registration-time-series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="registration_files/figure-html/fig-registration-time-series-1.png" class="img-fluid figure-img" width="672">
+<img src="include/fig/fig-registration-time-series-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-registration-time-series-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.1: Time series of registrations. Note that the initial group includes presenters and organizers.
@@ -609,13 +609,13 @@ n_fri
 <tbody>
 <tr>
 <td style="text-align:right;">
-26
-</td>
-<td style="text-align:right;">
 31
 </td>
 <td style="text-align:right;">
-25
+36
+</td>
+<td style="text-align:right;">
+29
 </td>
 </tr>
 </tbody>
@@ -648,7 +648,7 @@ n_fri
 <div id="fig-by-position" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-by-position-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="registration_files/figure-html/fig-by-position-1.png" class="img-fluid figure-img" width="672">
+<img src="include/fig/fig-by-position-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-by-position-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.2: Registrations by position
@@ -687,70 +687,74 @@ Figure&nbsp;9.2: Registrations by position
 <span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Department of Human Development and Family Studies</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"HDFS"</span>,</span>
 <span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">HDFS/DEMO</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"HDFS"</span>,</span>
 <span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">bbh</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"BBH"</span>,</span>
-<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">RPTM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
-<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Sociology and Social Data Analytics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Sociology"</span>,</span>
-<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
-<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish, Italian, and Portuguese Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
-<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and Portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
-<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Nutrition</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Nutritional Sciences"</span>,</span>
-<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">College of IST</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"IST"</span>,</span>
-<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Statistics Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Statistics"</span>,</span>
-<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Recreation, Park and Tourism Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
-<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">SHS</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Student Health Svcs"</span>,</span>
-<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">ESM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
-<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
-<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science and Mechanics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
-<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Department of Food Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Food Science"</span>,</span>
-<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
-<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">University libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
-<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Astronomy and Astrophysics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Astronomy &amp; Astrophysics"</span>,</span>
-<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Ecosystem Science and Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Ecosystem Science &amp; Management"</span></span>
-<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
-<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
-<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>    <span class="at">college =</span> <span class="fu">case_match</span>(</span>
-<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a>      dept,</span>
-<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Statistics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
-<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biology"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
-<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Psychology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Spanish, Italian, &amp; Portuguese"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Research Informatics and Publishing"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
-<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Political Science"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Applied Linguistics"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Global Languages &amp; Literatures"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Sociology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a>      <span class="st">"English"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a>      <span class="st">"C-SoDA"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Office of Digital Pedagogies and Initiatives"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Asian Studies"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
-<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a>      <span class="st">"IST"</span> <span class="sc">~</span> <span class="st">"IST"</span>,</span>
-<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Chemical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Material Science and Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Engineering Science &amp; Mechanics"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biomedical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
-<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Nutritional Sciences"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a>      <span class="st">"HDFS"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb11-70"><a href="#cb11-70" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Kinesiology"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb11-71"><a href="#cb11-71" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Recreation, Park, &amp; Tourism Management"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb11-72"><a href="#cb11-72" aria-hidden="true" tabindex="-1"></a>      <span class="st">"BBH"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb11-73"><a href="#cb11-73" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bellisario College of Communication"</span> <span class="sc">~</span> <span class="st">"Comm"</span>,</span>
-<span id="cb11-74"><a href="#cb11-74" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Marketing"</span> <span class="sc">~</span> <span class="st">"Smeal"</span>,</span>
-<span id="cb11-75"><a href="#cb11-75" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Food Science"</span> <span class="sc">~</span> <span class="st">"Ag"</span>,</span>
-<span id="cb11-76"><a href="#cb11-76" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Neuroscience"</span> <span class="sc">~</span> <span class="st">"Med"</span>,</span>
-<span id="cb11-77"><a href="#cb11-77" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Human and Health Development"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
-<span id="cb11-78"><a href="#cb11-78" aria-hidden="true" tabindex="-1"></a>      <span class="st">"University Libraries"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
-<span id="cb11-79"><a href="#cb11-79" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ICDS"</span> <span class="sc">~</span> <span class="st">"ICDS"</span>,</span>
-<span id="cb11-80"><a href="#cb11-80" aria-hidden="true" tabindex="-1"></a>      <span class="st">"EESI"</span> <span class="sc">~</span> <span class="st">"EESI"</span>,</span>
-<span id="cb11-81"><a href="#cb11-81" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ORP"</span> <span class="sc">~</span> <span class="st">"OVPR"</span>,</span>
-<span id="cb11-82"><a href="#cb11-82" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Astronomy &amp; Astrophysics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
-<span id="cb11-83"><a href="#cb11-83" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Entomology"</span> <span class="sc">~</span> <span class="st">"AgSci"</span>,</span>
-<span id="cb11-84"><a href="#cb11-84" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Ecosystem Science &amp; Management"</span> <span class="sc">~</span> <span class="st">"AgSci"</span>,</span>
-<span id="cb11-85"><a href="#cb11-85" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Plant Biology"</span> <span class="sc">~</span> <span class="st">"Huck"</span></span>
-<span id="cb11-86"><a href="#cb11-86" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb11-87"><a href="#cb11-87" aria-hidden="true" tabindex="-1"></a>    <span class="at">.default =</span> <span class="st">"Unknown"</span>,</span>
-<span id="cb11-88"><a href="#cb11-88" aria-hidden="true" tabindex="-1"></a>    <span class="at">.missing =</span> <span class="st">"Unknown"</span></span>
-<span id="cb11-89"><a href="#cb11-89" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Biobehavioral Health</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"BBH"</span>,</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Biobehavioural Health</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"BBH"</span>,</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">RPTM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Sociology and Social Data Analytics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Sociology"</span>,</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish, Italian, and Portuguese Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Spanish Italian and Portuguese</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Spanish, Italian, &amp; Portuguese"</span>,</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Nutrition</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Nutritional Sciences"</span>,</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">College of IST</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"IST"</span>,</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Statistics Department</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Statistics"</span>,</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Recreation, Park and Tourism Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Recreation, Park, &amp; Tourism Management"</span>,</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">SHS</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Student Health Svcs"</span>,</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">ESM</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Engineering Science and Mechanics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Engineering Science &amp; Mechanics"</span>,</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Department of Food Science</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Food Science"</span>,</span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">University libraries</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"University Libraries"</span>,</span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Astronomy and Astrophysics</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Astronomy &amp; Astrophysics"</span>,</span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>      <span class="st">`</span><span class="at">Ecosystem Science and Management</span><span class="st">`</span> <span class="ot">=</span> <span class="st">"Ecosystem Science &amp; Management"</span></span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span> </span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">mutate</span>(</span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a>    <span class="at">college =</span> <span class="fu">case_match</span>(</span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a>      dept,</span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Statistics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biology"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Psychology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Spanish, Italian, &amp; Portuguese"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Research Informatics and Publishing"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Political Science"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Applied Linguistics"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Global Languages &amp; Literatures"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Sociology"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a>      <span class="st">"English"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a>      <span class="st">"C-SoDA"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Office of Digital Pedagogies and Initiatives"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Asian Studies"</span> <span class="sc">~</span> <span class="st">"CLA"</span>,</span>
+<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a>      <span class="st">"IST"</span> <span class="sc">~</span> <span class="st">"IST"</span>,</span>
+<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Chemical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Material Science and Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Engineering Science &amp; Mechanics"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Biomedical Engineering"</span> <span class="sc">~</span> <span class="st">"Engineering"</span>,</span>
+<span id="cb11-70"><a href="#cb11-70" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Nutritional Sciences"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb11-71"><a href="#cb11-71" aria-hidden="true" tabindex="-1"></a>      <span class="st">"HDFS"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb11-72"><a href="#cb11-72" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Kinesiology"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb11-73"><a href="#cb11-73" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Recreation, Park, &amp; Tourism Management"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb11-74"><a href="#cb11-74" aria-hidden="true" tabindex="-1"></a>      <span class="st">"BBH"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb11-75"><a href="#cb11-75" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Nursing"</span> <span class="sc">~</span> <span class="st">"Nursing"</span>,</span>
+<span id="cb11-76"><a href="#cb11-76" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Bellisario College of Communication"</span> <span class="sc">~</span> <span class="st">"Comm"</span>,</span>
+<span id="cb11-77"><a href="#cb11-77" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Marketing"</span> <span class="sc">~</span> <span class="st">"Smeal"</span>,</span>
+<span id="cb11-78"><a href="#cb11-78" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Food Science"</span> <span class="sc">~</span> <span class="st">"Ag"</span>,</span>
+<span id="cb11-79"><a href="#cb11-79" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Neuroscience"</span> <span class="sc">~</span> <span class="st">"Med"</span>,</span>
+<span id="cb11-80"><a href="#cb11-80" aria-hidden="true" tabindex="-1"></a>      <span class="st">"College of Human and Health Development"</span> <span class="sc">~</span> <span class="st">"HHD"</span>,</span>
+<span id="cb11-81"><a href="#cb11-81" aria-hidden="true" tabindex="-1"></a>      <span class="st">"University Libraries"</span> <span class="sc">~</span> <span class="st">"Libraries"</span>,</span>
+<span id="cb11-82"><a href="#cb11-82" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ICDS"</span> <span class="sc">~</span> <span class="st">"ICDS"</span>,</span>
+<span id="cb11-83"><a href="#cb11-83" aria-hidden="true" tabindex="-1"></a>      <span class="st">"EESI"</span> <span class="sc">~</span> <span class="st">"EESI"</span>,</span>
+<span id="cb11-84"><a href="#cb11-84" aria-hidden="true" tabindex="-1"></a>      <span class="st">"ORP"</span> <span class="sc">~</span> <span class="st">"OVPR"</span>,</span>
+<span id="cb11-85"><a href="#cb11-85" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Astronomy &amp; Astrophysics"</span> <span class="sc">~</span> <span class="st">"ECoS"</span>,</span>
+<span id="cb11-86"><a href="#cb11-86" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Entomology"</span> <span class="sc">~</span> <span class="st">"AgSci"</span>,</span>
+<span id="cb11-87"><a href="#cb11-87" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Ecosystem Science &amp; Management"</span> <span class="sc">~</span> <span class="st">"AgSci"</span>,</span>
+<span id="cb11-88"><a href="#cb11-88" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Plant Biology"</span> <span class="sc">~</span> <span class="st">"Huck"</span>,</span>
+<span id="cb11-89"><a href="#cb11-89" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Acoustics"</span> <span class="sc">~</span> <span class="st">"Engineering"</span></span>
+<span id="cb11-90"><a href="#cb11-90" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb11-91"><a href="#cb11-91" aria-hidden="true" tabindex="-1"></a>    <span class="at">.default =</span> <span class="st">"Unknown"</span>,</span>
+<span id="cb11-92"><a href="#cb11-92" aria-hidden="true" tabindex="-1"></a>    <span class="at">.missing =</span> <span class="st">"Unknown"</span></span>
+<span id="cb11-93"><a href="#cb11-93" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div class="cell">
@@ -764,7 +768,7 @@ Figure&nbsp;9.2: Registrations by position
 <span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>() <span class="sc">+</span></span>
 <span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">aes</span>(<span class="at">x =</span> dept, <span class="at">fill =</span> college) <span class="sc">+</span></span>
 <span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="fu">aes</span>(<span class="at">y =</span> n), <span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>) <span class="sc">+</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"right"</span>) <span class="sc">+</span></span>
 <span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.title =</span> <span class="fu">element_blank</span>()) <span class="sc">+</span></span>
 <span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -772,7 +776,7 @@ Figure&nbsp;9.2: Registrations by position
 <div id="fig-regis-dept-coll" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-regis-dept-coll-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="registration_files/figure-html/fig-regis-dept-coll-1.png" class="img-fluid figure-img" width="672">
+<img src="include/fig/fig-regis-dept-coll-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-regis-dept-coll-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.3: Registrations by department and college/unit.
