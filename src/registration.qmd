@@ -171,7 +171,7 @@ registrations_clean |>
   kableExtra::kable_classic()
 ```
 
-## Registrations by position
+### Registrations by position
 
 ```{r}
 #| label: fig-by-position
@@ -195,12 +195,12 @@ registrations_yes <- registrations_yes |>
   dplyr::mutate(
     dept = dplyr::recode(
       dept,
-      `Department of Chemical Engineering` = "Chemical Engineering",
       `Clinical Psychology` = "Psychology",
       `Psychology (Cognitive)` = "Psychology",
       `Psychology / SSRI` = "Psychology",
       `Department of Psychology` = "Psychology",
       `Cognitive Psychology` = "Psychology",
+      `Psychology, Developmental` = "Psychology",
       `Psych` = "Psychology",
       `English language` = "English",
       `english` = "English",
@@ -210,32 +210,41 @@ registrations_yes <- registrations_yes |>
       `Languages and Literature` = "Global Languages & Literatures",
       `Department of Foreign Languages` = "Global Languages & Literatures",
       `Linguistics` = "Applied Linguistics",
+      `Department of Sociology and Criminology` = "Sociology & Criminology",
+      `Communication Sciences and Disorders` = "Communication Sciences & Disorders",
+      `CSD` = "Communication Sciences & Disorders",
       `Human Development and Family Studies & Social Data Analytics` = "HDFS",
       `Human Development and Family Studies` = "HDFS",
       `Human Development and Family Studies (HDFS)` = "HDFS",
       `Department of Human Development and Family Studies` = "HDFS",
+      `Human Development and Family Sciences` = "HDFS",
       `HDFS/DEMO` = "HDFS",
       `bbh` = "BBH",
       `Biobehavioral Health` = "BBH",
       `Biobehavioural Health` = "BBH",
+      `Biobehavioural  Health` = "BBH",
       `RPTM` = "Recreation, Park, & Tourism Management",
       `Sociology and Social Data Analytics` = "Sociology",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
       `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
       `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
+      `Spanish, Italian, and Portuguese` = "Spanish, Italian, & Portuguese",
       `Nutrition` = "Nutritional Sciences",
       `College of IST` = "IST",
       `Statistics Department` = "Statistics",
+      `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
       `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
       `SHS` = "Student Health Svcs",
+      `Department of Chemical Engineering` = "Chemical Engineering",
       `ESM` = "Engineering Science & Mechanics",
       `Engineering Science` = "Engineering Science & Mechanics",
       `Engineering Science and Mechanics` = "Engineering Science & Mechanics",
+      `EECS` = "Electrical Engineering & Comp Sci",
       `Department of Food Science` = "Food Science",
       `Libraries` = "University Libraries",
       `University libraries` = "University Libraries",
-      `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
-      `Ecosystem Science and Management` = "Ecosystem Science & Management"
+      `Ecosystem Science and Management` = "Ecosystem Science & Management",
+      `PRC` = "Population Research Center"
     )
   ) |> 
   dplyr::mutate(
@@ -254,6 +263,7 @@ registrations_yes <- registrations_yes |>
       "C-SoDA" ~ "CLA",
       "Office of Digital Pedagogies and Initiatives" ~ "CLA",
       "Asian Studies" ~ "CLA",
+      "Sociology & Criminology" ~ "CLA",
       "IST" ~ "IST",
       "Chemical Engineering" ~ "Engineering",
       "Material Science and Engineering" ~ "Engineering",
@@ -279,7 +289,13 @@ registrations_yes <- registrations_yes |>
       "Entomology" ~ "AgSci",
       "Ecosystem Science & Management" ~ "AgSci",
       "Plant Biology" ~ "Huck",
-      "Acoustics" ~ "Engineering"
+      "Acoustics" ~ "Engineering",
+      "Communication Sciences & Disorders" ~ "HHD",
+      "Electrical Engineering & Comp Sci" ~ "Engineering",
+      "Population Research Center" ~ "SSRI",
+      "Psychology (Harrisburg)" ~ "PSU Harrisburg",
+      "Business and Economics" ~ "PSU Brandywine",
+      "Engineering" ~ "Engineering"
     ),
     .default = "Unknown",
     .missing = "Unknown"
@@ -297,6 +313,7 @@ registrations_yes |>
   ggplot() +
   aes(x = dept, fill = college) +
   geom_bar(aes(y = n), stat = "identity") +
+  scale_y_continuous(breaks = c(2, 4, 6, 8, 10, 12)) +
   theme(legend.position = "right") +
   theme(legend.title = element_blank()) +
   coord_flip()
