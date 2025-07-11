@@ -130,7 +130,7 @@ keynotes_only <- registrations_clean |>
   dplyr::mutate(keynotes = stringr::str_detect(string = bootcamp_keynote, pattern = "Keynote"))
 ```
 
-As of `r lubridate::now()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
+As of `r Sys.Date()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
 
 ### Time series {-}
 
