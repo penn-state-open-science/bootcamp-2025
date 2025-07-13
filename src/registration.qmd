@@ -232,6 +232,7 @@ registrations_yes <- registrations_yes |>
       `Nutrition` = "Nutritional Sciences",
       `College of IST` = "IST",
       `Statistics Department` = "Statistics",
+      `Department of Statistics` = "Statistics",
       `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
       `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
       `SHS` = "Student Health Svcs",

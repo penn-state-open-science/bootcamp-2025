@@ -32,7 +32,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
 
-::: {.callout-important}
+::: {.callout-note}
 ## Location
 
 Foster Auditorium (102 Paterno Library)

@@ -68,7 +68,7 @@ Foster Auditorium (102 Paterno Library)
 
 Hors d'oeuvres provided by the Bootcamp sponsors. Cash bar.
 
-::: {.callout-important}
+::: {.callout-note}
 ## Location
 
 The Lobby Bar \

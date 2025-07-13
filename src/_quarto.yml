@@ -25,14 +25,23 @@ book:
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]
   repo-subdir: src
-
+  page-footer:
+    background: $theme-psu-pugh-blue
+    left:
+      - text: "© 2025 by Rick Gilmore & Alaina Pearce under CC BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/
+    center: 
+      - text: "Built with Quarto"
+        href: https://quarto.org
 knitr:
   opts_chunk:
     fig.path: include/fig/ 
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, include/css/psu.scss]
     number-sections: false
     date-modified: last-modified
+
+
     
