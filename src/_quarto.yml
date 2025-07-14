@@ -19,8 +19,10 @@ book:
       - presenters.qmd
     - part: More
       chapters:
-      - sessions.qmd
-      - registration.qmd
+      - text: "Session Details"
+        href: sessions.qmd
+      - text: "Registration Data"
+        href: registration.qmd
       - resources.qmd
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]
@@ -42,6 +44,7 @@ format:
     theme: [cosmo, include/css/psu.scss]
     number-sections: false
     date-modified: last-modified
-
+    bibliography: [include/bib/bootcamp.bib, include/bib/open-sci.bib]
+    csl: include/bib/apa.csl
 
     

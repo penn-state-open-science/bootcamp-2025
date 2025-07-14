@@ -10,6 +10,12 @@ lightbox: true
 
 This site documents and describes the 2025 Open Scholarship Bootcamp to be held at Pattee and Paterno Library on the University Park campus of [the Pennsylvania State University](https://www.psu.edu) Wednesday, August 13 through Friday, August 15, 2025.
 
+## Goals {.unnumbered}
+
+-   To create a focal point for activity and learning related to open scholarship practices.
+-   To accelerate the development of a community of scholars who are interested in open scholarship.
+-   To plan next steps that will foster the emergence of a robust open scholarship community at Penn State.
+
 ## Register today!
 
 ::: callout-important
@@ -18,23 +24,19 @@ This site documents and describes the 2025 Open Scholarship Bootcamp to be held 
 Visit <https://forms.gle/R6SzM4TNppGFzjEY9>.
 :::
 
-::::: columns
-::: {.column width="50%"}
-![Timeseries of registrations.](include/fig/fig-registration-time-series-1.png)
-:::
+Here is the latest data about Bootcamp registrations:
 
-::: {.column width="50%"}
+::: panel-tabset
+## Time series
+
+![Timeseries of registrations.](include/fig/fig-registration-time-series-1.png)
+
+## By unit
+
 ![Registrations by department and college/school.](include/fig/fig-regis-dept-coll-1.png)
 :::
-:::::
 
 Click on any image to see a larger version. Also, see [this page](registration.qmd) for details about how these figures are generated.
-
-## Goals {.unnumbered}
-
--   To create a focal point for activity and learning related to open scholarship practices.
--   To accelerate the development of a community of scholars who are interested in open scholarship.
--   To plan next steps that will foster the emergence of a robust open scholarship community at Penn State.
 
 ## Support
 
