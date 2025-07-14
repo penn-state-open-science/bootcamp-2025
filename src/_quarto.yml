@@ -46,5 +46,4 @@ format:
     date-modified: last-modified
     bibliography: [include/bib/bootcamp.bib, include/bib/open-sci.bib]
     csl: include/bib/apa.csl
-
-    
+    mainfont: roboto
