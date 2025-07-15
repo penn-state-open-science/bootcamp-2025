@@ -9,7 +9,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ## Morning {- #day_1_am}
 
-### 08:30 am • Breakfast {-}
+### 08:30 am • Breakfast {{< fa mug-hot >}} {{< fa bread-slice >}} {-}
 
 ### 09:00 am • Welcome {-}
 
@@ -24,11 +24,11 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 - Open scholarship and high performance computing, [Wayne Figurelle](presenters.qmd#wayne-figurelle)
 - The [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu), [Frank Hillary](program-committee.qmd#frank-hillary)
 
-### 10:15 am • Break  {-}
+### 10:15 am • Break {{< fa mug-hot >}} {-}
 
 ### 10:45 am • Keynote {- #day_1_plenary_2}
 
-#### "**Harnessing AI for scientific integrity**"
+#### Harnessing AI for scientific integrity
 
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
 
@@ -38,7 +38,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 Foster Auditorium (102 Paterno Library)
 :::
 
-### 11:45 am • Lunch break {-}
+### 11:45 am • Lunch {{< fa bottle-water >}} {{< fa bread-slice >}} {-}
 
 ## Afternoon {- #day_1_pm}
 
@@ -46,22 +46,22 @@ Foster Auditorium (102 Paterno Library)
 
 Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship)" and discussion
 
-### 01:30 pm • Break {-}
+### 01:30 pm • Break {{< fa mug-hot >}} {-}
 
 ### 01:45 pm • Workshop session 1 {- #day_1_pm_session_1}
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Intro to Jupyter notebooks ([Russell](presenters.qmd#john-russell)) | W211A | |
+| Introduction to Jupyter notebooks ([Russell](presenters.qmd#john-russell)),  | W211A | |
 | Getting credit for sharing your data: Good enough data management practices ([Pearce](directors.qmd#alaina-pearce)) | Dewey Room | |
 
-### 02:45 pm • Break {-}
+### 02:45 pm • Break {{< fa mug-hot >}} {-}
 
 ### 03:00 pm • Workshop session 2 {- #day_1_pm_session_2}
 
 | Topic | Location | Materials |
 |--------------|----------|-------|
-| Quarto (Part I): A tool for open scholarship ([Gilmore](directors.qmd#rick-gilmore)) | W211A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I), [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
+| Quarto (Part I): A tool for open scholarship ([Gilmore](directors.qmd#directors.qmd#rick-gilmore)) | 221A | [description](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship),  [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I), [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
 | Questionable research practices ([Lazar](program-committee.qmd#nicole-lazar) & [Valcin](program-committee.qmd#jennifer-valcin))| Dewey Room | |
 
 ### 04:00 pm • Day 1 wrap-up

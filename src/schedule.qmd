@@ -10,11 +10,11 @@ See the detailed daily schedules for more information.
 
 ### Day 1
 
-*Breakfast provided*
+*Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
 
 *Keynote*: "Harnessing AI for scientific integrity", Dr. [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST, Penn State, Foster Auditorium (102 Pattee)
 
-*Lunch provided*
+*Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
 
 *Movie screening*: "Paywall: The Business of Scholarship"
 
@@ -22,28 +22,29 @@ See the detailed daily schedules for more information.
 
 ### Day 2
 
-*Breakfast provided*
+*Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
 
 *Keynote*: "Rescuing and preserving public data: The data rescue project", Dr. [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania & [Data Rescue Project](https://www.datarescueproject.org), Foster Auditorium (102 Pattee)
 
-*Lunch provided*
+*Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
 
 *Hands-on workshops*
 
-::: {.callout-important}
+::: {.callout-note}
 ### Happy Hour
 Please join us for an open scholarship happy hour to follow immediately after the end of the Day 2 program.
 :::
 
 ### Day 3
 
-*Breakfast provided*
+*Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
 
-*Plenary session on open access & licensing*
+*Plenary session on open access & licensing* {{< ai open-access >}}
 
 *Hands-on workshops*
 
 ::: {.callout-note}
 ### Logistics
+
 The bootcamp will end at noon, but lunch will *not* be provided.
 :::

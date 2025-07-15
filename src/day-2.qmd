@@ -5,9 +5,11 @@ format: html
 
 ## Morning {- #day_2_am}
 
-### 08:30 am • Breakfast {-}
+### 08:30 am • Breakfast {{< fa mug-hot >}} {{< fa bread-slice >}} {-}
 
 ### 09:00 am • Welcome to Day 2 {-}
+
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
 
 ### 09:05 am • Open @ Penn State
 
@@ -24,21 +26,21 @@ format: html
 - [Rick Gilmore](directors.qmd#rick-gilmore), Databrary
 - [Nicole Lazar](program-committee.qmd#nicole-lazar), Department of Statistics (Moderator)
 
-### 10:30 am • Break {-}
+### 10:30 am • Break {{< fa mug-hot >}} (15 min) {-}
 
 ### 10:45 am • Keynote {- #day_2_plenary_2}
 
-#### "**Rescuing and preserving public data: The data rescue project**"
+#### Rescuing and preserving public data: The data rescue project
 
 [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
 
-::: {.callout-important}
+::: {.callout-note}
 ## Location
 
 Foster Auditorium (102 Paterno Library)
 :::
 
-### 11:45 am • Lunch break (90 min) {-}
+### 11:45 am • Lunch {{< fa bottle-water >}} {{< fa bread-slice >}} (90 min) {-}
 
 ## Afternoon {- #day_2_pm}
 
@@ -49,7 +51,7 @@ Foster Auditorium (102 Paterno Library)
 | Getting credit (Part II): Sharing your data ([Pearce](directors.qmd#alaina-pearce)) | Dewey Room | |
 | Quarto (Part II): Reproducible research reports ([West](program-committee.qmd#john-west) & [Gilmore](directors.qmd#rick-gilmore)) | W211A | | 
 
-### 02:15 pm • Break (30 min) {-}
+### 02:15 pm • Break {{< fa mug-hot >}} (30 min) {-}
 
 ### 02:45 pm • Workshop session 4 {- #day_2_pm_session_4}
 
@@ -58,13 +60,13 @@ Foster Auditorium (102 Paterno Library)
 | Getting credit (Part III): Data papers ([Pearce](directors.qmd#alaina-pearce)) | Dewey Room | |
 | LLMs with Jupyter notebooks ([Li](program-committee.qmd#valerie-li)) | W211A | |
 
-### 03:45 pm • Break (15 min) {-}    
+### 03:45 pm • Break {{< fa mug-hot >}} (15 min) {-}    
 
 ### 04:00 pm • Recap Day 2 {- #day_2_pm_recap}
 
 ### 04:15 pm • End of Day 2 {-}
 
-### 04:30 pm • Open scholarship happy hour {- #day_2_happy_hour}
+### 04:30 pm • Open scholarship happy hour {{< fa wine-glass >}} {- #day_2_happy_hour}
 
 Hors d'oeuvres provided by the Bootcamp sponsors. Cash bar.
 

@@ -8,9 +8,11 @@ format: html
 The Bootcamp ends at noon.
 :::
 
-### 08:30 am • Breakfast {-}
+### 08:30 am • {{< fa mug-hot >}} {{< fa bread-slice >}} {-}
 
 ### 09:00 am • Welcome to Day 3 {-}
+
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
 
 ### 09:05 am • Open @ Penn State
 
@@ -24,7 +26,7 @@ The Bootcamp ends at noon.
 
 [Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
 
-### 10:30 am • Break  {-}
+### 10:30 am • Break {{< fa mug-hot >}} {-}
 
 ### 10:45 am • Workshop session 5 {- #day_3_am_session_5}
 
