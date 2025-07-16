@@ -245,7 +245,8 @@ registrations_yes <- registrations_yes |>
       `Libraries` = "University Libraries",
       `University libraries` = "University Libraries",
       `Ecosystem Science and Management` = "Ecosystem Science & Management",
-      `PRC` = "Population Research Center"
+      `PRC` = "Population Research Center",
+      `TLT, PSU Libraries` = "University Libraries"
     )
   ) |> 
   dplyr::mutate(
