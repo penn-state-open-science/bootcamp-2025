@@ -107,13 +107,15 @@ readr::write_csv(registrations_dd,
                  file = file.path(params$csv_dir, "registrations-2025-data-dict.csv"))
 ```
 
-Last, we convert the text dates into date/time objects and created a new `registered` variable.
+We eliminate duplicate registrations.
 
 ```{r}
 gilmore_dup <- registrations_clean$timestamp != "6/20/2025 9:36:33" & registrations_clean$name == "Rick Gilmore"
 
+eyal_dup <- registrations_clean$name == "Eyal Ben-Yehuda" & registrations_clean$psu_email == "eyalby@psu.edu"
+
 registrations_clean <- registrations_clean |>
-  dplyr::filter(!gilmore_dup) |>
+  dplyr::filter(!gilmore_dup | !eyal_dup) |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
 ```
 
@@ -131,6 +133,8 @@ keynotes_only <- registrations_clean |>
 ```
 
 As of `r Sys.Date()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
+
+We have `r `
 
 ### Time series {-}
 
@@ -233,6 +237,7 @@ registrations_yes <- registrations_yes |>
       `College of IST` = "IST",
       `Statistics Department` = "Statistics",
       `Department of Statistics` = "Statistics",
+      `Math` = "Mathematics", 
       `Astronomy and Astrophysics` = "Astronomy & Astrophysics",
       `Recreation, Park and Tourism Management` = "Recreation, Park, & Tourism Management",
       `SHS` = "Student Health Svcs",
@@ -288,6 +293,7 @@ registrations_yes <- registrations_yes |>
       "EESI" ~ "EESI",
       "ORP" ~ "OVPR",
       "Astronomy & Astrophysics" ~ "ECoS",
+      "Mathematics" ~ "ECoS",
       "Entomology" ~ "AgSci",
       "Ecosystem Science & Management" ~ "AgSci",
       "Plant Biology" ~ "Huck",
