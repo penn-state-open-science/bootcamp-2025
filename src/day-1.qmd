@@ -20,7 +20,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 ### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
 
 - [ScholarSphere](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce)
-- Big data developmental neuroscience, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
+- Open Science and the HBCD and ABCD Cohorts, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
 - Open scholarship and high performance computing, [Wayne Figurelle](presenters.qmd#wayne-figurelle)
 - The [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu), [Frank Hillary](program-committee.qmd#frank-hillary)
 
@@ -50,19 +50,19 @@ Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wi
 
 ### 01:45 pm • Workshop session 1 {- #day_1_pm_session_1}
 
-| Topic | Location | Materials |
-|--------------|----------|-------|
-| Introduction to Jupyter notebooks ([Russell](presenters.qmd#john-russell)) | W211A | [description]() |
-| Getting credit for sharing your data: Good enough data management practices ([Pearce](directors.qmd#alaina-pearce)) | Dewey Room | [description](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) |
+| Topic | Presenter | Location | Materials |
+|--------------|----------|-------|------|
+| Introduction to Jupyter notebooks | | W211A | |
+| [Getting credit for sharing your data: Good enough data management practices](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Pearce](directors.qmd#alaina-pearce) | Dewey Room | |
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
 
 ### 03:00 pm • Workshop session 2 {- #day_1_pm_session_2}
 
-| Topic | Location | Materials |
-|--------------|----------|-------|
-| Quarto (Part I): A tool for open scholarship ([Gilmore](directors.qmd#directors.qmd#rick-gilmore)) | 221A | [description](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) ~  [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
-| Questionable research practices ([Lazar](program-committee.qmd#nicole-lazar) & [Valcin](program-committee.qmd#jennifer-valcin))| Dewey Room | [description]() |
+| Topic | Presenter | Location | Materials |
+|--------------|----------|-------|------|
+| [Quarto (Part I): A tool for open scholarship]((sessions.qmd#quarto-part-i-a-tool-for-open-scholarship)) | [ Gilmore](directors.qmd#directors.qmd#rick-gilmore) | 221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
+| [Questionable research practices](sessions.qmd#questionable-research-practices) |  [Lazar](program-committee.qmd#nicole-lazar) & [Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room |  |
 
 ### 04:00 pm • Day 1 wrap-up
 

@@ -92,7 +92,7 @@ What are questionable research practices? Why are they questionable? How do we a
 
 New funder requirements call for researchers to share their data openly — but simply uploading data files isn't enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on *Getting Credit for Sharing Your Data*.
 
-*Presenter*: [Alaiana Pearce](directors.qmd#alaina-pearce)
+*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
 
 *Prerequisites*: None
 

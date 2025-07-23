@@ -129,12 +129,12 @@ registrations_yes <- registrations_clean |>
   dplyr::mutate(registered = TRUE)
 
 keynotes_only <- registrations_clean |>
-  dplyr::mutate(keynotes = stringr::str_detect(string = bootcamp_keynote, pattern = "Keynote"))
+  dplyr::mutate(keynotes = stringr::str_detect(string = bootcamp_keynote, pattern = "address"))
 ```
 
-As of `r Sys.Date()`, we have $n=$ `r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
+As of `r Sys.Date()`, we have *n*=`r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
 
-We have `r `
+Of these, *n*=`r sum(keynotes_only$keynotes == TRUE, na.rm = TRUE)` are only attending a keynote talk, *n*=`r sum(keynotes_only$presenter == 'yes', na.rm = TRUE)` are presenting, and *n*=`r sum(keynotes_only$presenter == 'no', na.rm = TRUE)` are attending.
 
 ### Time series {-}
 
@@ -166,9 +166,9 @@ registrations_clean |>
   dplyr::mutate(plan_wed = stringr::str_detect(attend_days, "Wed"),
                 plan_thu = stringr::str_detect(attend_days, "Thu"),
                 plan_fri = stringr::str_detect(attend_days, "Fri")) |>
-  dplyr::mutate(n_wed = sum(plan_wed),
-                n_thu = sum(plan_thu),
-                n_fri = sum(plan_fri)) |>
+  dplyr::mutate(n_wed = sum(plan_wed, na.rm = TRUE),
+                n_thu = sum(plan_thu, na.rm = TRUE),
+                n_fri = sum(plan_fri, na.rm = TRUE)) |>
   dplyr::select(n_wed, n_thu, n_fri) |>
   dplyr::distinct() |>
   knitr::kable(format = "html") |>
