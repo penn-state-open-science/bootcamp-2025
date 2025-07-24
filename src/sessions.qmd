@@ -29,7 +29,7 @@ What initiatives and resources are available at Penn State related to open schol
 
 #### An introduction to Jupyter notebooks
 
-*Presenter*: [John Russell](program-committee.qmd#john-russell)
+<!-- *Presenter*: [John Russell](program-committee.qmd#john-russell) -->
 
 *Prerequisites*: None
 
