@@ -19,10 +19,10 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
 
-- [ScholarSphere](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce)
-- Open Science and the HBCD and ABCD Cohorts, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
-- Open scholarship and high performance computing, [Wayne Figurelle](presenters.qmd#wayne-figurelle)
-- The [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu), [Frank Hillary](program-committee.qmd#frank-hillary)
+- [*ScholarSphere*](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce)
+- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar)
+- *Open scholarship and high performance computing*, [Wayne Figurelle](presenters.qmd#wayne-figurelle)
+- *The [Enhancing Neuro Imaging Genetics Through Meta Analysis (ENIGMA) consortium](https://enigma.ini.usc.edu)*, [Frank Hillary](program-committee.qmd#frank-hillary)
 
 ### 10:15 am • Break {{< fa mug-hot >}} {-}
 
@@ -44,7 +44,7 @@ Foster Auditorium (102 Paterno Library)
 
 ### 12:00 pm • Movie time
 
-Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship)" and discussion
+Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship) and discussion
 
 ### 01:30 pm • Break {{< fa mug-hot >}} {-}
 
@@ -52,8 +52,8 @@ Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wi
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| Introduction to Jupyter notebooks | | W211A | |
-| [Getting credit for sharing your data: Good enough data management practices](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Pearce](directors.qmd#alaina-pearce) | Dewey Room | |
+| *Introduction to Jupyter notebooks* | | W211A | |
+| [*Getting credit for sharing your data: Good enough data management practices*](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Pearce](directors.qmd#alaina-pearce) | Dewey Room | |
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
 
@@ -61,8 +61,8 @@ Screening of "[Paywall: The Business of Scholarship](https://en.wikipedia.org/wi
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| [Quarto (Part I): A tool for open scholarship]((sessions.qmd#quarto-part-i-a-tool-for-open-scholarship)) | [ Gilmore](directors.qmd#directors.qmd#rick-gilmore) | 221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
-| [Questionable research practices](sessions.qmd#questionable-research-practices) |  [Lazar](program-committee.qmd#nicole-lazar) & [Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room |  |
+| [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [ Gilmore](directors.qmd#directors.qmd#rick-gilmore) | 221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
+| [*Questionable research practices*](sessions.qmd#questionable-research-practices) |  [Lazar](program-committee.qmd#nicole-lazar) & [Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room |  |
 
 ### 04:00 pm • Day 1 wrap-up
 

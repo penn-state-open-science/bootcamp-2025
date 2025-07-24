@@ -16,13 +16,13 @@ The Bootcamp ends at noon.
 
 ### 09:05 am • Open @ Penn State
 
-- Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu), [Nicole Lazar](program-committee.qmd#nicole-lazar)
-- Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org), [Rick Gilmore](directors.qmd#rick-gilmore)
+- *Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu)*, [Nicole Lazar](program-committee.qmd#nicole-lazar)
+- *Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org)*, [Rick Gilmore](directors.qmd#rick-gilmore)
 <!-- - ICDS [Wayne Figurelli]() -->
 
 ### 09:30 am • Plenary {-}
 
-#### **Open access & licensing**
+#### Open access & licensing
 
 [Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
 
@@ -32,8 +32,8 @@ The Bootcamp ends at noon.
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| [Where to start? Early career panel](sessions.qmd#where-to-start-open-science-for-early-career-researchers) | [Almeida](program-committee.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky), & [Beck](presenters.qmd#olivia-beck) | Dewey Room |  |
-| [Open access high performance computing](sessions.qmd#open-access-high-performance-computing) | [Brown](program-committee.qmd#carrie-brown) | W211A |  |
+| [*Where to start? Early career panel*](sessions.qmd#where-to-start-open-science-for-early-career-researchers) | [Almeida](program-committee.qmd#carlos-freitas-almeida), [Hallisky](presenters.qmd#kyle-hallisky), & [Beck](presenters.qmd#olivia-beck) | Dewey Room |  |
+| [*Open access high performance computing*](sessions.qmd#open-access-high-performance-computing) | [Brown](program-committee.qmd#carrie-brown) | W211A |  |
 
 ### 11:45 am • Community Dialogue {-}
 
