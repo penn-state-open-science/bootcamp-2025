@@ -13,6 +13,10 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 ### 09:00 am • Welcome {-}
 
+[Faye Chadwell](presenters.qmd#faye-chadwell), Dean of the Penn State University Libraries
+
+## 09:10 am • Bootcamp overview {-}
+
 [Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
 
 [HTML slides](https://penn-state-open-science.github.io/bootcamp-2025-welcome-day-1-welcome/)

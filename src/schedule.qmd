@@ -12,6 +12,8 @@ See the detailed daily schedules for more information.
 
 *Breakfast provided* {{< fa mug-hot >}} {{< fa bread-slice >}}
 
+*Welcome*: [Faye Chadwell](presenters.qmd#faye-chadwell), Dean of the Penn State University Libraries
+
 *Keynote*: "Harnessing AI for scientific integrity", Dr. [Sarah Rajtmajer](people.qmd#sarah-rajtmajer), College of IST, Penn State, Foster Auditorium (102 Pattee)
 
 *Lunch provided* {{< fa bottle-water >}} {{< fa bread-slice >}}
