@@ -206,6 +206,7 @@ registrations_yes <- registrations_yes |>
       `Cognitive Psychology` = "Psychology",
       `Psychology, Developmental` = "Psychology",
       `Developmental Psychology (CAT Lab)` = "Psychology",
+      `Developmental Psychology` = "Psychology",
       `Psych` = "Psychology",
       `English language` = "English",
       `english` = "English",
@@ -307,7 +308,8 @@ registrations_yes <- registrations_yes |>
       "Population Research Center" ~ "SSRI",
       "Psychology (Harrisburg)" ~ "PSU Harrisburg",
       "Business and Economics" ~ "PSU Brandywine",
-      "Engineering" ~ "Engineering"
+      "Engineering" ~ "Engineering",
+      "LPS/LDT" ~ "Education"
     ),
     .default = "Unknown",
     .missing = "Unknown"
