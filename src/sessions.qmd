@@ -21,13 +21,15 @@ What initiatives and resources are available at Penn State related to open schol
 
 ### Workshop Session 1
 
-#### An introduction to Jupyter notebooks
+#### Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources
+
+Join us for a workshop exploring the powerful computational and data resources available through Penn State’s Institute for Computational and Data Sciences (ICDS). Learn how to leverage the Roar supercomputing system—featuring high-performance CPU and GPU capabilities, scalable storage, and support for data-intensive research. Whether you're running complex simulations, processing large datasets, or developing sophisticated workflows, Roar provides flexible solutions tailored to researchers across all disciplines. This session will cover both interactive, user-friendly interfaces and batch computing workflows to help you get started, regardless of your technical background.
 
 *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
 *Prerequisites*: None
 
-*Skill level*: Novice
+*Skill level*: All
 
 *Location*: W211A Pattee
 
@@ -82,17 +84,15 @@ What are questionable research practices? Why are they questionable? How do we a
 
 ### Workshop Session 3
 
-#### Getting credit for sharing your data (Part II): Sharing your data
+#### An introduction to Jupyter notebooks
 
-New funder requirements call for researchers to share their data openly — but simply uploading data files isn't enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on *Getting Credit for Sharing Your Data*.
-
-*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
+*Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
 *Prerequisites*: None
 
 *Skill level*: Novice
 
-*Location*: Dewey Room
+*Location*: W211A Pattee
 
 ---
 
@@ -104,15 +104,19 @@ New funder requirements call for researchers to share their data openly — but 
 
 *Skill level*: Advanced beginner
 
-*Location*: W211A Pattee
+*Location*: Dewey Room
 
 ### Workshop Session 4
 
-#### Getting credit for sharing your data (Part III): Data papers
+#### Getting credit for sharing your data (Part II): Sharing your data
 
-Sharing data openly is a growing expectation in research but getting formal recognition for the time and effort involved is still a challenge. This workshop introduces one impactful way to gain academic credit for your data: publishing a data paper. Data papers are peer-reviewed journal articles that describe a dataset in detail—how it was collected, its structure, and its potential value for reuse. Data papers can be particularly helpful for researchers as they will: 1) add a peer-reviewed publication to your CV; 2) increase the visibility and usability of your dataset; and 3) provide a way for others to cite your data that will contribute to your citation count. In this hands-on session, we will explore the structure and purpose of data papers, walk through examples, and begin drafting key components based on your own projects. This is the third of three workshops on *Getting Credit for Sharing Your Data*.
+New funder requirements call for researchers to share their data openly — but simply uploading data files isn't enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on *Getting Credit for Sharing Your Data*.
 
 *Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
+
+*Prerequisites*: None
+
+*Skill level*: Novice
 
 *Location*: Dewey Room
 
@@ -142,14 +146,12 @@ How can early career researchers start their open science journey (Allen & Mehle
 
 ---
 
-#### Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources
+#### Getting credit for sharing your data (Part III): Data papers
 
-Join us for a workshop exploring the powerful computational and data resources available through Penn State’s Institute for Computational and Data Sciences (ICDS). Learn how to leverage the Roar supercomputing system—featuring high-performance CPU and GPU capabilities, scalable storage, and support for data-intensive research. Whether you're running complex simulations, processing large datasets, or developing sophisticated workflows, Roar provides flexible solutions tailored to researchers across all disciplines. This session will cover both interactive, user-friendly interfaces and batch computing workflows to help you get started, regardless of your technical background.
+Sharing data openly is a growing expectation in research but getting formal recognition for the time and effort involved is still a challenge. This workshop introduces one impactful way to gain academic credit for your data: publishing a data paper. Data papers are peer-reviewed journal articles that describe a dataset in detail—how it was collected, its structure, and its potential value for reuse. Data papers can be particularly helpful for researchers as they will: 1) add a peer-reviewed publication to your CV; 2) increase the visibility and usability of your dataset; and 3) provide a way for others to cite your data that will contribute to your citation count. In this hands-on session, we will explore the structure and purpose of data papers, walk through examples, and begin drafting key components based on your own projects. This is the third of three workshops on *Getting Credit for Sharing Your Data*.
 
-*Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
-
-*Prerequisites*: None
-
-*Skill level*: All
+*Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
 
 *Location*: W211A Pattee
+
+

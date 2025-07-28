@@ -32,7 +32,7 @@ The Bootcamp ends at noon.
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
 | [*Where to start? Early career panel*](sessions.qmd#where-to-start-open-science-for-early-career-researchers) | [Carlos Almeida](program-committee.qmd#carlos-freitas-almeida), [Kyle Hallisky](presenters.qmd#kyle-hallisky), & [Olivia Beck](presenters.qmd#olivia-beck) | Dewey Room |  |
-| [*Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources*](sessions.qmd#open-access-high-performance-computing) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |  |
+| [*Getting credit (Part III): Data papers*](#getting-credit-for-sharing-your-data-part-iii-data-papers) | [Alaina Pearce](directors.qmd#alaina-pearce) | W211A |  |
 
 ### 11:45 am • Community Dialogue {-}
 

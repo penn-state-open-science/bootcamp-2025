@@ -253,7 +253,8 @@ registrations_yes <- registrations_yes |>
       `University libraries` = "University Libraries",
       `Ecosystem Science and Management` = "Ecosystem Science & Management",
       `PRC` = "Population Research Center",
-      `TLT, PSU Libraries` = "University Libraries"
+      `TLT, PSU Libraries` = "University Libraries",
+      `Business and Economics` = "Business & Economics"
     )
   ) |> 
   dplyr::mutate(
@@ -309,7 +310,7 @@ registrations_yes <- registrations_yes |>
       "Electrical Engineering & Comp Sci" ~ "Engineering",
       "Population Research Center" ~ "SSRI",
       "Psychology (Harrisburg)" ~ "PSU Harrisburg",
-      "Business and Economics" ~ "PSU Brandywine",
+      "Business & Economics" ~ "PSU Brandywine",
       "Engineering" ~ "Engineering",
       "LPS/LDT" ~ "Education"
     ),
@@ -334,3 +335,5 @@ registrations_yes |>
   theme(legend.title = element_blank()) +
   coord_flip()
 ```
+
+The bootcamp registrations represent *n*=`r length(unique(registrations_yes$dept))` departments and *n*=`r length(unique(registrations_yes$college))` campuses, colleges, institutes, or administrative entities.
