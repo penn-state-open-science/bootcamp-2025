@@ -15,7 +15,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 [Faye Chadwell](presenters.qmd#faye-chadwell), Dean of the Penn State University Libraries
 
-## 09:10 am • Bootcamp overview {-}
+### 09:10 am • Bootcamp overview {-}
 
 [Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
 
@@ -56,8 +56,8 @@ Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/w
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| *Introduction to Jupyter notebooks* | | W211A | |
-| [*Getting credit for sharing your data: Good enough data management practices*](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Pearce](directors.qmd#alaina-pearce) | Dewey Room | |
+| *Introduction to Jupyter notebooks* | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A | |
+| [*Getting credit for sharing your data: Good enough data management practices*](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room | |
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
 
@@ -65,8 +65,8 @@ Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/w
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [ Gilmore](directors.qmd#directors.qmd#rick-gilmore) | 221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
-| [*Questionable research practices*](sessions.qmd#questionable-research-practices) |  [Lazar](program-committee.qmd#nicole-lazar) & [Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room |  |
+| [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | 221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
+| [*Questionable research practices*](sessions.qmd#questionable-research-practices) |  [Nicole Lazar](program-committee.qmd#nicole-lazar) & [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room |  |
 
 ### 04:00 pm • Day 1 wrap-up
 

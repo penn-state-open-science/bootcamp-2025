@@ -29,7 +29,7 @@ What initiatives and resources are available at Penn State related to open schol
 
 #### An introduction to Jupyter notebooks
 
-<!-- *Presenter*: [John Russell](program-committee.qmd#john-russell) -->
+*Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
 *Prerequisites*: None
 
@@ -148,7 +148,9 @@ How can early career researchers start their open science journey (Allen & Mehle
 
 ---
 
-#### Open access high performance computing
+#### Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources
+
+Join us for a workshop exploring the powerful computational and data resources available through Penn State’s Institute for Computational and Data Sciences (ICDS). Learn how to leverage the Roar supercomputing system—featuring high-performance CPU and GPU capabilities, scalable storage, and support for data-intensive research. Whether you're running complex simulations, processing large datasets, or developing sophisticated workflows, Roar provides flexible solutions tailored to researchers across all disciplines. This session will cover both interactive, user-friendly interfaces and batch computing workflows to help you get started, regardless of your technical background.
 
 *Presenter*: [Carrie Brown](program-committee.qmd#carrie-brown)
 
