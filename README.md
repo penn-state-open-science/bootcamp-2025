@@ -1,6 +1,6 @@
 # bootcamp-2025
 
-![](src/include/img/banner.png){fig-width=60%}
+![](src/include/img/banner.png)
 
 This repository contains files related to the Open Scholarship Bootcamp held at Penn State University in August 2025.
 
