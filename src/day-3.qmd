@@ -18,7 +18,6 @@ The Bootcamp ends at noon.
 
 - *Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu)*, [Nicole Lazar](program-committee.qmd#nicole-lazar)
 - *Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org)*, [Rick Gilmore](directors.qmd#rick-gilmore)
-<!-- - ICDS [Wayne Figurelli]() -->
 
 ### 09:30 am • Plenary {-}
 
@@ -33,7 +32,7 @@ The Bootcamp ends at noon.
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
 | [*Where to start? Early career panel*](sessions.qmd#where-to-start-open-science-for-early-career-researchers) | [Carlos Almeida](program-committee.qmd#carlos-freitas-almeida), [Kyle Hallisky](presenters.qmd#kyle-hallisky), & [Olivia Beck](presenters.qmd#olivia-beck) | Dewey Room |  |
-| [*Harnessing Advanced Cyberinfrastructure for Research: An Introduction to Roar and ICDS Resources*](sessions.qmd#open-access-high-performance-computing) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |  |
+| [*Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources*](sessions.qmd#open-access-high-performance-computing) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |  |
 
 ### 11:45 am • Community Dialogue {-}
 
