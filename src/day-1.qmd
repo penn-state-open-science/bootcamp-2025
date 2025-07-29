@@ -1,10 +1,10 @@
 # Day 1 (Wed, Aug 13)
 
-::: {.callout-note}
+::: {.callout-important}
 ## Logistics
 All times are Eastern Daylight Time (EDT).
 
-Location: Dewey Room, West Pattee, unless otherwise indicated.
+**Location**: Dewey Room, West Pattee, unless otherwise indicated.
 :::
 
 ## Morning {- #day_1_am}
@@ -36,7 +36,7 @@ Location: Dewey Room, West Pattee, unless otherwise indicated.
 
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
 
-::: {.callout-note}
+::: {.callout-important}
 ## Location
 
 Foster Auditorium (102 Paterno Library)

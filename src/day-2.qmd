@@ -34,7 +34,7 @@ format: html
 
 [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
 
-::: {.callout-note}
+::: {.callout-important}
 ## Location
 
 Foster Auditorium (102 Paterno Library)
@@ -70,7 +70,7 @@ Foster Auditorium (102 Paterno Library)
 
 Hors d'oeuvres provided by the Bootcamp sponsors. Cash bar.
 
-::: {.callout-note}
+::: {.callout-important}
 ## Location
 
 The Lobby Bar \

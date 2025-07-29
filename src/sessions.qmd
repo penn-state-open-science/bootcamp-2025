@@ -47,6 +47,8 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 *Location*: Dewey Room
 
+---
+
 ### Workshop Session 2
 
 #### Quarto (Part I): A tool for open scholarship
