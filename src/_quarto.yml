@@ -23,6 +23,8 @@ book:
         href: sessions.qmd
       - text: "Registration Data"
         href: registration.qmd
+      - text: "Installing Quarto"
+        href: how-to-install-rstudio-quarto.qmd
       - resources.qmd
   repo-url: https://github.com/penn-state-open-science/bootcamp-2025/
   repo-actions: [edit, issue]

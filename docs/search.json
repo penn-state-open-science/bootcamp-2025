@@ -119,7 +119,7 @@
     "href": "day-2.html#day_2_pm",
     "title": "Day 2 (Thu, Aug 14)",
     "section": "Afternoon",
-    "text": "Afternoon\n\n01:15 pm • Workshop session 3\n\n\n\nTopic\nPresenter\nLocation\nMaterials\n\n\n\n\nIntroduction to Jupyter notebooks\nCarrie Brown\nW211A\n\n\n\nQuarto (Part II): Reproducible research reports\nJohn West & Rick Gilmore\nDewey Room\n\n\n\n\n\n\n02:15 pm • Break \n\n\n02:45 pm • Workshop session 4\n\n\n\nTopic\nPresenter\nLocation\nMaterials\n\n\n\n\nGetting credit (Part II): Sharing your data\nAlaina Pearce\nDewey Room\n\n\n\nLLMs with Jupyter notebooks\nValerie Li\nW211A\n\n\n\n\n\n\n03:45 pm • Break \n\n\n04:00 pm • Recap Day 2\n\n\n04:15 pm • End of Day 2\n\n\n04:30 pm • Open scholarship happy hour \nHors d’oeuvres provided by the Bootcamp sponsors. Cash bar.\n\n\n\n\n\n\nLocation\n\n\n\nThe Lobby Bar\n100 West College Avenue",
+    "text": "Afternoon\n\n01:15 pm • Workshop session 3\n\n\n\nTopic\nPresenter\nLocation\nMaterials\n\n\n\n\nGetting started with Python in JupyterLab: A hands-on introduction\nCarrie Brown\nW211A\n\n\n\nQuarto (Part II): Reproducible research reports\nJohn West & Rick Gilmore\nDewey Room\n\n\n\n\n\n\n02:15 pm • Break \n\n\n02:45 pm • Workshop session 4\n\n\n\nTopic\nPresenter\nLocation\nMaterials\n\n\n\n\nGetting credit (Part II): Sharing your data\nAlaina Pearce\nDewey Room\n\n\n\nLLMs with Jupyter notebooks\nValerie Li\nW211A\n\n\n\n\n\n\n03:45 pm • Break \n\n\n04:00 pm • Recap Day 2\n\n\n04:15 pm • End of Day 2\n\n\n04:30 pm • Open scholarship happy hour \nHors d’oeuvres provided by the Bootcamp sponsors. Cash bar.\n\n\n\n\n\n\nLocation\n\n\n\nThe Lobby Bar\n100 West College Avenue",
     "crumbs": [
       "Schedule",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Day 2 (Thu, Aug 14)</span>"
@@ -449,7 +449,7 @@
     "href": "sessions.html#day-1-wed-august-13",
     "title": "Session Details",
     "section": "Day 1 • Wed August 13",
-    "text": "Day 1 • Wed August 13\n\nOpen @ Penn State\nWhat initiatives and resources are available at Penn State related to open scholarship?\nLocation: Dewey Room\n\n\n\nWorkshop Session 1\n\nHarnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources\nJoin us for a workshop exploring the powerful computational and data resources available through Penn State’s Institute for Computational and Data Sciences (ICDS). Learn how to leverage the Roar supercomputing system—featuring high-performance CPU and GPU capabilities, scalable storage, and support for data-intensive research. Whether you’re running complex simulations, processing large datasets, or developing sophisticated workflows, Roar provides flexible solutions tailored to researchers across all disciplines. This session will cover both interactive, user-friendly interfaces and batch computing workflows to help you get started, regardless of your technical background.\nPresenter: Carrie Brown\nPrerequisites: None\nSkill level: All\nLocation: W211A Pattee\n\n\n\nGetting credit for sharing your data (Part I): Good enough data practices\nEffective data management is key to research integrity, reproducibility, and making your data useful beyond your own project. Since most researchers have limited time to perfect their workflows, this workshop introduces ‘good enough’ data practices; simple, time-efficient strategies that lay the groundwork for sharing, publishing, and reusing data. You’ll learn how to organize your files using logical directory structures and naming conventions, keep your data tidy and consistent, track changes with version control, and create basic metadata to describe your dataset. By the end of the session, you’ll be equipped with practical tools to make your data easier to manage now and far easier to share later. This is the first of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaina Pearce\nPrerequisites: None\nSkill level: Novice\nLocation: Dewey Room\n\n\n\n\nWorkshop Session 2\n\nQuarto (Part I): A tool for open scholarship\nQuarto is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can be a powerful tool for implementing open scholarship practices. This is the first of two workshops on Quarto.\nPresenter: Rick Gilmore\nPrerequisites: None\nSkill level: Novice\nResources:\n\nHTML talk slides\nGitHub template repository\n\nLocation: W211A Pattee\n\n\n\nQuestionable research practices\nWhat are questionable research practices? Why are they questionable? How do we avoid them?\nPresenters: Nicole Lazar and Jennifer Valcin\nPrerequisites: None\nSkill level: Novice\nLocation: Dewey Room",
+    "text": "Day 1 • Wed August 13\n\nOpen @ Penn State\nWhat initiatives and resources are available at Penn State related to open scholarship?\nLocation: Dewey Room\n\n\n\nWorkshop Session 1\n\nHarnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources\nJoin us for a workshop exploring the powerful computational and data resources available through Penn State’s Institute for Computational and Data Sciences (ICDS). Learn how to leverage the Roar supercomputing system—featuring high-performance CPU and GPU capabilities, scalable storage, and support for data-intensive research. Whether you’re running complex simulations, processing large datasets, or developing sophisticated workflows, Roar provides flexible solutions tailored to researchers across all disciplines. This session will cover both interactive, user-friendly interfaces and batch computing workflows to help you get started, regardless of your technical background.\nPresenter: Carrie Brown\nPrerequisites: Attendees will need an active Roar account. To request Roar access, please complete the Account Request form by Tuesday, August 12, 2025.\nSkill level: All\nLocation: W211A Pattee\n\n\n\nGetting credit for sharing your data (Part I): Good enough data practices\nEffective data management is key to research integrity, reproducibility, and making your data useful beyond your own project. Since most researchers have limited time to perfect their workflows, this workshop introduces ‘good enough’ data practices; simple, time-efficient strategies that lay the groundwork for sharing, publishing, and reusing data. You’ll learn how to organize your files using logical directory structures and naming conventions, keep your data tidy and consistent, track changes with version control, and create basic metadata to describe your dataset. By the end of the session, you’ll be equipped with practical tools to make your data easier to manage now and far easier to share later. This is the first of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaina Pearce\nPrerequisites: None\nSkill level: Novice\nLocation: Dewey Room\n\n\n\n\nWorkshop Session 2\n\nQuarto (Part I): A tool for open scholarship\nQuarto is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can be a powerful tool for implementing open scholarship practices. This is the first of two workshops on Quarto.\nPresenter: Rick Gilmore\nPrerequisites: None, but if you plan to bring a laptop, please follow the instructions here to install R, RStudio, and Quarto.\nSkill level: Novice\nResources:\n\nHTML talk slides\nGitHub template repository\n\nLocation: W211A Pattee\n\n\n\nQuestionable research practices\nWhat are questionable research practices? Why are they questionable? How do we avoid them?\nPresenters: Nicole Lazar and Jennifer Valcin\nPrerequisites: None\nSkill level: Novice\nLocation: Dewey Room",
     "crumbs": [
       "More",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Session Details</span>"
@@ -460,7 +460,7 @@
     "href": "sessions.html#day-2-thu-august-14",
     "title": "Session Details",
     "section": "Day 2 • Thu August 14",
-    "text": "Day 2 • Thu August 14\n\nWorkshop Session 3\n\nAn introduction to Jupyter notebooks\nPresenter: Carrie Brown\nPrerequisites: None\nSkill level: Novice\nLocation: W211A Pattee\n\n\n\nQuarto (Part II): Reproducible research reports\nPresenters: John West and Rick Gilmore\nPrerequisites: Quarto (Part I) or equivalent\nSkill level: Advanced beginner\nLocation: Dewey Room\n\n\n\nWorkshop Session 4\n\nGetting credit for sharing your data (Part II): Sharing your data\nNew funder requirements call for researchers to share their data openly — but simply uploading data files isn’t enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaina Pearce\nPrerequisites: None\nSkill level: Novice\nLocation: Dewey Room\n\n\n\nLLMs with Jupyter notebooks\nPresenter: Valerie Li\nLocation: W211A Pattee",
+    "text": "Day 2 • Thu August 14\n\nWorkshop Session 3\n\nGetting started with Python in JupyterLab: A hands-on introduction\nCurious about Python and how to get started with coding? Join us for a one-hour, hands-on workshop introducing Python programming using JupyterLab. Designed for beginners, this session will guide you through the basics of Python using interactive example notebooks. You’ll gain experience navigating the JupyterLab environment while working through live code, and you’ll leave with a set of curated notebooks you can continue exploring on your own. No prior programming experience required!\nPresenter: Carrie Brown\nPrerequisites: Attendees will need an active Roar account. To request Roar access, please complete the Account Request form by Tuesday, August 12, 2025.\nSkill level: Novice\nLocation: W211A Pattee\n\n\n\nQuarto (Part II): Reproducible research reports\nSo, Quarto can be used to generate different types of documents, but what can it actually do to help with your scholarship? In this presentation, John West and Rick Gilmore will tell how they use Quarto to produce reproducible research reports that can be readily shared with collaborators or published as supporting materials for papers and related scholarly products.\nPresenters: John West and Rick Gilmore\nPrerequisites: Quarto (Part I) or equivalent. If you plan to bring a laptop, please follow the instructions here to install R, RStudio, and Quarto.\nSkill level: Advanced beginner.\nLocation: Dewey Room\n\n\n\nWorkshop Session 4\n\nGetting credit for sharing your data (Part II): Sharing your data\nNew funder requirements call for researchers to share their data openly — but simply uploading data files isn’t enough. To make data truly reusable, others must be able to find, access, and understand it. This workshop will guide participants through selecting an appropriate data repository and implementing best practices for documenting data with clear, well-structured metadata. We’ll discuss what to consider when choosing a repository, highlighting platforms such as ScholarSphere, Dataverse, the Open Science Framework (OSF), and Databrary. Just as important as where you share your data is how you document it. Metadata provides the essential context—the who, what, when, where, why, and how—that enables others to interpret and build upon your work. We will focus on two essential tools: README files and data dictionaries. By the end of the session, you’ll have the knowledge to identify repository features that meet your needs and the skills to create metadata that supports transparency, reproducibility, and meaningful reuse. This is the second of three workshops on Getting Credit for Sharing Your Data.\nPresenter: Alaina Pearce\nPrerequisites: None\nSkill level: Novice\nLocation: Dewey Room\n\n\n\nLLMs with Jupyter notebooks\nPresenter: Valerie Li\nLocation: W211A Pattee",
     "crumbs": [
       "More",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Session Details</span>"
@@ -533,6 +533,61 @@
     ]
   },
   {
+    "objectID": "how-to-install-rstudio-quarto.html",
+    "href": "how-to-install-rstudio-quarto.html",
+    "title": "How to install RStudio & Quarto",
+    "section": "",
+    "text": "About\nThis page briefly describes how to install RStudio and Quarto on your personal computer.\nIf you plan to attend either the Quarto I or Quarto II workshops, please follow these steps before the Bootcamp.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#install-r",
+    "href": "how-to-install-rstudio-quarto.html#install-r",
+    "title": "How to install RStudio & Quarto",
+    "section": "Install R",
+    "text": "Install R\n\n\n\nhttps://cran.rstudio.com",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#install-rstudio",
+    "href": "how-to-install-rstudio-quarto.html#install-rstudio",
+    "title": "How to install RStudio & Quarto",
+    "section": "Install RStudio",
+    "text": "Install RStudio\n\n\n\nhttps://posit.co/download/rstudio-desktop/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#install-quarto",
+    "href": "how-to-install-rstudio-quarto.html#install-quarto",
+    "title": "How to install RStudio & Quarto",
+    "section": "Install Quarto",
+    "text": "Install Quarto\n\n\n\nhttps://quarto.org/docs/get-started/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#launch-rstudio",
+    "href": "how-to-install-rstudio-quarto.html#launch-rstudio",
+    "title": "How to install RStudio & Quarto",
+    "section": "Launch RStudio",
+    "text": "Launch RStudio",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
     "objectID": "resources.html",
     "href": "resources.html",
     "title": "Resources",
@@ -540,7 +595,7 @@
     "text": "Penn State",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -551,7 +606,7 @@
     "text": "University Libraries\nThe Penn State University Libraries are a hub of information and training about many topics related to open science.\n\nScholarSphere\nScholarSphere is Penn State’s institutional repository for data and materials.\n\n\n\nData Commons\nData Commons is a Penn State-based data repository associated with Institutes of Energy and the Environment.\n\n\n\n\nPenn State Policies\n\nResearch Data Management\n\n\n\nPenn State Open Scholarship Initiative\n\nGitHub organization.\nOpen science survey protocol and results.\nR Markdown-formatted IRB application template documents.\n\n\n\nCenter for Social Data Analytics (SoDA)\n\n\nCourses\n\nPSYCH 490: The reproducibility crisis in science\n\nSpring 2023\nFall 2023\nFall 2024\n\nPSYCH 490: The psychology of data visualization",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
@@ -562,7 +617,7 @@
     "text": "Outside PSU\n\nCenter for Open Science (OSF)\nhttps://opensciency.github.io/sprint-content/\nFramework for Open and Reproducible Research Training: https://forrt.org\nhttps://nap.nationalacademies.org/catalog/25116/open-science-by-design-realizing-a-vision-for-21st-century\nCyVerse: https://foss.cyverse.org\nhttps://www.gida-global.org/care\nhttps://localcontexts.org\nDr. Alondra Nelson’s memo about open access to federally-funded research and a commentary about it.\nTyson Swetnam’s Awesome Open Science resources: https://tyson-swetnam.github.io/awesome-open-science/.\n\n\nPosit PBC\nRick Gilmore has been binge-watching YouTube videos on the Posit PBC channel. Here are some he recommends:\n\nHuang, C. (2024, October 31). Quarto for Knowledge Management. YouTube. https://www.youtube.com/watch?v=4zy9R26B8kk\nPileggi, Ss. (2024, October 31). Context is King. YouTube. https://www.youtube.com/watch?v=eoI9QZdHBMw&t=1067s\nÇetinkaya-Rundel, M. (2023, May 22). Quarto for Academics. YouTube. https://www.youtube.com/watch?v=EbAAmrB0luA&t=545s\nÇetinkaya-Rundel, M. (2023, December 15). Reproducible Manuscripts with Quarto - posit::conf(2023). YouTube. https://www.youtube.com/watch?v=BoiW9UWDLY0",
     "crumbs": [
       "More",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Resources</span>"
     ]
   }
 ]
