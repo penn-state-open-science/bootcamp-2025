@@ -13,7 +13,16 @@ All times are Eastern Daylight Time (EDT).
 
 ### 09:00 am • Welcome {-}
 
+:::: {.columns}
+::: {.column width=80%}
 [Faye Chadwell](presenters.qmd#faye-chadwell), Dean of the Penn State University Libraries
+:::
+::: {.column width=20%}
+![](include/img/chadwell-faye.jpg){width=100px height=100px}
+:::
+::::
+
+
 
 ### 09:10 am • Bootcamp overview {-}
 
@@ -34,7 +43,15 @@ All times are Eastern Daylight Time (EDT).
 
 #### Harnessing AI for scientific integrity
 
+:::: {.columns}
+::: {.column width=80%}
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
+:::
+::: {.column width=20%}
+![](include/img/rajtmajer-sarah.png){width=100px height=100px}
+:::
+::::
+
 
 ::: {.callout-important}
 ## Location
@@ -48,7 +65,15 @@ Foster Auditorium (102 Paterno Library)
 
 ### 12:00 pm • Movie time
 
+:::: {.columns}
+::: {.column width=80%}
 Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship) and discussion
+:::
+::: {.column width=20%}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Paywall_documentary_poster.jpg/1280px-Paywall_documentary_poster.jpg){width=100px}
+:::
+::::
+
 
 ### 01:30 pm • Break {{< fa mug-hot >}} {-}
 

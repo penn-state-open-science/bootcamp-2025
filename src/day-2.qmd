@@ -32,7 +32,14 @@ format: html
 
 #### Rescuing and preserving public data: The data rescue project
 
+:::: {.columns}
+::: {.column width=80%}
 [Lynda Kellam](presenters.qmd#lynda-kellam), University of Pennsylvania
+:::
+::: {.column width=20%}
+![](include/img/kellam-lynda.jpg){width=100px height=100px}
+:::
+::::
 
 ::: {.callout-important}
 ## Location
