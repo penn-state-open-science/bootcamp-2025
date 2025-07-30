@@ -23,6 +23,8 @@ book:
         href: sessions.qmd
       - text: "Registration Data"
         href: registration.qmd
+      - text: "Confirmation Data"
+        href: confirmation.qmd
       - text: "Installing Quarto"
         href: how-to-install-rstudio-quarto.qmd
       - resources.qmd
