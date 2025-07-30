@@ -132,9 +132,9 @@ keynotes_only <- registrations_clean |>
   dplyr::mutate(keynotes = stringr::str_detect(string = bootcamp_keynote, pattern = "address"))
 ```
 
-As of `r Sys.Date()`, we have *n*=`r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)` \% of our target registration/attendance limit of *n*=75.
+As of `r Sys.Date()`, we have *n*=`r dim(registrations_yes)[1]` registered attendees and presenters. That is `r round(100*dim(registrations_yes)[1]/75, 1)`\% of our target registration/attendance limit of *n*=75.
 
-Of these, *n*=`r sum(keynotes_only$keynotes == TRUE, na.rm = TRUE)` are only attending a keynote talk, *n*=`r sum(keynotes_only$presenter == 'yes', na.rm = TRUE)` are presenting, and *n*=`r sum(keynotes_only$presenter == 'no', na.rm = TRUE)` are attending.
+Of these, *n*=`r sum(keynotes_only$keynotes == TRUE, na.rm = TRUE)` plan to attend a keynote talk, *n*=`r sum(keynotes_only$presenter == 'yes', na.rm = TRUE)` are presenting, and *n*=`r sum(keynotes_only$presenter == 'no', na.rm = TRUE)-sum(keynotes_only$keynotes == TRUE, na.rm = TRUE)` plan to attend one or more sessions.
 
 ### Time series {-}
 
@@ -235,6 +235,7 @@ registrations_yes <- registrations_yes |>
       `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
       `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
       `Spanish, Italian, and Portuguese` = "Spanish, Italian, & Portuguese",
+      `DEMOG` = "Demography",
       `Nutrition` = "Nutritional Sciences",
       `College of IST` = "IST",
       `Statistics Department` = "Statistics",
@@ -312,7 +313,9 @@ registrations_yes <- registrations_yes |>
       "Psychology (Harrisburg)" ~ "PSU Harrisburg",
       "Business & Economics" ~ "PSU Brandywine",
       "Engineering" ~ "Engineering",
-      "LPS/LDT" ~ "Education"
+      "LPS/LDT" ~ "Education",
+      "Demography" ~ "CLA",
+      "OVPR" ~ "OVPR"
     ),
     .default = "Unknown",
     .missing = "Unknown"
