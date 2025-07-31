@@ -136,6 +136,14 @@ New funder requirements call for researchers to share their data openly — but 
 
 ## Day 3 • Fri August 15
 
+### Plenary session
+
+#### Intro to copyright and open access publishing
+
+[Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
+
+This presentation will provide a brief introduction to U.S. copyright law, open access publishing, and Creative Commons licensing. You will learn what copyright covers and how copyrighted works enter the public domain. You’ll also learn about fair use and other rights that copyright gives to people using copyrighted material. There will also be a brief overview on the different types of Creative Commons licenses.
+
 ### Workshop Session 5
 
 #### Where to start? Open science for early career researchers

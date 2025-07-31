@@ -19,11 +19,19 @@ The Bootcamp ends at noon.
 - *Inside the [National Synthesis Center for Emergence in the Molecular and Cellular Sciences (NCEMS)](https://ncems.psu.edu)*, [Nicole Lazar](program-committee.qmd#nicole-lazar)
 - *Video as data and documentation: [Databrary.org](https://databrary.org) and the [Play & Learning Across a Year (PLAY) project](https://play-project.org)*, [Rick Gilmore](directors.qmd#rick-gilmore)
 
-### 09:30 am • Plenary {-}
+### 09:30 am • Keynote {-}
 
-#### Open access & licensing
+#### Intro to copyright and open access publishing ([Abstract](sessions.qmd#intro-to-copyright-and-open-access-publishing))
 
+:::: {.columns}
+::: {.column width=80%}
 [Danielle Steinhart](presenters.qmd#danielle-steinhart), University Libraries
+:::
+::: {.column width=20%}
+![](include/img/steinhart-danielle.jpg){width=100px height=100px}
+:::
+::::
+
 
 ### 10:30 am • Break {{< fa mug-hot >}} {-}
 

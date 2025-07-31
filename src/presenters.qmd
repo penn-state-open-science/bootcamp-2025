@@ -120,10 +120,9 @@ Sara Horn is the Director of the IRB within the Penn State Human Research Protec
 
 :::: {.columns}
 ::: {.column width=50%}
-![](include/img/generic-ps-shield-blue-gradient.jpg){width=200px height=200px}
+![](include/img/steinhart-danielle.jpg){width=200px height=200px}
 :::
 ::: {.column width=50%}
-[Danielle Steinhart](https://libraries.psu.edu/directory/djs7648) is Interim Copyright Officer and Head of the [Office of Scholarly Communications and Copyright](https://libraries.psu.edu/about/departments/office-scholarly-communications-and-copyright) in the [Penn State University Libraries](https://libraries.psu.edu).
+[Danielle Steinhart, J.D.](https://libraries.psu.edu/directory/djs7648) is the Interim Head of the [Office of Scholarly Communications and Copyright](https://libraries.psu.edu/about/departments/office-scholarly-communications-and-copyright) at [Penn State University Libraries](https://libraries.psu.edu) where she assists faculty, staff, and students, with copyright and scholarly communications matters and serves as a resource on these topics for the Libraries departments and projects. Danielle practiced law early in her career before transitioning to academia and has been with Penn State Libraries for the last three years. 
 :::
 ::::
-
