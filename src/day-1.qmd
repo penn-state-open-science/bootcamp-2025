@@ -90,7 +90,7 @@ Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/w
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
+| [*Getting started with Python in JupyterLab: A hands-on introduction*](sessions.qmd#getting-started-with-python-in-jupyterlab-a-hands-on-introduction) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A | |
 | [*Questionable research practices*](sessions.qmd#questionable-research-practices) |  [Nicole Lazar](program-committee.qmd#nicole-lazar) & [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room |  |
 
 ### 04:00 pm • Day 1 wrap-up

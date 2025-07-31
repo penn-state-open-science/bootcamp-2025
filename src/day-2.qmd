@@ -55,8 +55,8 @@ Foster Auditorium (102 Paterno Library)
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| [*Getting started with Python in JupyterLab: A hands-on introduction*](sessions.qmd#getting-started-with-python-in-jupyterlab-a-hands-on-introduction) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A | |
-| [*Quarto (Part II): Reproducible research reports*](sessions.qmd#quarto-part-ii-reproducible-research-reports) |  [John West](program-committee.qmd#john-west) & [Rick Gilmore](directors.qmd#rick-gilmore) | Dewey Room | | 
+| [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W221A | [slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I) ~ [template repo](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I-template) |
+| [*Getting credit (Part II): Sharing your data*](sessions.qmd#getting-credit-for-sharing-your-data-part-ii-sharing-your-data) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |  |
 
 ### 02:15 pm • Break {{< fa mug-hot >}} {-}
 
@@ -64,8 +64,8 @@ Foster Auditorium (102 Paterno Library)
 
 | Topic | Presenter | Location | Materials |
 |--------------|----------|-------|------|
-| [*Getting credit (Part II): Sharing your data*](sessions.qmd#getting-credit-for-sharing-your-data-part-ii-sharing-your-data) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |  |
 | [*LLMs with Jupyter notebooks*](sessions.qmd#llms-with-jupyter-notebooks) |  [Valerie Li](program-committee.qmd#valerie-li) | W211A | |
+| [*Getting credit (Part III): Data papers*](#getting-credit-for-sharing-your-data-part-iii-data-papers) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |  |
 
 ### 03:45 pm • Break {{< fa mug-hot >}} {-}    
 
