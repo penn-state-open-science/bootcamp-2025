@@ -83,7 +83,6 @@ What are questionable research practices? Why are they questionable? How do we a
 
 ### Workshop Session 3
 
-
 #### Quarto (Part I): A tool for open scholarship
 
 [Quarto](https://quarto.org) is an open-source scientific and technical publishing system. As the Quarto site suggests, if you have a story to tell with data, you can tell it with Quarto. This workshop will introduce Quarto and show how it can be a powerful tool for implementing open scholarship practices. This is the first of two workshops on Quarto.
@@ -117,9 +116,17 @@ New funder requirements call for researchers to share their data openly — but 
 
 ### Workshop Session 4
 
-#### LLMs with Jupyter notebooks 
+#### LLMs with Jupyter notebooks
+
+Large language models (LLMs) are transforming the way we work with text data. This hands-on workshop introduces the basics of text-as-data, including word embeddings and zero-shot learning, and demonstrates how to deploy a free, open-access LLM using Hugging Face in a Jupyter Notebook. Participants will follow a guided example of sentiment analysis to explore how LLMs can be used for real-world tasks. After the workshop, you will receive a set of curated notebooks to further explore LLMs and their functionalities on your own.
+
+*Skill level*: Intermediate
 
 *Presenter*: [Valerie Li](program-committee.qmd#valerie-li)
+
+*Prerequisites*: Day 1 workshop - [Getting started with Python in JupyterLab: A hands-on introduction](sessions.qmd#getting-started-with-python-in-jupyterlab-a-hands-on-introduction) (preferred but not required); A Google account (to be able to access the free Google [Colab](https://colab.research.google.com/) environment).
+
+*Skill level*: Intermediate
 
 *Location*: W211A Pattee
 

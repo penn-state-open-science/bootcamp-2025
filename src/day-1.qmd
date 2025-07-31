@@ -22,8 +22,6 @@ All times are Eastern Daylight Time (EDT).
 :::
 ::::
 
-
-
 ### 09:10 am • Bootcamp overview {-}
 
 [Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
