@@ -30,6 +30,7 @@ The [Penn State University Libraries](https://libraries.psu.edu) are a hub of in
 ### Penn State Policies
 
 - [Research Data Management](https://policy.psu.edu/policies/rp15)
+  - Formal [announcement](https://researchsupport.psu.edu/announcements/new-research-data-management-policy/) from June 30, 2025.
 
 ### Penn State Open Scholarship Initiative {-}
 

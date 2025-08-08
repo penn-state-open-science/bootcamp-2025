@@ -235,6 +235,7 @@ registrations_yes <- registrations_yes |>
       `Spanish, Italian, and Portuguese Department` = "Spanish, Italian, & Portuguese",
       `Spanish Italian and Portuguese` = "Spanish, Italian, & Portuguese",
       `Spanish, Italian, and Portuguese` = "Spanish, Italian, & Portuguese",
+      `French and Francophone Studies` = "French & Francophone Studies",
       `DEMOG` = "Demography",
       `Nutrition` = "Nutritional Sciences",
       `College of IST` = "IST",
@@ -255,7 +256,12 @@ registrations_yes <- registrations_yes |>
       `Ecosystem Science and Management` = "Ecosystem Science & Management",
       `PRC` = "Population Research Center",
       `TLT, PSU Libraries` = "University Libraries",
-      `Business and Economics` = "Business & Economics"
+      `Business and Economics` = "Business & Economics",
+      `EE` = "Electrical Engineering",
+      `College of Medicine / Clinical and Translational Science Institute` = "CTSI",
+      `Mechanical engineering,Penn state Harrisburg` = "Mechanical Engineering (Harrisburg)",
+      `Smeal College of Business, Accounting` = "Accounting",
+      `School of Science, Engineering, and Technology` = "Sci, Engr, & Tech"
     )
   ) |> 
   dplyr::mutate(
@@ -315,7 +321,19 @@ registrations_yes <- registrations_yes |>
       "Engineering" ~ "Engineering",
       "LPS/LDT" ~ "Education",
       "Demography" ~ "CLA",
-      "OVPR" ~ "OVPR"
+      "OVPR" ~ "OVPR",
+      "Mechanical Engineering" ~ "Engineering",
+      "Electrical Engineering" ~ "Engineering",
+      "Medicine" ~ "Medicine",
+      "CTSI" ~ "Medicine",
+      "French & Francophone Studies" ~ "CLA",
+      "Data Analytics" ~ "IST",
+      "Cybersecurity" ~ "IST",
+      "Mechanical Engineering (Harrisburg)" ~ "PSU Harrisburg",
+      "Accounting" ~ "Smeal",
+      "PSU Harrisburg" ~ "PSU Harrisburg",
+      "Sci, Engr, & Tech" ~ "PSU Harrisburg",
+      "Schreyer Institute for Teaching Excellence" ~ "Old Main"
     ),
     .default = "Unknown",
     .missing = "Unknown"
