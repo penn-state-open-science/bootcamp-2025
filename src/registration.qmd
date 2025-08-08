@@ -229,6 +229,7 @@ registrations_yes <- registrations_yes |>
       `Biobehavioral Health` = "BBH",
       `Biobehavioural Health` = "BBH",
       `Biobehavioural  Health` = "BBH",
+      `Biobehavioral health` = "BBH",
       `RPTM` = "Recreation, Park, & Tourism Management",
       `Sociology and Social Data Analytics` = "Sociology",
       `Spanish Italian and portuguese` = "Spanish, Italian, & Portuguese",
