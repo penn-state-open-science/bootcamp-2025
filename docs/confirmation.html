@@ -252,11 +252,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#clean" id="toc-clean" class="nav-link" data-scroll-target="#clean">Clean</a></li>
   <li><a href="#visualize" id="toc-visualize" class="nav-link" data-scroll-target="#visualize">Visualize</a>
   <ul class="collapse">
-  <li><a href="#day-1-session-1" id="toc-day-1-session-1" class="nav-link" data-scroll-target="#day-1-session-1">Day 1 • Session 1</a></li>
-  <li><a href="#day-1-session-2" id="toc-day-1-session-2" class="nav-link" data-scroll-target="#day-1-session-2">Day 1 • Session 2</a></li>
-  <li><a href="#day-2-session-3" id="toc-day-2-session-3" class="nav-link" data-scroll-target="#day-2-session-3">Day 2 • Session 3</a></li>
-  <li><a href="#day-2-session-4" id="toc-day-2-session-4" class="nav-link" data-scroll-target="#day-2-session-4">Day 2 • Session 4</a></li>
-  <li><a href="#day-3-session-5" id="toc-day-3-session-5" class="nav-link" data-scroll-target="#day-3-session-5">Day 3 • Session 5</a></li>
+  <li><a href="#day-1" id="toc-day-1" class="nav-link" data-scroll-target="#day-1">Day 1</a></li>
+  <li><a href="#day-2" id="toc-day-2" class="nav-link" data-scroll-target="#day-2">Day 2</a></li>
+  <li><a href="#day-3" id="toc-day-3" class="nav-link" data-scroll-target="#day-3">Day 3</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/edit/main/src/confirmation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -289,20 +287,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This page is under construction.</p>
-<p>Not all functions described work properly.</p>
-</div>
-</div>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
 <p>This page documents the workflow for downloading, cleaning, and visualizing the Bootcamp attendance confirmation data.</p>
@@ -428,10 +412,10 @@ Note
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>confirmations_short <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
 <span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  <span class="st">"timestamp"</span>,</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_days"</span>,</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>  <span class="st">"psu_email"</span>,</span>
 <span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  <span class="st">"name"</span>,</span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="st">"food_restrictions"</span>,</span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>  <span class="st">"psu_email"</span>,</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_days"</span>,</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>  <span class="st">"food_restrictions"</span>,</span>
 <span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_1_session_1"</span>,</span>
 <span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_1_session_2"</span>,</span>
 <span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_2_session_3"</span>,</span>
@@ -472,7 +456,7 @@ Table&nbsp;10.1: A minimal data dictionary.
 </tr>
 <tr class="even">
 <td style="text-align: left;">Email Address</td>
-<td style="text-align: left;">attend_days</td>
+<td style="text-align: left;">psu_email</td>
 <td style="text-align: left;">FALSE</td>
 </tr>
 <tr class="odd">
@@ -482,12 +466,12 @@ Table&nbsp;10.1: A minimal data dictionary.
 </tr>
 <tr class="even">
 <td style="text-align: left;">Which days of the bootcamp will you attend?</td>
-<td style="text-align: left;">food_restrictions</td>
+<td style="text-align: left;">attend_days</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Any meal/food restrictions?</td>
-<td style="text-align: left;">psu_email</td>
+<td style="text-align: left;">food_restrictions</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
 <tr class="even">
@@ -597,13 +581,26 @@ Table&nbsp;10.1: A minimal data dictionary.
 </section>
 <section id="visualize" class="level2">
 <h2 class="anchored" data-anchor-id="visualize">Visualize</h2>
-<p>As of 2025-08-09, we have had <em>n</em>=55 non-presenter registrants confirm. The following show the sessions they indicate that they wish to attend.</p>
-<section id="day-1-session-1" class="level3">
-<h3 class="anchored" data-anchor-id="day-1-session-1"><a href="./sessions.html#workshop-session-1">Day 1 • Session 1</a></h3>
+<p>As of 2025-08-09, we have had <em>n</em>=55 non-presenter registrants confirm.</p>
+<section id="day-1" class="level3">
+<h3 class="anchored" data-anchor-id="day-1">Day 1</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_1_session_1, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> plan_wed, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>plan_wed
+FALSE  TRUE 
+   12    43 </code></pre>
+</div>
+</div>
+<section id="session-1" class="level4">
+<h4 class="anchored" data-anchor-id="session-1"><a href="./sessions.html#workshop-session-1">Session 1</a></h4>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_1_session_1, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>day_1_session_1
@@ -612,12 +609,12 @@ Table&nbsp;10.1: A minimal data dictionary.
 </div>
 </div>
 </section>
-<section id="day-1-session-2" class="level3">
-<h3 class="anchored" data-anchor-id="day-1-session-2"><a href="./sessions.html#workshop-session-2">Day 1 • Session 2</a></h3>
+<section id="session-2" class="level4">
+<h4 class="anchored" data-anchor-id="session-2"><a href="./sessions.html#workshop-session-2">Session 2</a></h4>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_1_session_2, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_1_session_2, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>day_1_session_2
@@ -626,12 +623,26 @@ jupyter_intro          qrps
 </div>
 </div>
 </section>
-<section id="day-2-session-3" class="level3">
-<h3 class="anchored" data-anchor-id="day-2-session-3"><a href="./sessions.html#workshop-session-3">Day 2 • Session 3</a></h3>
+</section>
+<section id="day-2" class="level3">
+<h3 class="anchored" data-anchor-id="day-2">Day 2</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_2_session_3, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> plan_thu, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>plan_thu
+FALSE  TRUE 
+   14    41 </code></pre>
+</div>
+</div>
+<section id="session-3" class="level4">
+<h4 class="anchored" data-anchor-id="session-3"><a href="./sessions.html#workshop-session-3">Session 3</a></h4>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_2_session_3, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>day_2_session_3
@@ -640,12 +651,12 @@ jupyter_intro          qrps
 </div>
 </div>
 </section>
-<section id="day-2-session-4" class="level3">
-<h3 class="anchored" data-anchor-id="day-2-session-4"><a href="./sessions.html#workshop-session-4">Day 2 • Session 4</a></h3>
+<section id="session-4" class="level4">
+<h4 class="anchored" data-anchor-id="session-4"><a href="./sessions.html#workshop-session-4">Session 4</a></h4>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_2_session_4, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_2_session_4, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>day_2_session_4
@@ -654,12 +665,26 @@ jupyter_intro          qrps
 </div>
 </div>
 </section>
-<section id="day-3-session-5" class="level3">
-<h3 class="anchored" data-anchor-id="day-3-session-5"><a href="./sessions.html#workshop-session-5">Day 3 • Session 5</a></h3>
+</section>
+<section id="day-3" class="level3">
+<h3 class="anchored" data-anchor-id="day-3">Day 3</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_3_session_5, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> plan_fri, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>plan_fri
+FALSE  TRUE 
+   17    38 </code></pre>
+</div>
+</div>
+<section id="session-5" class="level4">
+<h4 class="anchored" data-anchor-id="session-5"><a href="./sessions.html#workshop-session-5">Session 5</a></h4>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> day_3_session_5, <span class="at">data =</span> confirmations_clean)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>day_3_session_5
@@ -669,6 +694,7 @@ early_career    quarto_II
 </div>
 
 
+</section>
 </section>
 </section>
 

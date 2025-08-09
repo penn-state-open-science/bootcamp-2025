@@ -8,12 +8,6 @@ params:
     not_testing: false
 ---
 
-::: {.callout-warning}
-This page is under construction.
-
-Not all functions described work properly.
-:::
-
 ## About
 
 This page documents the workflow for downloading, cleaning, and visualizing the Bootcamp attendance confirmation data.
@@ -116,10 +110,10 @@ confirmations_clean <- confirmations |>
 
 confirmations_short <- c(
   "timestamp",
-  "attend_days",
-  "name",
-  "food_restrictions",
   "psu_email",
+  "name",
+  "attend_days",
+  "food_restrictions",
   "day_1_session_1",
   "day_1_session_2",
   "day_2_session_3",
@@ -211,33 +205,50 @@ readr::write_csv(confirmations_clean,
 ## Visualize
 
 As of `r Sys.Date()`, we have had *n*=`r dim(confirmations_clean)[1]` non-presenter registrants confirm.
-The following show the sessions they indicate that they wish to attend.
 
-### [Day 1 • Session 1](sessions.qmd#workshop-session-1)
+### Day 1
+
+```{r}
+xtabs(formula = ~ plan_wed, data = confirmations_clean)
+```
+
+#### [Session 1](sessions.qmd#workshop-session-1)
 
 ```{r}
 xtabs(formula = ~ day_1_session_1, data = confirmations_clean)
 ```
 
-### [Day 1 • Session 2](sessions.qmd#workshop-session-2)
+#### [Session 2](sessions.qmd#workshop-session-2)
 
 ```{r}
 xtabs(formula = ~ day_1_session_2, data = confirmations_clean)
 ```
 
-### [Day 2 • Session 3](sessions.qmd#workshop-session-3)
+### Day 2
+
+```{r}
+xtabs(formula = ~ plan_thu, data = confirmations_clean)
+```
+
+#### [Session 3](sessions.qmd#workshop-session-3)
 
 ```{r}
 xtabs(formula = ~ day_2_session_3, data = confirmations_clean)
 ```
 
-### [Day 2 • Session 4](sessions.qmd#workshop-session-4)
+#### [Session 4](sessions.qmd#workshop-session-4)
 
 ```{r}
 xtabs(formula = ~ day_2_session_4, data = confirmations_clean)
 ```
 
-### [Day 3 • Session 5](sessions.qmd#workshop-session-5)
+### Day 3
+
+```{r}
+xtabs(formula = ~ plan_fri, data = confirmations_clean)
+```
+
+#### [Session 5](sessions.qmd#workshop-session-5)
 
 ```{r}
 xtabs(formula = ~ day_3_session_5, data = confirmations_clean)

@@ -116,6 +116,7 @@ eyal_dup <- registrations_clean$name == "Eyal Ben-Yehuda" & registrations_clean$
 
 registrations_clean <- registrations_clean |>
   dplyr::filter(!gilmore_dup | !eyal_dup) |>
+  dplyr::distinct(name, .keep_all = TRUE) |>
   dplyr::mutate(timestamp = lubridate::mdy_hms(timestamp, tz = "America/New_York"))
 ```
 
