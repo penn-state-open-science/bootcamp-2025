@@ -30,7 +30,7 @@ format: html
 
 ### 10:45 am • Keynote {- #day_2_plenary_2}
 
-#### Rescuing and preserving public data: The data rescue project
+#### Rescuing and preserving public data: The Data Rescue Project
 
 :::: {.columns}
 ::: {.column width=80%}

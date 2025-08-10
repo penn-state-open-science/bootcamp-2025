@@ -34,6 +34,10 @@ Here is the latest data about Bootcamp registrations:
 ## By unit
 
 ![Registrations by department and college/school.](include/fig/fig-regis-dept-coll-1.png)
+## By workshop
+
+![Interest by workshop and session.](include/fig/fig-workshop-interest-1.png)
+
 :::
 
 Click on any image to see a larger version. Also, see [this page](registration.qmd) for details about how these figures are generated.

@@ -166,6 +166,11 @@ So, Quarto can be used to generate different types of documents, but what can it
 
 *Location*: W211A
 
+*Resources*: 
+
+<!-- - Thomas slides ([PDF](include/pdf/thomas-quarto-II.pdf)) -->
+- Gilmore slides ([HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/))
+
 ---
 
 #### Where to start? Open science for early career researchers
