@@ -90,12 +90,12 @@ The Lobby Bar \
 
 :::: {.columns}
 ::: {.column width=45%}
-![Entrance to The Lobby Bar and The Allen Street Grill](include/img/allen-st-grill-entrance.png)
+![Entrance to The Lobby Bar and The Allen Street Grill](include/img/allen-st-grill-entrance.png){.lightbox}
 :::
 ::: {.column width=10%}
 :::
 ::: {.column width=45%}
-![Inside The Lobby Bar](include/img/lobby-bar.png)
+![Inside The Lobby Bar](include/img/lobby-bar.png){.lightbox}
 :::
 ::::
 

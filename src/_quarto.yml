@@ -51,3 +51,8 @@ format:
     bibliography: [include/bib/bootcamp.bib, include/bib/open-sci.bib]
     csl: include/bib/apa.csl
     mainfont: roboto
+    link-external-icon: true
+    citations-hover: false
+    footnotes-hover: false
+    crossrefs-hover: true
+    

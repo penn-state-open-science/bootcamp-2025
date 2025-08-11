@@ -2,9 +2,18 @@
 
 ::: {.callout-important}
 ## Logistics
-All times are Eastern Daylight Time (EDT).
+**Times**: All times are Eastern Daylight Time (EDT).
 
-**Location**: Dewey Room, West Pattee, unless otherwise indicated.
+:::: {.columns}
+::: {.column width=70%}
+**Location**: Dewey Room, West Pattee Knowledge Commons, unless otherwise indicated.
+
+[Map](https://map.psu.edu/?id=1134#!ct/25403,26748,26749,26750,27255?m/407561?s/Pattee)
+:::
+::: {.column width=30%}
+![](include/img/psu_pattee_gallery2.jpg){.lightbox width="300px"}
+:::
+::::
 :::
 
 ## Morning {- #day_1_am}
