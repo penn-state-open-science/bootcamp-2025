@@ -150,7 +150,7 @@ Sharing data openly is a growing expectation in research but getting formal reco
 
 This presentation will provide a brief introduction to U.S. copyright law, open access publishing, and Creative Commons licensing. You will learn what copyright covers and how copyrighted works enter the public domain. You’ll also learn about fair use and other rights that copyright gives to people using copyrighted material. There will also be a brief overview on the different types of Creative Commons licenses.
 
-*Location*: Dewey Room
+*Location*: Foster Auditorium
 
 ### Workshop Session 5
 
@@ -164,7 +164,7 @@ So, Quarto can be used to generate different types of documents, but what can it
 
 *Skill level*: Advanced beginner.
 
-*Location*: W211A
+*Location*: Foster Auditorium
 
 *Resources*: 
 
@@ -183,4 +183,4 @@ How can early career researchers start their open science journey (Allen & Mehle
 
 *Skill level*: All
 
-*Location*: Dewey Room
+*Location*: Periodicals Room near Starbucks
