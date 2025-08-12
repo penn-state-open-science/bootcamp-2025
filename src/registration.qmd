@@ -335,7 +335,8 @@ registrations_yes <- registrations_yes |>
       "Accounting" ~ "Smeal",
       "PSU Harrisburg" ~ "PSU Harrisburg",
       "Sci, Engr, & Tech" ~ "PSU Harrisburg",
-      "Schreyer Institute for Teaching Excellence" ~ "Old Main"
+      "Schreyer Institute for Teaching Excellence" ~ "Old Main",
+      "HHD" ~ "HHD"
     ),
     .default = "Unknown",
     .missing = "Unknown"
