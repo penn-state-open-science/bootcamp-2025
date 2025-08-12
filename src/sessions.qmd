@@ -168,7 +168,7 @@ So, Quarto can be used to generate different types of documents, but what can it
 
 *Resources*: 
 
-<!-- - Thomas slides ([PDF](include/pdf/thomas-quarto-II.pdf)) -->
+- Thomas slides ([PPTX](include/pptx/thomas-Open-Science-Bootcamp-Workshop-Quarto-Part II.pptx)) -->
 - Gilmore slides ([HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/))
 
 ---
