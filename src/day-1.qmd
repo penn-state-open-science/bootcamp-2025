@@ -9,6 +9,8 @@
 **Location**: Dewey Room, West Pattee Knowledge Commons, unless otherwise indicated.
 
 [Map](https://map.psu.edu/?id=1134#!ct/25403,26748,26749,26750,27255?m/407561?s/Pattee)
+
+[Directions](wayfinding.qmd)
 :::
 ::: {.column width=30%}
 ![](include/img/psu_pattee_gallery2.jpg){.lightbox width="300px"}

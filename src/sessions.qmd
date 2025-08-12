@@ -96,7 +96,7 @@ What are questionable research practices? Why are they questionable? How do we a
 *Resources*: 
 
 - [HTML talk slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I/)
-- GitHub [template repository](https://github.com/penn-state-open-science/bootcamp-2025-quarto-I-template/)
+- GitHub [template repository](https://github.com/penn-state-open-science/bootcamp-2025-quarto-I-template)
 
 *Location*: W211A Pattee
 
