@@ -55,6 +55,8 @@
 :::: {.columns}
 ::: {.column width=80%}
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
+
+Slides: [pptx](include/pptx/Bootcamp_Rajtmajer.pptx)
 :::
 ::: {.column width=20%}
 ![](include/img/rajtmajer-sarah.png){width=100px height=100px}
