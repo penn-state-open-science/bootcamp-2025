@@ -55,19 +55,23 @@ Foster Auditorium (102 Paterno Library)
 
 ### 01:15 pm • Workshop session 3 {- #day_2_pm_session_3}
 
-| Topic | Presenter | Location | Materials |
-|--------------|----------|-------|------|
+| Topic | Presenter | Location |
+|--------------|----------|-------|
 | [*Quarto (Part I): A tool for open scholarship*](sessions.qmd#quarto-part-i-a-tool-for-open-scholarship) | [Rick Gilmore](directors.qmd#directors.qmd#rick-gilmore) | W221A |
 | [*Getting credit (Part II): Sharing your data*](sessions.qmd#getting-credit-for-sharing-your-data-part-ii-sharing-your-data) |  [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
 
 ### 02:15 pm • Break {{< fa mug-hot >}} {-}
 
 ### 02:45 pm • Workshop session 4 {- #day_2_pm_session_4}
 
-| Topic | Presenter | Location | Materials |
-|--------------|----------|-------|------|
+| Topic | Presenter | Location |
+|--------------|----------|-------|
 | [*LLMs with Jupyter notebooks*](sessions.qmd#llms-with-jupyter-notebooks) |  [Valerie Li](program-committee.qmd#valerie-li) | W211A |
 | [*Getting credit (Part III): Data papers*](#getting-credit-for-sharing-your-data-part-iii-data-papers) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
 
 ### 03:45 pm • Break {{< fa mug-hot >}} {-}    
 

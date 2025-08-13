@@ -41,10 +41,10 @@
 
 ### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
 
-- [*ScholarSphere*](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce) | [pdf](include/pdf/2025_ScholarSphere.pdf) | [PPTX](include/pdf/2025_ScholarSphere.pdf)
-- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar) | [pptx](include/pptx/perez-edgar-Open-Science-HBCD-Workshop 08_2025.pptx)
-- *Open scholarship and high performance computing*, [Wayne Figurelle](presenters.qmd#wayne-figurelle)
-- *Advancing reproducibility through team science, data sharing, and transparency: the ENIGMA initiative*, [Frank Hillary](program-committee.qmd#frank-hillary) | [pptx](include/pptx/Hillary_Open_Boot_2025.pptx)
+- [*ScholarSphere*](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce); slides: [pdf](include/pdf/2025_ScholarSphere.pdf) | [pptx](include/pdf/2025_ScholarSphere.pdf)
+- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar); slides: | [pptx](include/pptx/perez-edgar-Open-Science-HBCD-Workshop 08_2025.pptx)
+- *Open scholarship and high performance computing*, [Wayne Figurelle](presenters.qmd#wayne-figurelle); slides: | [pptx](include/pptx/roar_ppt - 8-13-25.pptx)
+- *Advancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative*, [Frank Hillary](program-committee.qmd#frank-hillary); slides: | [pptx](include/pptx/Hillary_Open_Boot_2025.pptx)
 
 ### 10:15 am • Break {{< fa mug-hot >}} {-}
 
@@ -87,17 +87,19 @@ Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/w
 
 ### 01:45 pm • Workshop session 1 {- #day_1_pm_session_1}
 
-| Topic | Presenter | Location | Materials |
-|--------------|----------|-------|------|
+| Topic | Presenter | Location |
+|--------------|----------|-------|
 | [*Harnessing advanced cyberinfrastructure for research: An introduction to Roar and ICDS resources*](sessions.qmd#open-access-high-performance-computing) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |
 | [*Getting credit for sharing your data (Part I): Good enough data management practices*](sessions.qmd#getting-credit-for-sharing-your-data-part-i-good-enough-data-practices) | [Alaina Pearce](directors.qmd#alaina-pearce) | Dewey Room |
+
+: {tbl-colwidths="[60,20,20]"}
 
 ### 02:45 pm • Break {{< fa mug-hot >}} {-}
 
 ### 03:00 pm • Workshop session 2 {- #day_1_pm_session_2}
 
-| Topic | Presenter | Location | Materials |
-|--------------|----------|-------|------|
+| Topic | Presenter | Location |
+|--------------|----------|-------|
 | [*Getting started with Python in JupyterLab: A hands-on introduction*](sessions.qmd#getting-started-with-python-in-jupyterlab-a-hands-on-introduction) | [Carrie Brown](program-committee.qmd#carrie-brown) | W211A |
 | [*Questionable research practices*](sessions.qmd#questionable-research-practices) |  [Nicole Lazar](program-committee.qmd#nicole-lazar) & [Jennifer Valcin](program-committee.qmd#jennifer-valcin) | Dewey Room | 
 
