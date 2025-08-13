@@ -1,3 +1,8 @@
+---
+nocite: |
+  @EIFL2018-lx
+---
+
 # Day 1 (Wed, Aug 13)
 
 ::: {.callout-important}
@@ -78,6 +83,9 @@ Foster Auditorium (102 Paterno Library)
 :::: {.columns}
 ::: {.column width=80%}
 Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/wiki/Paywall:_The_Business_of_Scholarship) and discussion
+
+{{< video https://www.youtube.com/watch?v=zAzTR8eq20k height="40%" width="60%" >}}
+
 :::
 ::: {.column width=20%}
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Paywall_documentary_poster.jpg/1280px-Paywall_documentary_poster.jpg){width=100px}
@@ -108,3 +116,6 @@ Screening of [*Paywall: The Business of Scholarship*](https://en.wikipedia.org/w
 ### 04:00 pm • Day 1 wrap-up
 
 ### 04:15 pm • End of Day 1 {-}
+
+## References
+
