@@ -76,7 +76,7 @@ The chunk below *does not evaluate* if there are fewer than 2 rows.
 
 ```{r}
 #| label: remove-test-row
-#| eval: !expr params$not_testing
+#| eval: false
 
 if (dim(confirmations)[1] > 1) {
   confirmations <- confirmations[2:dim(confirmations)[1],]
@@ -118,10 +118,11 @@ confirmations_short <- c(
   "day_1_session_2",
   "day_2_session_3",
   "day_2_session_4",
-  "day_3_session_5"
+  "day_3_session_5",
+  "attend_wed"
 )
 
-confirmations_pid <- c(FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE)
+confirmations_pid <- c(FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE)
 
 confirmations_dd <- data.frame(qs = confirmations_qs, qs_short = confirmations_short, pid = confirmations_pid)
 
@@ -241,6 +242,16 @@ confirmations_long |>
   geom_col() +
   coord_flip()
 ```
+
+### Day 1 attendees
+
+```{r}
+wed_attendees <- confirmations_clean |>
+  filter(attend_wed %in% c('yes', 'no'))
+wed_xtabs <- xtabs(formula = ~ attend_wed + plan_wed, data = wed_attendees)
+```
+
+We had *n*=`r wed_xtabs[1,2] + wed_xtabs[2,2]` non-presenters report *planning* to attend Wednesday, and *n*=`r wed_xtabs[2,2]` who actually attended. 
 
 <!-- ### Day 1 -->
 

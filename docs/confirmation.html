@@ -255,7 +255,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
   <li><a href="#import" id="toc-import" class="nav-link" data-scroll-target="#import">Import</a></li>
   <li><a href="#clean" id="toc-clean" class="nav-link" data-scroll-target="#clean">Clean</a></li>
-  <li><a href="#visualize" id="toc-visualize" class="nav-link" data-scroll-target="#visualize">Visualize</a></li>
+  <li><a href="#visualize" id="toc-visualize" class="nav-link" data-scroll-target="#visualize">Visualize</a>
+  <ul class="collapse">
+  <li><a href="#day-1-attendees" id="toc-day-1-attendees" class="nav-link" data-scroll-target="#day-1-attendees">Day 1 attendees</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/edit/main/src/confirmation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -276,7 +279,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 10, 2025</p>
+      <p class="date-modified">August 13, 2025</p>
     </div>
   </div>
     
@@ -363,10 +366,11 @@ Important
  [7] "Workshop session 2 - Day 1 @ 3:00 pm"       
  [8] "Workshop session 3 - Day 2 @ 1:15 pm"       
  [9] "Workshop session 4 - Day 2 @ 2:45 pm"       
-[10] "Workshop session 5 - Day 3 @ 10:45 1m"      </code></pre>
+[10] "Workshop session 5 - Day 3 @ 10:45 1m"      
+[11] "attend_wed"                                 </code></pre>
 </div>
 </div>
-<p>The imported CSV file has <em>n</em>=72 rows.</p>
+<p>The imported CSV file has <em>n</em>=89 rows.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -420,18 +424,19 @@ Note
 <span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_1_session_2"</span>,</span>
 <span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_2_session_3"</span>,</span>
 <span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_2_session_4"</span>,</span>
-<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_3_session_5"</span></span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>confirmations_pid <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>)</span>
-<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">qs =</span> confirmations_qs, <span class="at">qs_short =</span> confirmations_short, <span class="at">pid =</span> confirmations_pid)</span>
-<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="sc">|&gt;</span></span>
-<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span>
-<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(confirmations_dd,</span>
-<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>                 <span class="at">file =</span> <span class="fu">file.path</span>(params<span class="sc">$</span>csv_dir,</span>
-<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>                                  <span class="st">"confirmations-2025-data-dict.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_3_session_5"</span>,</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_wed"</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>confirmations_pid <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">qs =</span> confirmations_qs, <span class="at">qs_short =</span> confirmations_short, <span class="at">pid =</span> confirmations_pid)</span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="sc">|&gt;</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(confirmations_dd,</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>                 <span class="at">file =</span> <span class="fu">file.path</span>(params<span class="sc">$</span>csv_dir,</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>                                  <span class="st">"confirmations-2025-data-dict.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div id="tbl-data-dictionary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -498,6 +503,11 @@ Table&nbsp;11.1: A minimal data dictionary.
 <td style="text-align: left;">Workshop session 5 - Day 3 @ 10:45 1m</td>
 <td style="text-align: left;">day_3_session_5</td>
 <td style="text-align: left;">FALSE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">attend_wed</td>
+<td style="text-align: left;">attend_wed</td>
+<td style="text-align: left;">TRUE</td>
 </tr>
 </tbody>
 </table>
@@ -631,6 +641,17 @@ Figure&nbsp;11.1: Interest in specific workshops by session.
 </div>
 </div>
 </div>
+<section id="day-1-attendees" class="level3">
+<h3 class="anchored" data-anchor-id="day-1-attendees">Day 1 attendees</h3>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>wed_attendees <span class="ot">&lt;-</span> confirmations_clean <span class="sc">|&gt;</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attend_wed <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">'yes'</span>, <span class="st">'no'</span>))</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>wed_xtabs <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> attend_wed <span class="sc">+</span> plan_wed, <span class="at">data =</span> wed_attendees)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<p>We had <em>n</em>=46 non-presenters report <em>planning</em> to attend Wednesday, and <em>n</em>=32 who actually attended.</p>
 <!-- ### Day 1 -->
 <!-- ```{r} -->
 <!-- xtabs(formula = ~ plan_wed, data = confirmations_clean) -->
@@ -665,6 +686,7 @@ Figure&nbsp;11.1: Interest in specific workshops by session.
 <!-- ``` -->
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
