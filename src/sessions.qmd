@@ -146,7 +146,7 @@ Large language models (LLMs) are transforming the way we work with text data. Th
 Right-click on the link below to download the file to your computer.
 :::
 
-- Tutorial [Jupyter notebook (ipynb)](https://penn-state-open-science.github.io/bootcamp-2025/include/ipynb/LLM-tutorial-for-2025-Open-Scholarship-Bootcamp.ipynb)
+- Tutorial [Jupyter notebook (ipynb)](include/ipynb/LLM-tutorial-for-2025-Open-Scholarship-Bootcamp.ipynb)
 
 ---
 
