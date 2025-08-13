@@ -49,6 +49,11 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 *Location*: Dewey Room
 
+*Resources*:
+
+- Slides [pdf](include/pdf/2025_GoodEnoughRDM.pdf), [pptx](include/pptx/2025_GoodEnoughRDM.pptx)
+- Directory naming worksheet [docx](include/docx/directories_naming_worksheet.docx)
+
 ---
 
 ### Workshop Session 2
@@ -114,6 +119,11 @@ New funder requirements call for researchers to share their data openly — but 
 
 *Location*: Dewey Room
 
+*Resources*:
+
+- Slides [pdf](include/pdf/2025_DataSharing.pdf), [pptx](include/pptx/2025_DataSharing.pptx)
+- Sample data README [MD](include/txt/cornell_data_readme.md), [txt](include/txt/cornell_data_readme.txt)
+
 ### Workshop Session 4
 
 #### LLMs with Jupyter notebooks
@@ -130,6 +140,14 @@ Large language models (LLMs) are transforming the way we work with text data. Th
 
 *Location*: W211A Pattee
 
+*Resources*
+
+::: {.callout-note}
+Right-click on the link below to download the file to your computer.
+:::
+
+- Tutorial [Jupyter notebook (ipynb)](https://penn-state-open-science.github.io/bootcamp-2025/include/ipynb/LLM-tutorial-for-2025-Open-Scholarship-Bootcamp.ipynb)
+
 ---
 
 #### Getting credit for sharing your data (Part III): Data papers
@@ -139,6 +157,11 @@ Sharing data openly is a growing expectation in research but getting formal reco
 *Presenter*: [Alaina Pearce](directors.qmd#alaina-pearce)
 
 *Location*: Dewey Room
+
+*Resources*:
+
+- Checklist [pdf](include/pdf/data_paper_checklist.pdf)
+- Worksheet [docx](include/docx/data_paper_worksheet.docx)
 
 ## Day 3 • Fri August 15
 
@@ -168,7 +191,7 @@ So, Quarto can be used to generate different types of documents, but what can it
 
 *Resources*: 
 
-- Thomas slides ([PPTX](include/pptx/thomas-Open-Science-Bootcamp-Workshop-Quarto-Part II.pptx)) -->
+- Thomas slides ([pptx](include/pptx/thomas-Open-Science-Bootcamp-Workshop-Quarto-Part II.pptx)) -->
 - Gilmore slides ([HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/))
 
 ---
