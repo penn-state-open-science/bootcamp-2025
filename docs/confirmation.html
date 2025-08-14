@@ -375,7 +375,11 @@ Important
  [8] "Workshop session 3 - Day 2 @ 1:15 pm"       
  [9] "Workshop session 4 - Day 2 @ 2:45 pm"       
 [10] "Workshop session 5 - Day 3 @ 10:45 1m"      
-[11] "attend_wed"                                 </code></pre>
+[11] "attend_wed"                                 
+[12] "attend_thu"                                 
+[13] "attend_fri"                                 
+[14] "add_to_listserv"                            
+[15] "added_to_listserv"                          </code></pre>
 </div>
 </div>
 <p>The imported CSV file has <em>n</em>=77 rows.</p>
@@ -433,18 +437,22 @@ Note
 <span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_2_session_3"</span>,</span>
 <span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_2_session_4"</span>,</span>
 <span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>  <span class="st">"day_3_session_5"</span>,</span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_wed"</span></span>
-<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>confirmations_pid <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>)</span>
-<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">qs =</span> confirmations_qs, <span class="at">qs_short =</span> confirmations_short, <span class="at">pid =</span> confirmations_pid)</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_wed"</span>,</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_thu"</span>,</span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>  <span class="st">"attend_fri"</span>,</span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>  <span class="st">"add_to_listserv"</span>,</span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>  <span class="st">"added_to_listserv"</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="sc">|&gt;</span></span>
-<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span>
-<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(confirmations_dd,</span>
-<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>                 <span class="at">file =</span> <span class="fu">file.path</span>(params<span class="sc">$</span>csv_dir,</span>
-<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>                                  <span class="st">"confirmations-2025-data-dict.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>confirmations_pid <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>, <span class="cn">TRUE</span>)</span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">qs =</span> confirmations_qs, <span class="at">qs_short =</span> confirmations_short, <span class="at">pid =</span> confirmations_pid)</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>confirmations_dd <span class="sc">|&gt;</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">format =</span> <span class="st">'html'</span>)</span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>readr<span class="sc">::</span><span class="fu">write_csv</span>(confirmations_dd,</span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>                 <span class="at">file =</span> <span class="fu">file.path</span>(params<span class="sc">$</span>csv_dir,</span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>                                  <span class="st">"confirmations-2025-data-dict.csv"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div id="tbl-data-dictionary" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
@@ -515,6 +523,26 @@ Table&nbsp;11.1: A minimal data dictionary.
 <tr class="odd">
 <td style="text-align: left;">attend_wed</td>
 <td style="text-align: left;">attend_wed</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">attend_thu</td>
+<td style="text-align: left;">attend_thu</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">attend_fri</td>
+<td style="text-align: left;">attend_fri</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">add_to_listserv</td>
+<td style="text-align: left;">add_to_listserv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">added_to_listserv</td>
+<td style="text-align: left;">added_to_listserv</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
 </tbody>
@@ -600,7 +628,7 @@ Table&nbsp;11.1: A minimal data dictionary.
 </section>
 <section id="visualize" class="level2">
 <h2 class="anchored" data-anchor-id="visualize">Visualize</h2>
-<p>We had <em>n</em>=69 responde to our confirmation survey.</p>
+<p>We had <em>n</em>=70 responde to our confirmation survey.</p>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -611,7 +639,7 @@ Table&nbsp;11.1: A minimal data dictionary.
 <span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(withdrew <span class="sc">%in%</span> <span class="fu">c</span>(<span class="cn">NA</span>, <span class="cn">FALSE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>Some people (<em>n</em>=20) had to cancel and let us know via the confirmation form. This means our expected number of confirmed non-presenter attendees is <em>n</em>=49.</p>
+<p>Some people (<em>n</em>=20) had to cancel and let us know via the confirmation form. This means our expected number of confirmed non-presenter attendees is <em>n</em>=50.</p>
 <p>We will transform the data frame to make it easier to summarize the number of confirmations per session and topic.</p>
 <div class="cell">
 <details class="code-fold">
@@ -704,38 +732,6 @@ Warning
 <p>Under construction.</p>
 </div>
 </div>
-<!-- ### Day 1 -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ plan_wed, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- #### [Session 1](sessions.qmd#workshop-session-1) -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_1_session_1, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- #### [Session 2](sessions.qmd#workshop-session-2) -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_1_session_2, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- ### Day 2 -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ plan_thu, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- #### [Session 3](sessions.qmd#workshop-session-3) -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_2_session_3, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- #### [Session 4](sessions.qmd#workshop-session-4) -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_2_session_4, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- ### Day 3 -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ plan_fri, data = confirmations_clean) -->
-<!-- ``` -->
-<!-- #### [Session 5](sessions.qmd#workshop-session-5) -->
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_3_session_5, data = confirmations_clean) -->
-<!-- ``` -->
 
 
 </section>

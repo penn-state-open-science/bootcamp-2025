@@ -15,8 +15,8 @@ format: html
 
 ### 09:05 am • Open @ Penn State
 
-- [*Penn State Data Commons*](https://www.datacommons.psu.edu), [Maurie Kelly](presenters.qmd#maurie-kelly)
-- [*Center for Social Data Analytics (SoDA)*](https://soda.la.psu.edu), [Bruce Desmarais](program-committee.qmd#bruce-desmarais)
+- [*Penn State Data Commons*](https://www.datacommons.psu.edu), [Maurie Kelly](presenters.qmd#maurie-kelly); slides: | [pptx](include/pptx/DataCommonsBootCamp2025.pptx) |
+- [*Center for Social Data Analytics (SoDA)*](https://soda.la.psu.edu), [Bruce Desmarais](program-committee.qmd#bruce-desmarais); slides: | [pdf](include/pdf/soda_program_slides.pdf) |
 
 ### 09:30 am • Panel Discussion {- #day_2_plenary_1}
 

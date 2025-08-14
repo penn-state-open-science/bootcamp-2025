@@ -125,10 +125,14 @@ confirmations_short <- c(
   "day_2_session_3",
   "day_2_session_4",
   "day_3_session_5",
-  "attend_wed"
+  "attend_wed",
+  "attend_thu",
+  "attend_fri",
+  "add_to_listserv",
+  "added_to_listserv"
 )
 
-confirmations_pid <- c(FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE)
+confirmations_pid <- c(FALSE, FALSE, FALSE, TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE)
 
 confirmations_dd <- data.frame(qs = confirmations_qs, qs_short = confirmations_short, pid = confirmations_pid)
 
@@ -264,7 +268,7 @@ confirmations_long |>
 
 ```{r}
 wed_attendees <- no_cancel |>
-  filter(attend_wed %in% c('yes', 'no')) |>
+  filter(attend_wed %in% c('yes', 'no'))
 wed_xtabs <- xtabs(formula = ~ attend_wed + plan_wed, data = wed_attendees)
 ```
 
