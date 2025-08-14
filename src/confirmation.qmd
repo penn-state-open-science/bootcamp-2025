@@ -47,12 +47,18 @@ if (!dir.exists(params$csv_dir)) {
 options(gargle_oauth_email = Sys.getenv("GMAIL_SURVEY"))
 googledrive::drive_auth()
 
-googledrive::drive_download(
-  params$sheets_fn,
-  path = file.path(params$csv_dir, params$data_csv_fn),
-  type = "csv",
-  overwrite = TRUE
-)
+# googledrive::drive_download(
+#   params$sheets_fn,
+#   path = file.path(params$csv_dir, params$data_csv_fn),
+#   type = "csv",
+#   overwrite = TRUE
+# )
+
+attendees <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1PB4VlZ3hSblOIC9DpOuN6n7icEPjrhQEQZsCl-WAdEI/edit?gid=1355452782#gid=1355452782") |>
+  readr::write_csv(file.path(params$csv_dir, params$data_csv_fn))
+
+presenters <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1PB4VlZ3hSblOIC9DpOuN6n7icEPjrhQEQZsCl-WAdEI/edit?gid=1095246661#gid=1095246661", sheet = "presenters") |>
+  readr::write_csv(file.path(params$csv_dir, "presenters-2025.csv"))
 ```
 
 ## Clean
@@ -184,7 +190,8 @@ Create separate variables by attendance day.
 confirmations_clean <- confirmations_clean |>
   mutate(plan_wed = stringr::str_detect(attend_days, "Wed"),
                 plan_thu = stringr::str_detect(attend_days, "Thu"),
-                plan_fri = stringr::str_detect(attend_days, "Fri")) 
+                plan_fri = stringr::str_detect(attend_days, "Fri"),
+         withdrew = stringr::str_detect(attend_days, "I can no")) 
 ```
 
 Remove duplicate (email) entries.
@@ -205,12 +212,22 @@ readr::write_csv(confirmations_clean,
 
 ## Visualize
 
-As of `r Sys.Date()`, we have had *n*=`r dim(confirmations_clean)[1]` non-presenter registrants confirm.
-
-Let's transform the data frame to make it easier to summarize the number of confirmations per session and topic.
+We had *n*=`r dim(confirmations_clean)[1]` responde to our confirmation survey.
 
 ```{r}
-confirmations_long <- confirmations_clean |>
+cancelled <- confirmations_clean |>
+  filter(withdrew == TRUE)
+
+no_cancel <- confirmations_clean |>
+  filter(withdrew %in% c(NA, FALSE))
+```
+
+Some people (*n*=`r dim(cancelled)[1]`) had to cancel and let us know via the confirmation form. This means our expected number of confirmed non-presenter attendees is *n*=`r dim(no_cancel)[1]`.
+
+We will transform the data frame to make it easier to summarize the number of confirmations per session and topic.
+
+```{r}
+confirmations_long <- no_cancel |>
   # Remove individual-level variables since this is a summary
   select(-c('timestamp', 'psu_email', 'name', 'attend_days',
             'food_restrictions', 'plan_wed', 'plan_thu', 'plan_fri')) |>
@@ -235,7 +252,7 @@ confirmations_long <- confirmations_clean |>
 #| label: fig-workshop-interest
 #| fig-cap: "Interest in specific workshops by session."
 confirmations_long |>
-  # distinct() |>
+  distinct(workshop, n_confirmed) |>
   mutate(workshop = fct_reorder(workshop, n_confirmed)) |>
   ggplot() +
   aes(x = workshop, y = n_confirmed, fill = session) +
@@ -246,57 +263,22 @@ confirmations_long |>
 ### Day 1 attendees
 
 ```{r}
-wed_attendees <- confirmations_clean |>
-  filter(attend_wed %in% c('yes', 'no'))
+wed_attendees <- no_cancel |>
+  filter(attend_wed %in% c('yes', 'no')) |>
 wed_xtabs <- xtabs(formula = ~ attend_wed + plan_wed, data = wed_attendees)
 ```
 
-We had *n*=`r wed_xtabs[1,2] + wed_xtabs[2,2]` non-presenters report *planning* to attend Wednesday, and *n*=`r wed_xtabs[2,2]` who actually attended. 
+We had *n*=`r wed_xtabs[1,2] + wed_xtabs[2,2]` non-presenters report *planning* to attend Wednesday, and *n*=`r wed_xtabs[2,2]` or `r format(round(wed_xtabs[2,2]/(wed_xtabs[1,2] + wed_xtabs[2,2])*100, 0))`% who attended. 
+We also had *n*=`r dim(presenters)[1]` presenters attend on Wednesday.
 
-<!-- ### Day 1 -->
+### Day 2 attendees
 
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ plan_wed, data = confirmations_clean) -->
-<!-- ``` -->
+::: {.callout-warning}
+Under construction.
+:::
 
-<!-- #### [Session 1](sessions.qmd#workshop-session-1) -->
+### Day 3 attendees
 
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_1_session_1, data = confirmations_clean) -->
-<!-- ``` -->
-
-<!-- #### [Session 2](sessions.qmd#workshop-session-2) -->
-
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_1_session_2, data = confirmations_clean) -->
-<!-- ``` -->
-
-<!-- ### Day 2 -->
-
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ plan_thu, data = confirmations_clean) -->
-<!-- ``` -->
-
-<!-- #### [Session 3](sessions.qmd#workshop-session-3) -->
-
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_2_session_3, data = confirmations_clean) -->
-<!-- ``` -->
-
-<!-- #### [Session 4](sessions.qmd#workshop-session-4) -->
-
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_2_session_4, data = confirmations_clean) -->
-<!-- ``` -->
-
-<!-- ### Day 3 -->
-
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ plan_fri, data = confirmations_clean) -->
-<!-- ``` -->
-
-<!-- #### [Session 5](sessions.qmd#workshop-session-5) -->
-
-<!-- ```{r} -->
-<!-- xtabs(formula = ~ day_3_session_5, data = confirmations_clean) -->
-<!-- ``` -->
+::: {.callout-warning}
+Under construction.
+:::
