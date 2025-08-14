@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -222,6 +242,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#install-rstudio" id="toc-install-rstudio" class="nav-link" data-scroll-target="#install-rstudio">Install RStudio</a></li>
   <li><a href="#install-quarto" id="toc-install-quarto" class="nav-link" data-scroll-target="#install-quarto">Install Quarto</a></li>
   <li><a href="#launch-rstudio" id="toc-launch-rstudio" class="nav-link" data-scroll-target="#launch-rstudio">Launch RStudio</a></li>
+  <li><a href="#optional-install-git" id="toc-optional-install-git" class="nav-link" data-scroll-target="#optional-install-git">(Optional) Install git</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/edit/main/src/how-to-install-rstudio-quarto.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -242,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 30, 2025</p>
+      <p class="date-modified">August 14, 2025</p>
     </div>
   </div>
     
@@ -288,8 +310,23 @@ ul.task-list li input[type="checkbox"] {
 <section id="launch-rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="launch-rstudio">Launch RStudio</h2>
 <p><img src="include/img/rstudio-open.png" class="img-fluid"></p>
+</section>
+<section id="optional-install-git" class="level2">
+<h2 class="anchored" data-anchor-id="optional-install-git">(Optional) Install git</h2>
+<p>The version control package git may not be installed on your Windows machine. It is usually installed by default on Mac OS.</p>
+<p>If git is not installed, visit <a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a>, download, and install it for your operating system.</p>
+<p>You can use R, RStudio, and Quarto without using git, but there are good reasons to consider using it.</p>
+<p>If you decide to use the web-based git code sharing service called <a href="https://github.com">GitHub</a> with RStudio, you will want to follow the excellent instructions <a href="https://happygitwithr.com">here</a>.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-BryanUnknown-ay" class="csl-entry" role="listitem">
+Bryan, J., the STAT 545 TAs, &amp; Hester, J. (n.d.). Let’s git started. Retrieved August 14, 2025, from <a href="https://happygitwithr.com/">https://happygitwithr.com/</a>
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

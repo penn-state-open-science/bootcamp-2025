@@ -1,5 +1,7 @@
 ---
 title: "How to install RStudio & Quarto"
+nocite: |
+  @BryanUnknown-ay
 ---
 
 ## About
@@ -24,3 +26,14 @@ If you plan to attend either the [Quarto I](sessions.qmd#quarto-part-i-a-tool-fo
 
 ![](include/img/rstudio-open.png)
 
+## (Optional) Install git
+
+The version control package git may not be installed on your Windows machine. It is usually installed by default on Mac OS.
+
+If git is not installed, visit <https://git-scm.com/downloads>, download, and install it for your operating system.
+
+You can use R, RStudio, and Quarto without using git, but there are good reasons to consider using it.
+
+If you decide to use the web-based git code sharing service called [GitHub](https://github.com) with RStudio, you will want to follow the excellent instructions [here](https://happygitwithr.com).
+
+## References

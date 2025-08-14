@@ -750,5 +750,38 @@
       "Schedule",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Day 1 (Wed, Aug 13)</span>"
     ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#optional-for-windows-users-install-git",
+    "href": "how-to-install-rstudio-quarto.html#optional-for-windows-users-install-git",
+    "title": "How to install RStudio & Quarto",
+    "section": "(Optional for Windows users) Install git",
+    "text": "(Optional for Windows users) Install git\nThe version control package git may not be installed on your Windows machine. It is usually installed by default on Mac OS.\nIf git is not installed, visit https://git-scm.com/downloads, download, and install it for your operating system.\nYou can use R, RStudio, and Quarto without using git, but there are good reasons to consider using it.\nIf you decide to use the web-based git code sharing service called GitHub with RStudio, you will want to follow the excellent instructions here.\n\n\n\n\nBryan, J., the STAT 545 TAs, & Hester, J. (n.d.). Let’s git started. Retrieved August 14, 2025, from https://happygitwithr.com/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#optional-install-git",
+    "href": "how-to-install-rstudio-quarto.html#optional-install-git",
+    "title": "How to install RStudio & Quarto",
+    "section": "(Optional) Install git",
+    "text": "(Optional) Install git\nThe version control package git may not be installed on your Windows machine. It is usually installed by default on Mac OS.\nIf git is not installed, visit https://git-scm.com/downloads, download, and install it for your operating system.\nYou can use R, RStudio, and Quarto without using git, but there are good reasons to consider using it.\nIf you decide to use the web-based git code sharing service called GitHub with RStudio, you will want to follow the excellent instructions here.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
+  },
+  {
+    "objectID": "how-to-install-rstudio-quarto.html#references",
+    "href": "how-to-install-rstudio-quarto.html#references",
+    "title": "How to install RStudio & Quarto",
+    "section": "References",
+    "text": "References\n\n\n\n\nBryan, J., the STAT 545 TAs, & Hester, J. (n.d.). Let’s git started. Retrieved August 14, 2025, from https://happygitwithr.com/",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Installing Quarto</span>"
+    ]
   }
 ]
