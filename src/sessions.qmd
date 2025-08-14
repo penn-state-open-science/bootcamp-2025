@@ -51,8 +51,8 @@ Effective data management is key to research integrity, reproducibility, and mak
 
 *Resources*:
 
-- Slides [pdf](include/pdf/2025_GoodEnoughRDM.pdf), [pptx](include/pptx/2025_GoodEnoughRDM.pptx)
-- Directory naming worksheet [docx](include/docx/directories_naming_worksheet.docx)
+- Slides: | [pdf](include/pdf/2025_GoodEnoughRDM.pdf) |  [pptx](include/pptx/2025_GoodEnoughRDM.pptx) |
+- Directory naming worksheet: | [docx](include/docx/directories_naming_worksheet.docx) |
 
 ---
 
@@ -100,7 +100,7 @@ What are questionable research practices? Why are they questionable? How do we a
 
 *Resources*: 
 
-- [HTML talk slides](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I/)
+- Slides: | [html](https://penn-state-open-science.github.io/bootcamp-2025-quarto-I/) |
 - GitHub [template repository](https://github.com/penn-state-open-science/bootcamp-2025-quarto-I-template)
 
 *Location*: W211A Pattee
@@ -121,8 +121,8 @@ New funder requirements call for researchers to share their data openly — but 
 
 *Resources*:
 
-- Slides [pdf](include/pdf/2025_DataSharing.pdf), [pptx](include/pptx/2025_DataSharing.pptx)
-- Sample data README [MD](include/txt/cornell_data_readme.md), [txt](include/txt/cornell_data_readme.txt)
+- Slides: | [pdf](include/pdf/2025_DataSharing.pdf) |  [pptx](include/pptx/2025_DataSharing.pptx) |
+- Sample data README: | [md](include/txt/cornell_data_readme.md) | [txt](include/txt/cornell_data_readme.txt) |
 
 ### Workshop Session 4
 
@@ -146,7 +146,7 @@ Large language models (LLMs) are transforming the way we work with text data. Th
 Right-click on the link below to download the file to your computer.
 :::
 
-- Tutorial [Jupyter notebook (ipynb)](include/ipynb/LLM-tutorial-for-2025-Open-Scholarship-Bootcamp.ipynb)
+- Tutorial Jupyter notebook: | [ipynb](include/ipynb/LLM-tutorial-for-2025-Open-Scholarship-Bootcamp.ipynb) |
 
 ---
 
@@ -160,8 +160,8 @@ Sharing data openly is a growing expectation in research but getting formal reco
 
 *Resources*:
 
-- Checklist [pdf](include/pdf/data_paper_checklist.pdf)
-- Worksheet [docx](include/docx/data_paper_worksheet.docx)
+- Checklist: | [pdf](include/pdf/data_paper_checklist.pdf) |
+- Worksheet: | [docx](include/docx/data_paper_worksheet.docx) |
 
 ## Day 3 • Fri August 15
 
@@ -191,8 +191,8 @@ So, Quarto can be used to generate different types of documents, but what can it
 
 *Resources*: 
 
-- Thomas slides ([pptx](include/pptx/thomas-Open-Science-Bootcamp-Workshop-Quarto-Part II.pptx)) -->
-- Gilmore slides ([HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/))
+- Thomas slides: | [pptx](include/pptx/thomas-Open-Science-Bootcamp-Workshop-Quarto-Part II.pptx) |
+- Gilmore slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-quarto-II/) |
 
 ---
 

@@ -40,16 +40,14 @@ nocite: |
 
 ### 09:10 am • Bootcamp overview {-}
 
-[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce)
-
-[HTML slides](https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/)
+[Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce); Slides: | [HTML](https://penn-state-open-science.github.io/bootcamp-2025-day-1-welcome/) |
 
 ### 09:30 am • Open @ Penn State {- #day_1_plenary_1}
 
-- [*ScholarSphere*](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce); slides: [pdf](include/pdf/2025_ScholarSphere.pdf) | [pptx](include/pdf/2025_ScholarSphere.pdf)
-- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar); slides: | [pptx](include/pptx/perez-edgar-Open-Science-HBCD-Workshop 08_2025.pptx)
-- *Open scholarship and high performance computing*, [Wayne Figurelle](presenters.qmd#wayne-figurelle); slides: | [pptx](include/pptx/roar_ppt - 8-13-25.pptx)
-- *Advancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative*, [Frank Hillary](program-committee.qmd#frank-hillary); slides: | [pptx](include/pptx/Hillary_Open_Boot_2025.pptx)
+- [*ScholarSphere*](https://scholarsphere.psu.edu), [Alaina Pearce](directors.qmd#alaina-pearce); slides: | [pdf](include/pdf/2025_ScholarSphere.pdf) | [pptx](include/pdf/2025_ScholarSphere.pdf) |
+- *Open Science and the HBCD and ABCD Cohorts*, [Koraly Perez-Edgar](presenters.qmd#koraly-pérez-edgar); slides: | [pptx](include/pptx/perez-edgar-Open-Science-HBCD-Workshop 08_2025.pptx) |
+- *Open scholarship and high performance computing*, [Wayne Figurelle](presenters.qmd#wayne-figurelle); slides: | [pptx](include/pptx/roar_ppt - 8-13-25.pptx) |
+- *Advancing reproducibility through team science, data sharing, and transparency: The ENIGMA initiative*, [Frank Hillary](program-committee.qmd#frank-hillary); slides: | [pptx](include/pptx/Hillary_Open_Boot_2025.pptx) |
 
 ### 10:15 am • Break {{< fa mug-hot >}} {-}
 
@@ -61,7 +59,8 @@ nocite: |
 ::: {.column width=80%}
 [Sarah Rajtmajer](program-committee.qmd#sarah-rajtmajer), Penn State College of IST
 
-Slides: [pptx](include/pptx/Bootcamp_Rajtmajer.pptx)
+Slides: | [pptx](include/pptx/Bootcamp_Rajtmajer.pptx) |
+
 :::
 ::: {.column width=20%}
 ![](include/img/rajtmajer-sarah.png){width=100px height=100px}
