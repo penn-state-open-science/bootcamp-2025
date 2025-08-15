@@ -57,4 +57,6 @@ format:
     citations-hover: false
     footnotes-hover: false
     crossrefs-hover: true
+    code-tools: true
+    code-fold: true
     
