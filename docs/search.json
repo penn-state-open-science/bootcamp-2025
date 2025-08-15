@@ -783,5 +783,16 @@
       "More",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Installing Quarto</span>"
     ]
+  },
+  {
+    "objectID": "resources.html#random-resources",
+    "href": "resources.html#random-resources",
+    "title": "Resources",
+    "section": "Random resources",
+    "text": "Random resources\n\nEmbedding Google slides\nLynda Kellam asked about how to embed Google slides in a Quarto document.\nYou can ‘fake’ embedding Google slides in a Quarto document by showing a screenshot preview of your slides and linking to that image:\n\n\n\nGilmore’s Google slides talk\n\n\n\n\n\n\n\n\nImportant\n\n\n\nYour talk must be made public for this to work.",
+    "crumbs": [
+      "More",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Resources</span>"
+    ]
   }
 ]

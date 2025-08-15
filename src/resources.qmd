@@ -69,6 +69,17 @@ The [Penn State University Libraries](https://libraries.psu.edu) are a hub of in
 - Çetinkaya-Rundel, M. (2023, May 22). Quarto for Academics. YouTube. <https://www.youtube.com/watch?v=EbAAmrB0luA&t=545s>
 - Çetinkaya-Rundel, M. (2023, December 15). Reproducible Manuscripts with Quarto - posit::conf(2023). YouTube. <https://www.youtube.com/watch?v=BoiW9UWDLY0>
 
+## Random resources
+
+### Embedding Google slides
+
+[Lynda Kellam](presenters.qmd#lynda-kellam) asked about how to embed Google slides in a Quarto document.
+
+You can 'fake' embedding Google slides in a Quarto document by showing a screenshot preview of your slides and linking to that image:
+
+![[Gilmore's Google slides talk](https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing)](include/img/sample-google-slide.png)
 
 
-
+::: {.callout-important}
+Your talk must be made public for this to work.
+:::
