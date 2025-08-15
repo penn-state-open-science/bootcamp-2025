@@ -270,19 +270,43 @@ confirmations_long |>
 wed_attendees <- no_cancel |>
   filter(attend_wed %in% c('yes', 'no'))
 wed_xtabs <- xtabs(formula = ~ attend_wed + plan_wed, data = wed_attendees)
+wed_presenters <- presenters |>
+  filter(attend_wed == "presenter")
 ```
 
 We had *n*=`r wed_xtabs[1,2] + wed_xtabs[2,2]` non-presenters report *planning* to attend Wednesday, and *n*=`r wed_xtabs[2,2]` or `r format(round(wed_xtabs[2,2]/(wed_xtabs[1,2] + wed_xtabs[2,2])*100, 0))`% who attended. 
-We also had *n*=`r dim(presenters)[1]` presenters attend on Wednesday.
+We also had *n*=`r dim(wed_presenters)[1]` presenters attend on Wednesday.
 
 ### Day 2 attendees
 
-::: {.callout-warning}
-Under construction.
-:::
+```{r}
+thu_attendees <- no_cancel |>
+  filter(attend_wed %in% c('yes', 'no'))
+thu_xtabs <- xtabs(formula = ~ attend_thu + plan_thu, data = thu_attendees)
+thu_presenters <- presenters |>
+  filter(attend_thu == "presenter")
+```
+
+We had *n*=`r thu_xtabs[1,2] + thu_xtabs[2,2]` non-presenters report *planning* to attend Thursday, and *n*=`r thu_xtabs[2,2]` or `r format(round(thu_xtabs[2,2]/(thu_xtabs[1,2] + thu_xtabs[2,2])*100, 0))`% who attended. 
+We also had *n*=`r dim(thu_presenters)[1]` presenters attend on Thursday.
+
+```{r}
+wed_thu_xtabs <- xtabs(formula = ~ attend_wed + attend_thu, data = no_cancel)
+```
+
+Here are some data about non-presenters who attended one or both days:
+
+*N*=`r wed_thu_xtabs[2,2]` attended both days; *n*=`r wed_thu_xtabs[2,1] + wed_thu_xtabs[1,2]` attended one day.
+
+```{r}
+n_presenters_wed_thu <- xtabs(formula = ~ attend_wed + attend_thu, data = presenters)
+```
+
+And *n*= `r n_presenters_wed_thu[1]` presenters attended both days.
 
 ### Day 3 attendees
 
 ::: {.callout-warning}
 Under construction.
 :::
+

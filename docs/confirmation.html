@@ -281,7 +281,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 14, 2025</p>
+      <p class="date-modified">August 15, 2025</p>
     </div>
   </div>
     
@@ -696,26 +696,41 @@ Figure&nbsp;11.1: Interest in specific workshops by session.
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>wed_attendees <span class="ot">&lt;-</span> no_cancel <span class="sc">|&gt;</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attend_wed <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">'yes'</span>, <span class="st">'no'</span>))</span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>wed_xtabs <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> attend_wed <span class="sc">+</span> plan_wed, <span class="at">data =</span> wed_attendees)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>wed_xtabs <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> attend_wed <span class="sc">+</span> plan_wed, <span class="at">data =</span> wed_attendees)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>wed_presenters <span class="ot">&lt;-</span> presenters <span class="sc">|&gt;</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attend_wed <span class="sc">==</span> <span class="st">"presenter"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <p>We had <em>n</em>=46 non-presenters report <em>planning</em> to attend Wednesday, and <em>n</em>=32 or 70% who attended. We also had <em>n</em>=13 presenters attend on Wednesday.</p>
 </section>
 <section id="day-2-attendees" class="level3">
 <h3 class="anchored" data-anchor-id="day-2-attendees">Day 2 attendees</h3>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>thu_attendees <span class="ot">&lt;-</span> no_cancel <span class="sc">|&gt;</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attend_wed <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">'yes'</span>, <span class="st">'no'</span>))</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>thu_xtabs <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> attend_thu <span class="sc">+</span> plan_thu, <span class="at">data =</span> thu_attendees)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>thu_presenters <span class="ot">&lt;-</span> presenters <span class="sc">|&gt;</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(attend_thu <span class="sc">==</span> <span class="st">"presenter"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
-<div class="callout-title-container flex-fill">
-Warning
+<p>We had <em>n</em>=43 non-presenters report <em>planning</em> to attend Thursday, and <em>n</em>=23 or 53% who attended. We also had <em>n</em>=13 presenters attend on Thursday.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>wed_thu_xtabs <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> attend_wed <span class="sc">+</span> attend_thu, <span class="at">data =</span> no_cancel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
+<p>Here are some data about non-presenters who attended one or both days:</p>
+<p><em>N</em>=22 attended both days; <em>n</em>=15 attended one day.</p>
+<div class="cell">
+<details class="code-fold">
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>n_presenters_wed_thu <span class="ot">&lt;-</span> <span class="fu">xtabs</span>(<span class="at">formula =</span> <span class="sc">~</span> attend_wed <span class="sc">+</span> attend_thu, <span class="at">data =</span> presenters)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
-<div class="callout-body-container callout-body">
-<p>Under construction.</p>
-</div>
-</div>
+<p>And <em>n</em>= 9 presenters attended both days.</p>
 </section>
 <section id="day-3-attendees" class="level3">
 <h3 class="anchored" data-anchor-id="day-3-attendees">Day 3 attendees</h3>
