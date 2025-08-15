@@ -75,10 +75,21 @@ The [Penn State University Libraries](https://libraries.psu.edu) are a hub of in
 
 [Lynda Kellam](presenters.qmd#lynda-kellam) asked about how to embed Google slides in a Quarto document.
 
-You can 'fake' embedding Google slides in a Quarto document by showing a screenshot preview of your slides and linking to that image:
+Rick suggest three ways this could work.
+
+You can 'fake' embedding Google slides in a Quarto document by showing a screenshot preview of your slides and adding a clickable link to the page inside the image caption:
 
 ![[Gilmore's Google slides talk](https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing)](include/img/sample-google-slide.png)
 
+Or, you can make the preview image clickable:
+
+[![](include/img/sample-google-slide.png)](https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing)
+
+Finally, you can use the HTML iframe tag to embed a preview of a presentation:
+
+<iframe src="https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing" title="Google slides presentation" width="400" height="300"/>
+
+You would have to add a clickable link to the file separately.
 
 ::: {.callout-important}
 Your talk must be made public for this to work.

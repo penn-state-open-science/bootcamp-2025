@@ -95,7 +95,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Bootcamp 2025</a> 
+      <a href="./">
+      Bootcamp 2025
+      </a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/penn-state-open-science/bootcamp-2025/tree/main/src/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
@@ -355,17 +357,23 @@ Under construction
 <section id="embedding-google-slides" class="level3">
 <h3 class="anchored" data-anchor-id="embedding-google-slides">Embedding Google slides</h3>
 <p><a href="./presenters.html#lynda-kellam">Lynda Kellam</a> asked about how to embed Google slides in a Quarto document.</p>
-<p>You can ‘fake’ embedding Google slides in a Quarto document by showing a screenshot preview of your slides and linking to that image:</p>
+<p>Rick suggest three ways this could work.</p>
+<p>You can ‘fake’ embedding Google slides in a Quarto document by showing a screenshot preview of your slides and adding a clickable link to the page inside the image caption:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="include/img/sample-google-slide.png" class="img-fluid figure-img"></p>
 <figcaption><a href="https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing">Gilmore’s Google slides talk</a></figcaption>
 </figure>
 </div>
+<p>Or, you can make the preview image clickable:</p>
+<p><a href="https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing"><img src="include/img/sample-google-slide.png" class="img-fluid"></a></p>
+<p>Finally, you can use the HTML iframe tag to embed a preview of a presentation:</p>
+<iframe src="https://docs.google.com/presentation/d/1_Grqui9BTrQajwTbrtmpndZM91PDhF8KsEILgIvgb74/edit?usp=sharing" title="Google slides presentation" width="400" height="300">
+<p>You would have to add a clickable link to the file separately.</p>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class='callout-icon'></i>
 </div>
 <div class="callout-title-container flex-fill">
 Important
@@ -375,13 +383,23 @@ Important
 <p>Your talk must be made public for this to work.</p>
 </div>
 </div>
-
-
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Bootcamp 2025</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">Bootcamp 2025</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1wcmV2"><span class="chapter-number">12</span>  <span class="chapter-title">Installing Quarto</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9pbmRleC5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz4xPC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkhvbWU8L3NwYW4+"><span class="chapter-number">1</span>  <span class="chapter-title">Home</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMQ==">Schedule</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9kYXktMS5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz4yPC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkRheS0xLShXZWQsLUF1Zy0xMyk8L3NwYW4+"><span class="chapter-number">2</span>  <span class="chapter-title">Day 1 (Wed, Aug 13)</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9kYXktMi5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz4zPC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkRheS0yLShUaHUsLUF1Zy0xNCk8L3NwYW4+"><span class="chapter-number">3</span>  <span class="chapter-title">Day 2 (Thu, Aug 14)</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9kYXktMy5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz40PC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPkRheS0zLShGcmksLUF1Zy0xNSk8L3NwYW4+"><span class="chapter-number">4</span>  <span class="chapter-title">Day 3 (Fri, Aug 15)</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMg==">People</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9kaXJlY3RvcnMuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+NTwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5Cb290Y2FtcC1EaXJlY3RvcnM8L3NwYW4+"><span class="chapter-number">5</span>  <span class="chapter-title">Bootcamp Directors</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9wcm9ncmFtLWNvbW1pdHRlZS5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz42PC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPlByb2dyYW0tQ29tbWl0dGVlPC9zcGFuPg=="><span class="chapter-number">6</span>  <span class="chapter-title">Program Committee</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9wcmVzZW50ZXJzLmh0bWw8c3Bhbi1jbGFzcz0nY2hhcHRlci1udW1iZXInPjc8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+UHJlc2VudGVyczwvc3Bhbj4="><span class="chapter-number">7</span>  <span class="chapter-title">Presenters</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOnF1YXJ0by1zaWRlYmFyLXNlY3Rpb24tMw==">More</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9zZXNzaW9ucy5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz44PC9zcGFuPi0tPHNwYW4tY2xhc3M9J2NoYXB0ZXItdGl0bGUnPlNlc3Npb24tRGV0YWlsczwvc3Bhbj4="><span class="chapter-number">8</span>  <span class="chapter-title">Session Details</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi93YXlmaW5kaW5nLmh0bWw8c3Bhbi1jbGFzcz0nY2hhcHRlci1udW1iZXInPjk8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+V2F5ZmluZGluZzwvc3Bhbj4="><span class="chapter-number">9</span>  <span class="chapter-title">Wayfinding</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9yZWdpc3RyYXRpb24uaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+MTA8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+UmVnaXN0cmF0aW9uLURhdGE8L3NwYW4+"><span class="chapter-number">10</span>  <span class="chapter-title">Registration Data</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9jb25maXJtYXRpb24uaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+MTE8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+Q29uZmlybWF0aW9uLURhdGE8L3NwYW4+"><span class="chapter-number">11</span>  <span class="chapter-title">Confirmation Data</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9ob3ctdG8taW5zdGFsbC1yc3R1ZGlvLXF1YXJ0by5odG1sPHNwYW4tY2xhc3M9J2NoYXB0ZXItbnVtYmVyJz4xMjwvc3Bhbj4tLTxzcGFuLWNsYXNzPSdjaGFwdGVyLXRpdGxlJz5JbnN0YWxsaW5nLVF1YXJ0bzwvc3Bhbj4="><span class="chapter-number">12</span>  <span class="chapter-title">Installing Quarto</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9yZXNvdXJjZXMuaHRtbDxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+MTM8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+UmVzb3VyY2VzPC9zcGFuPg=="><span class="chapter-number">13</span>  <span class="chapter-title">Resources</span></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLU1vcmU=">More</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLTxzcGFuLWNsYXNzPSdjaGFwdGVyLW51bWJlcic+MTM8L3NwYW4+LS08c3Bhbi1jbGFzcz0nY2hhcHRlci10aXRsZSc+UmVzb3VyY2VzPC9zcGFuPg=="><span class="chapter-number">13</span>  <span class="chapter-title">Resources</span></span></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="Zm9vdGVyLWxlZnQtaHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LzQuMC8=">
+<p>© 2025 by Rick Gilmore &amp; Alaina Pearce under CC BY 4.0</p>
+</div>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="Zm9vdGVyLWNlbnRlci1odHRwczovL3F1YXJ0by5vcmc=">
+<p>Built with Quarto</p>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ=="><span class="chapter-title">Resources</span> – Bootcamp 2025</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU="><span class="chapter-title">Resources</span> – Bootcamp 2025</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl"><span class="chapter-title">Resources</span> – Bootcamp 2025</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">Bootcamp 2025</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
+</div>
 </section>
 </section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -749,8 +767,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./how-to-install-rstudio-quarto.html" class="pagination-link" aria-label="Installing Quarto">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Installing Quarto</span></span>
+      <a  href="/how-to-install-rstudio-quarto.html" class="pagination-link" aria-label="Installing Quarto">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class='chapter-number'>12</span>  <span class='chapter-title'>Installing Quarto</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -763,8 +781,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/">
-<p>© 2025 by Rick Gilmore &amp; Alaina Pearce under CC BY 4.0</p>
-</a>
+ © 2025 by Rick Gilmore & Alaina Pearce under CC BY 4.0
+    </a>
   </li>  
 </ul>
     </div>   
@@ -772,18 +790,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://quarto.org">
-<p>Built with Quarto</p>
-</a>
+ Built with Quarto
+    </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/edit/main/src/resources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
 
+</body>
 
-
-
-</body></html>
+</html>
+</iframe></section></section></main></div><footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/edit/main/src/resources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/penn-state-open-science/bootcamp-2025/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
