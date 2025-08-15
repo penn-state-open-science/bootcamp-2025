@@ -31,7 +31,7 @@ Periodicals room past Starbucks.
 ::: {.callout-important}
 ### Location
 
-Foster Auditorium
+Periodicals room past Starbucks.
 :::
 
 [Rick Gilmore](directors.qmd#rick-gilmore) and [Alaina Pearce](directors.qmd#alaina-pearce); slides: | [html](https://penn-state-open-science.github.io/bootcamp-2025-day-3-welcome.html) |
