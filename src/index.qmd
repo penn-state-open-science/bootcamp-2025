@@ -39,7 +39,7 @@ Here is the latest data about Bootcamp registrations:
 
 ## By unit
 
-![Registrations by department and college/school.](include/fig/fig-regis-dept-coll-1.png)
+![Registrations by college/school.](include/fig/fig-regis-dept-coll-1.png)
 
 ## By workshop
 

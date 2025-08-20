@@ -176,23 +176,28 @@ registrations_clean |>
   kableExtra::kable_classic()
 ```
 
-### Registrations by position
+### Registrations by position & role
 
 ```{r}
 #| label: fig-by-position
-#| fig-cap: "Registrations by position"
+#| fig-cap: "Registrations by position and role"
 registrations_yes |>
   dplyr::filter(!is.na(position)) |>
-  dplyr::count(position) |>
-  dplyr::arrange(n) |>
-  dplyr::mutate(position = factor(position, levels = position)) |>
+  dplyr::count(position, presenter) |>
+  dplyr::arrange(desc(n)) |>
+  dplyr::mutate(presenter = if_else(presenter == 'yes', "presenter", "attendee")) |>
+  # dplyr::mutate(position = factor(position, levels = position)) |>
   ggplot() +
   aes(x = position, fill = position) +
   geom_bar(aes(y = n), stat = "identity") +
   theme(legend.position = "none") +
+  facet_grid(cols = vars(presenter)) +
   coord_flip()
 ```
 
+```{r}
+xtabs(formula = ~ position + presenter, data = registrations_yes)
+```
 ### Registrations by unit
 
 ```{r by-dept}
@@ -345,18 +350,22 @@ registrations_yes <- registrations_yes |>
 
 ```{r}
 #| label: fig-regis-dept-coll
-#| fig-cap: "Registrations by department and college/unit."
+#| fig-cap: "Registrations by college/unit."
 registrations_yes |>
   dplyr::filter(!is.na(dept),
                 dept != "University of Pennsylvania") |>
-  dplyr::count(dept, college, sort = TRUE) |>
-  dplyr::mutate(dept = fct_reorder(dept, n)) |>
+  # dplyr::count(dept, college, sort = TRUE) |>
+  dplyr::count(college, sort = TRUE) |>
+  # dplyr::mutate(dept = fct_reorder(dept, n)) |>
+  dplyr::mutate(college = fct_reorder(college, n)) |>
   ggplot() +
-  aes(x = dept, fill = college) +
+  # aes(x = dept, fill = college) +
+  aes(x = college) +
   geom_bar(aes(y = n), stat = "identity") +
-  scale_y_continuous(breaks = c(2, 4, 6, 8, 10, 12)) +
+  # scale_y_continuous(breaks = c(2, 4, 6, 8, 10, 12)) +
   theme(legend.position = "right") +
   theme(legend.title = element_blank()) +
+  theme_classic() +
   coord_flip()
 ```
 

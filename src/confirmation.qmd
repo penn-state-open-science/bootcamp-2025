@@ -216,7 +216,7 @@ readr::write_csv(confirmations_clean,
 
 ## Visualize
 
-We had *n*=`r dim(confirmations_clean)[1]` responde to our confirmation survey.
+We had *n*=`r dim(confirmations_clean)[1]` respond to our confirmation survey.
 
 ```{r}
 cancelled <- confirmations_clean |>
