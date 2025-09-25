@@ -1,4 +1,6 @@
-# bootcamp-2025
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.16966756.svg)
+
+# Open Scholarship Bootcamp 2025
 
 ![](src/include/img/banner.png)
 
